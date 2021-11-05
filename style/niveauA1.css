@@ -63,6 +63,27 @@ h1 a {
   color: black;
 }
 
+/* ------------- leçons ------------------*/
+
+.ensemble-lecons a {
+  color: black;
+}
+
+.lecon {
+  margin: auto;
+  border: 1px solid black;
+  margin-bottom: 30px;
+  width: 90%;
+  padding: 50px;
+}
+
+/* .ensemble-lecons {
+  margin: auto;
+  width: 95%;
+  text-align: center;
+  border: 1px solid red;
+} */
+
 /* ---------------- footer ------------*/
 
 footer {
