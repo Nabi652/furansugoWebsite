@@ -53,6 +53,30 @@ i {
   font-size: large;
 }
 
+/* --------------- div ensemble de niveaux ------------------*/
+
+.ensemble-niveaux {
+  margin: auto;
+  width: 90%;
+  text-align: center;
+}
+
+.ensemble-niveaux p {
+  color: black;
+  width: 100%;
+  margin: auto;
+  font-size: large;
+  border: 2px solid grey;
+  border-radius: 50px;
+  margin-top: 10px;
+  padding: 5px 5px 5px 5px;
+}
+
+.niveau {
+  width: 50%;
+  margin: auto;
+}
+
 /* ------------------- footer ----------------*/
 
 footer {
