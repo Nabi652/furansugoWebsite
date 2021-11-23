@@ -24,6 +24,12 @@ h1 a {
   color: black;
 }
 
+/* icone retour */
+
+.fa-arrow-left {
+  padding-right: 5px;
+}
+
 .div-imageBanniere {
   width: 100%;
   height: 500px;
