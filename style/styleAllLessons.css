@@ -69,6 +69,14 @@ h1 a {
   padding-right: 5px;
 }
 
+/* -------------- h2----------------*/
+
+h2,
+p,
+h3 {
+  margin-left: 50px;
+}
+
 /* LECON 1 -------------- alphabet -----------*/
 
 table {
