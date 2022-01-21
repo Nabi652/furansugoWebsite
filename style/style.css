@@ -119,3 +119,10 @@ footer i {
   font-size: 30px;
   padding: 5px;
 }
+
+/*presentation html page*/
+
+/* div contenant le texte de presentatio */
+.presentationNabi {
+  margin: 20px;
+}
