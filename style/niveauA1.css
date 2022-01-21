@@ -63,6 +63,11 @@ h1 a {
   color: black;
 }
 
+.ezan {
+  color: red;
+  border: 10px 10px red;
+}
+
 /* icone retour */
 .fa-arrow-left {
   padding-right: 5px;
