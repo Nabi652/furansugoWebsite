@@ -121,3 +121,11 @@ footer i {
 .listelecon9 {
   margin-left: 50px;
 }
+
+/* ------------ style of audios */
+
+.audio-1 {
+  width: 80px;
+  height: 20px;
+  border-radius: 50px;
+}
