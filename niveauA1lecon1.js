@@ -177,3 +177,57 @@ let audioT = document.getElementById("audioT");
 lettreT.addEventListener("click", () => {
   audioT.play();
 });
+
+/* audio pour LETTRE U */
+
+let lettreU = document.getElementById("letterU");
+let audioU = document.getElementById("audioU");
+
+lettreU.addEventListener("click", () => {
+  audioU.play();
+});
+
+/* audio pour LETTRE V */
+
+let lettreV = document.getElementById("letterV");
+let audioV = document.getElementById("audioV");
+
+lettreV.addEventListener("click", () => {
+  audioV.play();
+});
+
+/* audio pour LETTRE W */
+
+let lettreW = document.getElementById("letterW");
+let audioW = document.getElementById("audioW");
+
+lettreW.addEventListener("click", () => {
+  audioW.play();
+});
+
+/* audio pour LETTRE O */
+
+let lettreX = document.getElementById("letterX");
+let audioX = document.getElementById("audioX");
+
+lettreX.addEventListener("click", () => {
+  audioX.play();
+});
+
+/* audio pour LETTRE O */
+
+let lettreY = document.getElementById("letterY");
+let audioY = document.getElementById("audioY");
+
+lettreY.addEventListener("click", () => {
+  audioY.play();
+});
+
+/* audio pour LETTRE O */
+
+let lettreZ = document.getElementById("letterZ");
+let audioZ = document.getElementById("audioZ");
+
+lettreZ.addEventListener("click", () => {
+  audioZ.play();
+});
