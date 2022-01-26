@@ -322,3 +322,91 @@ let audioPrononciation10 = document.getElementById("audioPrononciation10");
 listeMots10.addEventListener("click", () => {
   audioPrononciation10.play();
 });
+
+/* 11ème lettre*/
+
+let listeMots11 = document.getElementById("listeMots11");
+let audioPrononciation11 = document.getElementById("audioPrononciation11");
+
+listeMots11.addEventListener("click", () => {
+  audioPrononciation11.play();
+});
+
+/* 12ème lettre*/
+
+let listeMots12 = document.getElementById("listeMots12");
+let audioPrononciation12 = document.getElementById("audioPrononciation12");
+
+listeMots12.addEventListener("click", () => {
+  audioPrononciation12.play();
+});
+
+/* 13ème lettre*/
+
+let listeMots13 = document.getElementById("listeMots13");
+let audioPrononciation13 = document.getElementById("audioPrononciation13");
+
+listeMots13.addEventListener("click", () => {
+  audioPrononciation13.play();
+});
+
+/* 14ème lettre*/
+
+let listeMots14 = document.getElementById("listeMots14");
+let audioPrononciation14 = document.getElementById("audioPrononciation14");
+
+listeMots14.addEventListener("click", () => {
+  audioPrononciation14.play();
+});
+/* 15ème lettre*/
+
+let listeMots15 = document.getElementById("listeMots15");
+let audioPrononciation15 = document.getElementById("audioPrononciation15");
+
+listeMots15.addEventListener("click", () => {
+  audioPrononciation15.play();
+});
+
+/* 16ème lettre*/
+
+let listeMots16 = document.getElementById("listeMots16");
+let audioPrononciation16 = document.getElementById("audioPrononciation16");
+
+listeMots16.addEventListener("click", () => {
+  audioPrononciation16.play();
+});
+/* 17ème lettre*/
+
+let listeMots17 = document.getElementById("listeMots17");
+let audioPrononciation17 = document.getElementById("audioPrononciation17");
+
+listeMots17.addEventListener("click", () => {
+  audioPrononciation17.play();
+});
+
+/* 18ème lettre*/
+
+let listeMots18 = document.getElementById("listeMots18");
+let audioPrononciation18 = document.getElementById("audioPrononciation18");
+
+listeMots18.addEventListener("click", () => {
+  audioPrononciation18.play();
+});
+
+/* 19ème lettre*/
+
+let listeMots19 = document.getElementById("listeMots19");
+let audioPrononciation19 = document.getElementById("audioPrononciation19");
+
+listeMots19.addEventListener("click", () => {
+  audioPrononciation19.play();
+});
+
+/* 20ème lettre*/
+
+let listeMots20 = document.getElementById("listeMots20");
+let audioPrononciation20 = document.getElementById("audioPrononciation20");
+
+listeMots20.addEventListener("click", () => {
+  audioPrononciation20.play();
+});

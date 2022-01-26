@@ -89,6 +89,10 @@ table {
   color: red;
 }
 
+.listeMots {
+  cursor: pointer;
+}
+
 /* LECON 2 ------------------- se présenter ------------------*/
 
 /* LECON 2 --------------------- les salutations ----------------*/
