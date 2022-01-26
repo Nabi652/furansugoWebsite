@@ -132,3 +132,48 @@ let audioO = document.getElementById("audioO");
 lettreO.addEventListener("click", () => {
   audioO.play();
 });
+
+/* audio pour LETTRE P */
+
+let lettreP = document.getElementById("letterP");
+let audioP = document.getElementById("audioP");
+
+lettreP.addEventListener("click", () => {
+  audioP.play();
+});
+
+/* audio pour LETTRE Q */
+
+let lettreQ = document.getElementById("letterQ");
+let audioQ = document.getElementById("audioQ");
+
+lettreQ.addEventListener("click", () => {
+  audioQ.play();
+});
+
+/* audio pour LETTRE R */
+
+let lettreR = document.getElementById("letterR");
+let audioR = document.getElementById("audioR");
+
+lettreR.addEventListener("click", () => {
+  audioR.play();
+});
+
+/* audio pour LETTRE S */
+
+let lettreS = document.getElementById("letterS");
+let audioS = document.getElementById("audioS");
+
+lettreS.addEventListener("click", () => {
+  audioS.play();
+});
+
+/* audio pour LETTRE T */
+
+let lettreT = document.getElementById("letterT");
+let audioT = document.getElementById("audioT");
+
+lettreT.addEventListener("click", () => {
+  audioT.play();
+});
