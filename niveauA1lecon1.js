@@ -1,11 +1,15 @@
-let lettre = document.getElementById("letterA");
-let myAudio = document.createElement("audio");
-audio.src = "./aDemainmp3";
-// let audio = document.getElementById("audioA");
-console.log(lettre);
+/* audio pour a-l'alphabet */
 
-lettre.style = "color:red";
+// let audioAlphabet = document.getElementById("audioAlphabet");
+// let titreAlphabet = document.getElementById("titreAlphabet");
+
+// titreAlphabet.addEventListener("mouseover", () => {
+//   audioAlphabet.play();
+// });
+
+let lettre = document.getElementById("letterA");
+let audioA = document.getElementById("audioA");
 
 lettre.addEventListener("click", () => {
-  myAudio.play();
+  audioA.play();
 });
