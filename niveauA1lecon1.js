@@ -500,3 +500,48 @@ let audioPrononciation30 = document.getElementById("audioPrononciation30");
 listeMots30.addEventListener("click", () => {
   audioPrononciation30.play();
 });
+
+/* 31ème lettre*/
+
+let listeMots31 = document.getElementById("listeMots31");
+let audioPrononciation31 = document.getElementById("audioPrononciation31");
+
+listeMots31.addEventListener("click", () => {
+  audioPrononciation31.play();
+});
+
+/* 32ème lettre*/
+
+let listeMots32 = document.getElementById("listeMots32");
+let audioPrononciation32 = document.getElementById("audioPrononciation32");
+
+listeMots32.addEventListener("click", () => {
+  audioPrononciation32.play();
+});
+
+/* 33ème lettre*/
+
+let listeMots33 = document.getElementById("listeMots33");
+let audioPrononciation33 = document.getElementById("audioPrononciation33");
+
+listeMots33.addEventListener("click", () => {
+  audioPrononciation33.play();
+});
+
+/* 34ème lettre*/
+
+let listeMots34 = document.getElementById("listeMots34");
+let audioPrononciation34 = document.getElementById("audioPrononciation34");
+
+listeMots34.addEventListener("click", () => {
+  audioPrononciation34.play();
+});
+
+/* 35ème lettre*/
+
+let listeMots35 = document.getElementById("listeMots35");
+let audioPrononciation35 = document.getElementById("audioPrononciation35");
+
+listeMots35.addEventListener("click", () => {
+  audioPrononciation35.play();
+});
