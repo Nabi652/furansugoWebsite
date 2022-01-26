@@ -43,13 +43,7 @@
 
     <main>
       <a href="" id="lecon1-2">
-        <h2>a- L'alphabet　アルファベット 
-          <audio
-            src="./assets/alphabet.m4a"controls="true" class="audio-1">
-            Your browser does not support the
-            <code>audio</code> element.
-          </audio>
-        </h2>
+        <h2>a- L'alphabet　アルファベット</h2>
       </a> 
       <div class="tableau-alphabet">
         <p>En français, il y a 26 lettres (6 voyelles et 20 consonnes).　
@@ -371,23 +365,18 @@
     </div>
 
     <a href="" id="lecon1-3">
-      <h2>b- La prononciation　発音
-        <audio
-          src="./assets/prononciation.m4a"controls="true" class="audio-1">
-          Your browser does not support the
-          <code>audio</code> element.
-        </audio>
-      </h2>
+      <h2>b- La prononciation　発音</h2>
     </a>
 
-    <table width="100%", border="1" cellspacing="1" cellpadding="5">
+    <table width="100%", border="1" cellspacing="1" cellpadding="0">
+
         <tr>
-          <td>[i]</td>
+          <td><span id="prononciation1">[i]</span></td>
           <td>i, y</td>
-          <td>v<span>i</span>te早い , s<span>y</span>non<span>y</span>me同義語 
+          <td><span id="listeMots1" >v<span class="redSpan">i</span>te早い , s<span class="redSpan">y</span>non<span class="redSpan">y</span>me同義語 </span>
             <br>
             <audio
-              src="./assets/viteSynonyme.m4a"controls="true" class="audio-1">
+              src="./assets/viteSynonyme.m4a"class="audio-1" id="audioPrononciation1">
               Your browser does not support the
               <code>audio</code> element.
             </audio>
@@ -395,12 +384,12 @@
         </tr>
 
         <tr>
-          <td>[e]</td>
+          <td><span id="prononciation2">[e]</span></td>
           <td>ai, er, es, é</td>
-          <td>m<span>ai</span>rie市役所, parl<span>er</span>話す, l<span>es</span>[不定冠詞], <span>é</span>lève生徒  
+          <td><span id="listeMots2">m<span class="redSpan">ai</span>rie市役所, parl<span class="redSpan">er</span>話す, l<span class="redSpan">es</span>[不定冠詞], <span class="redSpan">é</span>lève生徒 </span> 
             <br>
             <audio
-              src="./assets/mairieParlerLesEleves.m4a"controls="true" class="audio-1">
+              src="./assets/mairieParlerLesEleves.m4a" class="audio-1" id="audioPrononciation2">
               Your browser does not support the
               <code>audio</code> element.
             </audio>
@@ -408,12 +397,12 @@
         </tr>
 
         <tr>
-          <td>[ɛ]</td>
+          <td><span id="prononciation3">[ɛ]</span></td>
           <td>ai, ei, è, ê, e</td>
-          <td>h<span>ai</span>ne憎しみ , p<span>ei</span>ne悲しみ, él<span>è</span>ve生徒, g<span>ê</span>ne不自由, adr<span>e</span>sse住所
+          <td><span id="listeMots3">h<span class="redSpan">ai</span>ne憎しみ , p<span class="redSpan">ei</span>ne悲しみ, él<span class="redSpan">è</span>ve生徒, g<span class="redSpan">ê</span>ne不自由, adr<span class="redSpan">e</span>sse住所</span>
             <br>
             <audio
-              src="./assets/hainePeineEleveGeneAdresse.m4a"controls="true" class="audio-1">
+              src="./assets/hainePeineEleveGeneAdresse.m4a"class="audio-1"id="audioPrononciation3" >
               Your browser does not support the
               <code>audio</code> element.
             </audio>
@@ -421,12 +410,12 @@
         </tr>
 
         <tr>
-          <td>[a]</td>
+          <td><span id="prononciation4">[a]</span></td>
           <td>a, â</td>
-          <td>p<span>a</span>p<span>a</span>パパ, <span>â</span>me魂
+          <td><span id="listeMots4">p<span class="redSpan">a</span>p<span class="redSpan">a</span>パパ, <span class="redSpan">â</span>me魂</span>
             <br>
             <audio
-              src="./assets/papaAme.m4a"controls="true" class="audio-1">
+              src="./assets/papaAme.m4a" class="audio-1" id="audioPrononciation4">
               Your browser does not support the
               <code>audio</code> element.
             </audio>
@@ -434,12 +423,12 @@
         </tr>
 
         <tr>
-          <td>[y]</td>
-          <td>U</td>
-          <td>m<span>u</span>r壁
+          <td><span id="prononciation5">[y]</span></td>
+          <td>u</td>
+          <td><span id="listeMots5">m<span class="redSpan">u</span>r壁</span>
             <br>
             <audio
-              src="./assets/mur.m4a"controls="true" class="audio-1">
+              src="./assets/mur.m4a" class="audio-1"id="audioPrononciation5">
               Your browser does not support the
               <code>audio</code> element.
             </audio>
@@ -447,12 +436,12 @@
         </tr>
 
         <tr>
-          <td>[ø],[ə]</td>
+          <td><span id="prononciation6">[ø],[ə]</span></td>
           <td>eu, eux, e</td>
-          <td>p<span>eu</span>少ない, v<span>eux</span>欲しい, mercr<span>e</span>di水曜日
+          <td><span id="listeMots6">p<span class="redSpan">eu</span>少ない, v<span class="redSpan">eux</span>欲しい, mercr<span class="redSpan">e</span>di水曜日</span>
             <br>
             <audio
-              src="./assets/peuVeuxMercredi.m4a"controls="true" class="audio-1">
+              src="./assets/peuVeuxMercredi.m4a"class="audio-1"id="audioPrononciation6">
               Your browser does not support the
               <code>audio</code> element.
             </audio>
@@ -460,12 +449,12 @@
         </tr>
 
         <tr>
-          <td>[œ]</td>
+          <td><span id="prononciation7">[œ]</span></td>
           <td>œ, eu</td>
-          <td>c<span>œ</span>ur心臓, p<span>eu</span>r恐れ
+          <td><span id="listeMots7">c<span class="redSpan">œ</span>ur心臓, p<span class="redSpan">eu</span>r恐れ</span>
             <br>
             <audio
-              src="./assets/coeurPeur.m4a"controls="true" class="audio-1">
+              src="./assets/coeurPeur.m4a" class="audio-1"id="audioPrononciation7">
               Your browser does not support the
               <code>audio</code> element.
             </audio>
@@ -473,12 +462,12 @@
         </tr>
 
         <tr>
-          <td>[u]</td>
+          <td><span id="prononciation8">[u]</span></td>
           <td>ou, où, oû</td>
-          <td>p<span>ou</span>rの為, <span>où</span>どこ, c<span>oû</span>t費用
+          <td><span id="listeMots8">p<span class="redSpan">ou</span>rの為, <span class="redSpan">où</span>どこ, c<span class="redSpan">oû</span>t費用</span>
             <br>
             <audio
-              src="./assets/pourOuCout.m4a"controls="true" class="audio-1">
+              src="./assets/pourOuCout.m4a" class="audio-1"id="audioPrononciation8">
               Your browser does not support the
               <code>audio</code> element.
             </audio>
@@ -486,12 +475,12 @@
         </tr>
 
         <tr>
-          <td>[o]</td>
+          <td><span id="prononciation9">[o]</span></td>
           <td> ô, o, au, eau</td>
-          <td> p<span>ô</span>le極, m<span>o</span>t言葉, h<span>au</span>t高い, p<span>eau</span>肌
+          <td><span id="listeMots9">p<span class="redSpan">ô</span>le極, m<span class="redSpan">o</span class="redSpan">t言葉, h<span class="redSpan">au</span>t高い, p<span class="redSpan">eau</span>肌</span>
             <br>
             <audio
-              src="./assets/poleMotHautPeau.m4a"controls="true" class="audio-1">
+              src="./assets/poleMotHautPeau.m4a" class="audio-1"id="audioPrononciation9">
               Your browser does not support the
               <code>audio</code> element.
             </audio>
