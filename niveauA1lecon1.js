@@ -87,3 +87,48 @@ let audioJ = document.getElementById("audioJ");
 lettreJ.addEventListener("click", () => {
   audioJ.play();
 });
+
+/* audio pour LETTRE K */
+
+let lettreK = document.getElementById("letterK");
+let audioK = document.getElementById("audioK");
+
+lettreK.addEventListener("click", () => {
+  audioK.play();
+});
+
+/* audio pour LETTRE L */
+
+let lettreL = document.getElementById("letterL");
+let audioL = document.getElementById("audioL");
+
+lettreL.addEventListener("click", () => {
+  audioL.play();
+});
+
+/* audio pour LETTRE M */
+
+let lettreM = document.getElementById("letterM");
+let audioM = document.getElementById("audioM");
+
+lettreM.addEventListener("click", () => {
+  audioM.play();
+});
+
+/* audio pour LETTRE N */
+
+let lettreN = document.getElementById("letterN");
+let audioN = document.getElementById("audioN");
+
+lettreN.addEventListener("click", () => {
+  audioN.play();
+});
+
+/* audio pour LETTRE O */
+
+let lettreO = document.getElementById("letterO");
+let audioO = document.getElementById("audioO");
+
+lettreO.addEventListener("click", () => {
+  audioO.play();
+});
