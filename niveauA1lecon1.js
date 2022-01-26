@@ -545,3 +545,28 @@ let audioPrononciation35 = document.getElementById("audioPrononciation35");
 listeMots35.addEventListener("click", () => {
   audioPrononciation35.play();
 });
+
+/* autres regles */
+
+/* exemple 1*/
+let exemple1Lecon1A1 = document.getElementById("exemple1Lecon1A1");
+let audioExemple1Lecon1A1 = document.getElementById("audioExemple1Lecon1A1");
+
+exemple1Lecon1A1.addEventListener("click", () => {
+  audioExemple1Lecon1A1.play();
+});
+/* exemple 2*/
+let exemple2Lecon1A1 = document.getElementById("exemple2Lecon1A1");
+let audioExemple2Lecon1A1 = document.getElementById("audioExemple2Lecon1A1");
+
+exemple2Lecon1A1.addEventListener("click", () => {
+  audioExemple2Lecon1A1.play();
+});
+
+/*exemple 3*/
+let exemple3Lecon1A1 = document.getElementById("exemple1Lecon1A1");
+let audioExemple3Lecon1A1 = document.getElementById("audioExemple3Lecon1A1");
+
+exemple3Lecon1A1.addEventListener("click", () => {
+  audioExemple3Lecon1A1.play();
+});
