@@ -93,9 +93,6 @@ table {
   margin: 50px;
 }
 
-tr {
-  border: 1px solid red;
-}
 /* p {
   text-align: center;
   display: flex;
@@ -157,4 +154,12 @@ h4 {
 
 .letter {
   cursor: pointer;
+}
+
+td {
+  border: 1px solid black;
+}
+
+table {
+  border-collapse: collapse;
 }
