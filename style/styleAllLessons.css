@@ -85,17 +85,12 @@ table {
   text-align: center;
 }
 
-#letterA {
-  padding: 50px;
-}
-
 .redSpan {
   color: red;
 }
 
 .letter {
-  padding: 10px;
-  margin: 1px;
+  margin: 50px;
 }
 
 tr {
