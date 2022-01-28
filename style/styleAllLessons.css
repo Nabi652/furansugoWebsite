@@ -57,6 +57,7 @@ h1 {
   cursor: pointer;
   position: absolute;
   left: 20px;
+  color: darkblue;
 }
 
 h1 a {
@@ -77,6 +78,10 @@ h3 {
   margin-left: 50px;
 }
 
+h2 {
+  color: darkblue;
+}
+
 /* LECON 1 -------------- alphabet + prononciation -----------*/
 .redSpan {
   color: red;
@@ -92,8 +97,18 @@ table {
 
 .sizeTitleLetter {
   padding: 10px;
-  color: #551a8b;
+  color: rgba(0, 0, 139, 0.89);
   font-weight: bolder;
+}
+
+/* .phraseInfo {
+  color: black;
+  font-size: smaller;
+} */
+
+i {
+  font-size: small;
+  padding-left: 5px;
 }
 
 .sizeLetter {
