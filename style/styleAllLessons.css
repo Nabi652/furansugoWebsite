@@ -89,6 +89,8 @@ table {
 
 .divTitreLettres {
   padding: 10px;
+  color: #551a8b;
+  font-weight: bolder;
 }
 
 .divLettres {
