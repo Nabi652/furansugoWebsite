@@ -87,10 +87,13 @@ table {
 
 /* div titres lettres en français et lettres en japonais */
 
-.divLettres {
+.divTitreLettres {
   padding: 10px;
 }
 
+.divLettres {
+  padding: 5px;
+}
 .letter {
   margin: 50px;
   transform: translate(-10px, 0px);
