@@ -78,6 +78,9 @@ h3 {
 }
 
 /* LECON 1 -------------- alphabet + prononciation -----------*/
+.redSpan {
+  color: red;
+}
 
 table {
   margin: auto;
@@ -87,13 +90,13 @@ table {
 
 /* div titres lettres en français et lettres en japonais */
 
-.divTitreLettres {
+.sizeTitleLetter {
   padding: 10px;
   color: #551a8b;
   font-weight: bolder;
 }
 
-.divLettres {
+.sizeLetter {
   padding: 5px;
 }
 .letter {
