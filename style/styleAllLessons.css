@@ -185,14 +185,45 @@ h4 {
 /* media query of lesson 1 */
 
 @media only screen and (min-width: 360px) and (max-width: 700px) {
+  /* menu nav */
+
   .ulNav {
     display: flex;
     flex-direction: column;
     width: 100%;
     text-align: center;
+    padding: 0px;
   }
 
-  .ulNav li {
+  .liNav {
     padding: 5px;
+  }
+
+  /* titre h2 + h3 (autres regles speciales)*/
+
+  .h2NiveauA1Lecon1 {
+    margin: auto;
+    width: 100%;
+    text-align: center;
+    padding-top: 10px;
+  }
+
+  /* texte alphabet*/
+
+  .textAlphabet {
+    width: 100%;
+    text-align: center;
+    margin: 0px;
+    padding-bottom: 10px;
+    padding-top: 10px;
+  }
+
+  /* texte autres regles speciales */
+
+  .autresReglesSpeciales {
+    width: 95%;
+    margin: auto;
+    text-align: center;
+    padding: 0px;
   }
 }
