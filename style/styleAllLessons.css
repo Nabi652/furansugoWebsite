@@ -121,10 +121,16 @@ i {
   padding: 5px;
 }
 
-/* cursor sur les mots du tableau */
+/* cursor sur les mots du tableau en forme de main */
 
 .cursorPointerOnLetterAndWord {
   cursor: pointer;
+}
+
+/* cursor sur les mots en forme de fleche */
+
+.cursorArrow {
+  cursor: default;
 }
 
 /* LECON 2 ------------------- se présenter ------------------*/
