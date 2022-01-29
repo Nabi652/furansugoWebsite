@@ -129,7 +129,8 @@ i {
 
 /* cursor sur les mots du tableau en forme de main */
 
-.cursorPointerOnLetterAndWord {
+.cursorPointerOnLetterAndWord,
+.letter {
   cursor: pointer;
 }
 
