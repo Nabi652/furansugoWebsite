@@ -287,7 +287,7 @@ listeMots3.addEventListener("click", () => {
 let prononciation4 = document.getElementById("prononciation4");
 let audioPrononciation4_4 = document.getElementById("audioPrononciation4-4");
 
-prononciation1.addEventListener("click", () => {
+prononciation4.addEventListener("click", () => {
   audioPrononciation4_4.play();
 });
 
@@ -634,7 +634,7 @@ let audioPrononciation24_24 = document.getElementById(
   "audioPrononciation24-24"
 );
 
-prononciation20.addEventListener("click", () => {
+prononciation24.addEventListener("click", () => {
   audioPrononciation24_24.play();
 });
 
