@@ -861,7 +861,7 @@ exemple2Lecon1A1.addEventListener("click", () => {
 });
 
 /*exemple 3*/
-let exemple3Lecon1A1 = document.getElementById("exemple1Lecon1A1");
+let exemple3Lecon1A1 = document.getElementById("exemple3Lecon1A1");
 let audioExemple3Lecon1A1 = document.getElementById("audioExemple3Lecon1A1");
 
 exemple3Lecon1A1.addEventListener("click", () => {
