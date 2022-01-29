@@ -86,12 +86,19 @@ h2 {
 
 /* LECON 1 -------------- alphabet + prononciation -----------*/
 
+/* bordure des tableaux */
+
+td {
+  border: 1px solid black;
+}
+
 /* les tableaux */
 
 table {
   margin: auto;
   width: 85%;
   text-align: center;
+  border-collapse: collapse;
 }
 
 /* lettres en français et lettres en japonais */
@@ -133,7 +140,9 @@ i {
   cursor: default;
 }
 
-/* LECON 2 ------------------- se présenter ------------------*/
+.AutresReglesSpeciales {
+  margin-left: 5px;
+}
 
 /* LECON 2 --------------------- les salutations ----------------*/
 /* ---------------- footer ------------*/
@@ -172,18 +181,4 @@ footer i {
 
 h4 {
   text-align: center;
-}
-
-/* letters of niveauA1lecon1 html file*/
-
-.letter {
-  cursor: pointer;
-}
-
-td {
-  border: 1px solid black;
-}
-
-table {
-  border-collapse: collapse;
 }
