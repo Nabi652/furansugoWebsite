@@ -85,9 +85,8 @@ h2 {
 }
 
 /* LECON 1 -------------- alphabet + prononciation -----------*/
-.redSpan {
-  color: red;
-}
+
+/* les tableaux */
 
 table {
   margin: auto;
@@ -95,7 +94,7 @@ table {
   text-align: center;
 }
 
-/* div titres lettres en français et lettres en japonais */
+/* lettres en français et lettres en japonais */
 
 .sizeTitleLetter {
   padding: 10px;
@@ -103,43 +102,28 @@ table {
   font-weight: bolder;
 }
 
-/* .phraseInfo {
-  color: black;
-  font-size: smaller;
-} */
+/* colore les lettres des mots du tableau "phonetique"*/
+.redSpan {
+  color: red;
+}
+
+/* icone play des tableaux */
 
 i {
   font-size: small;
   padding-left: 5px;
+  cursor: pointer;
 }
+
+/* taile des lettres en français */
 
 .sizeLetter {
   padding: 5px;
 }
-.letter {
-  margin: 50px;
-  transform: translate(-10px, 0px);
-  transform: translate(0px, 0px);
-}
 
-/* .letter:hover {
-  background: #7c7086;
-  border-radius: 50px;
-} */
+/* cursor sur les mots du tableau */
 
-/* p {
-  text-align: center;
-  display: flex;
-  justify-content: center;
-} */
-
-.listeMots {
-  cursor: pointer;
-}
-
-#exemple1Lecon1A1,
-#exemple2Lecon1A1,
-#exemple3Lecon1A1 {
+.cursorPointerOnLetterAndWord {
   cursor: pointer;
 }
 
