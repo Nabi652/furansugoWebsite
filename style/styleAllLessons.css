@@ -39,7 +39,6 @@ body {
 .ulNav a {
   cursor: pointer;
   color: black;
-  text-align: center;
 }
 
 .ulNav a:hover {
@@ -181,4 +180,19 @@ footer i {
 
 h4 {
   text-align: center;
+}
+
+/* media query of lesson 1 */
+
+@media only screen and (min-width: 360px) and (max-width: 700px) {
+  .ulNav {
+    display: flex;
+    flex-direction: column;
+    width: 100%;
+    text-align: center;
+  }
+
+  .ulNav li {
+    padding: 5px;
+  }
 }
