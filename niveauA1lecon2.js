@@ -160,3 +160,66 @@ let audioSePresenter18 = document.getElementById("audioSePresenter18");
 lettreSePresenter18.addEventListener("click", () => {
   audioSePresenter18.play();
 });
+
+/* audio pour "j'ai habité en france pendant 1 an'"*/
+
+let lettreSePresenter19 = document.getElementById("sePresenter19");
+let audioSePresenter19 = document.getElementById("audioSePresenter19");
+
+lettreSePresenter19.addEventListener("click", () => {
+  audioSePresenter19.play();
+});
+
+/* audio pour "j'ai déjà habité à l'étranger"*/
+
+let lettreSePresenter20 = document.getElementById("sePresenter20");
+let audioSePresenter20 = document.getElementById("audioSePresenter20");
+
+lettreSePresenter20.addEventListener("click", () => {
+  audioSePresenter20.play();
+});
+
+/* audio pour "j'ai  jamais habité à l'étranger"*/
+
+let lettreSePresenter21 = document.getElementById("sePresenter21");
+let audioSePresenter21 = document.getElementById("audioSePresenter21");
+
+lettreSePresenter21.addEventListener("click", () => {
+  audioSePresenter21.play();
+});
+
+/* audio pour "j'aime la culture française"*/
+
+let lettreSePresenter22 = document.getElementById("sePresenter22");
+let audioSePresenter22 = document.getElementById("audioSePresenter22");
+
+lettreSePresenter22.addEventListener("click", () => {
+  audioSePresenter22.play();
+});
+
+/* audio pour "je n'aime pas le métro "*/
+
+let lettreSePresenter23 = document.getElementById("sePresenter23");
+let audioSePresenter23 = document.getElementById("audioSePresenter23");
+
+lettreSePresenter23.addEventListener("click", () => {
+  audioSePresenter23.play();
+});
+
+/* audio pour "j'ai un ami français"*/
+
+let lettreSePresenter24 = document.getElementById("sePresenter24");
+let audioSePresenter24 = document.getElementById("audioSePresenter24");
+
+lettreSePresenter24.addEventListener("click", () => {
+  audioSePresenter24.play();
+});
+
+/* audio pour "je n'ai pas d'ami français"*/
+
+let lettreSePresenter25 = document.getElementById("sePresenter25");
+let audioSePresenter25 = document.getElementById("audioSePresenter25");
+
+lettreSePresenter25.addEventListener("click", () => {
+  audioSePresenter25.play();
+});
