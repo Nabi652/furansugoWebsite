@@ -243,7 +243,7 @@ salutations2.addEventListener("click", () => {
   audioSalutations2.play();
 });
 
-/* audio pour "salut" */
+/* audio pour "bonne nuit" */
 
 let salutations3 = document.getElementById("salutations3");
 let audioSalutations3 = document.getElementById("audioSalutations3");
@@ -252,7 +252,7 @@ salutations3.addEventListener("click", () => {
   audioSalutations3.play();
 });
 
-/* audio pour "bonjour tout le monde" */
+/* audio pour "salut" */
 
 let salutations4 = document.getElementById("salutations4");
 let audioSalutations4 = document.getElementById("audioSalutations4");
@@ -261,7 +261,7 @@ salutations4.addEventListener("click", () => {
   audioSalutations4.play();
 });
 
-/* audio pour "salut tout le monde" */
+/* audio pour "bonjour tout le monde" */
 
 let salutations5 = document.getElementById("salutations5");
 let audioSalutations5 = document.getElementById("audioSalutations5");
@@ -270,7 +270,7 @@ salutations5.addEventListener("click", () => {
   audioSalutations5.play();
 });
 
-/* audio pour "comment vas tu" */
+/* audio pour "salut tout le monde" */
 
 let salutations6 = document.getElementById("salutations6");
 let audioSalutations6 = document.getElementById("audioSalutations6");
@@ -279,7 +279,7 @@ salutations6.addEventListener("click", () => {
   audioSalutations6.play();
 });
 
-/* audio pour "ca va et toi" */
+/* audio pour "comment vas tu" */
 
 let salutations7 = document.getElementById("salutations7");
 let audioSalutations7 = document.getElementById("audioSalutations7");
@@ -288,7 +288,7 @@ salutations7.addEventListener("click", () => {
   audioSalutations7.play();
 });
 
-/* audio pour "comment allez vous" */
+/* audio pour "ca va et toi" */
 
 let salutations8 = document.getElementById("salutations8");
 let audioSalutations8 = document.getElementById("audioSalutations8");
@@ -297,7 +297,7 @@ salutations8.addEventListener("click", () => {
   audioSalutations8.play();
 });
 
-/* audio pour "ca va et vous" */
+/* audio pour "comment allez vous" */
 
 let salutations9 = document.getElementById("salutations9");
 let audioSalutations9 = document.getElementById("audioSalutations9");
@@ -306,7 +306,7 @@ salutations9.addEventListener("click", () => {
   audioSalutations9.play();
 });
 
-/* audio pour "quoi de neuf" */
+/* audio pour "ca va et vous" */
 
 let salutations10 = document.getElementById("salutations10");
 let audioSalutations10 = document.getElementById("audioSalutations10");
@@ -315,7 +315,7 @@ salutations10.addEventListener("click", () => {
   audioSalutations10.play();
 });
 
-/* audio pour "au revoir" */
+/* audio pour "quoi de neuf" */
 
 let salutations11 = document.getElementById("salutations11");
 let audioSalutations11 = document.getElementById("audioSalutations11");
@@ -324,7 +324,7 @@ salutations11.addEventListener("click", () => {
   audioSalutations11.play();
 });
 
-/* audio pour "a bientot" */
+/* audio pour "au revoir" */
 
 let salutations12 = document.getElementById("salutations12");
 let audioSalutations12 = document.getElementById("audioSalutations12");
@@ -333,7 +333,7 @@ salutations12.addEventListener("click", () => {
   audioSalutations12.play();
 });
 
-/* audio pour "a tout à l'heure" */
+/* audio pour "a bientot" */
 
 let salutations13 = document.getElementById("salutations13");
 let audioSalutations13 = document.getElementById("audioSalutations13");
@@ -342,7 +342,7 @@ salutations13.addEventListener("click", () => {
   audioSalutations13.play();
 });
 
-/* audio pour "a plus tard" */
+/* audio pour "a tout à l'heure" */
 
 let salutations14 = document.getElementById("salutations14");
 let audioSalutations14 = document.getElementById("audioSalutations14");
@@ -351,7 +351,7 @@ salutations14.addEventListener("click", () => {
   audioSalutations14.play();
 });
 
-/* audio pour "a demain" */
+/* audio pour "a plus tard" */
 
 let salutations15 = document.getElementById("salutations15");
 let audioSalutations15 = document.getElementById("audioSalutations15");
@@ -360,7 +360,7 @@ salutations15.addEventListener("click", () => {
   audioSalutations15.play();
 });
 
-/* audio pour "a lundi" */
+/* audio pour "a demain" */
 
 let salutations16 = document.getElementById("salutations16");
 let audioSalutations16 = document.getElementById("audioSalutations16");
@@ -369,7 +369,7 @@ salutations16.addEventListener("click", () => {
   audioSalutations16.play();
 });
 
-/* audio pour "a la semaine prochaine" */
+/* audio pour "a lundi" */
 
 let salutations17 = document.getElementById("salutations17");
 let audioSalutations17 = document.getElementById("audioSalutations17");
@@ -378,7 +378,7 @@ salutations17.addEventListener("click", () => {
   audioSalutations17.play();
 });
 
-/* audio pour "a la prochaine" */
+/* audio pour "a la semaine prochaine" */
 
 let salutations18 = document.getElementById("salutations18");
 let audioSalutations18 = document.getElementById("audioSalutations18");
@@ -387,7 +387,7 @@ salutations18.addEventListener("click", () => {
   audioSalutations18.play();
 });
 
-/* audio pour "bonne journée" */
+/* audio pour "a la prochaine" */
 
 let salutations19 = document.getElementById("salutations19");
 let audioSalutations19 = document.getElementById("audioSalutations19");
@@ -396,7 +396,7 @@ salutations19.addEventListener("click", () => {
   audioSalutations19.play();
 });
 
-/* audio pour "bonne soirée" */
+/* audio pour "bonne journée" */
 
 let salutations20 = document.getElementById("salutations20");
 let audioSalutations20 = document.getElementById("audioSalutations20");
@@ -405,7 +405,7 @@ salutations20.addEventListener("click", () => {
   audioSalutations20.play();
 });
 
-/* audio pour "bon weekend" */
+/* audio pour "bonne soirée" */
 
 let salutations21 = document.getElementById("salutations21");
 let audioSalutations21 = document.getElementById("audioSalutations21");
@@ -414,7 +414,7 @@ salutations21.addEventListener("click", () => {
   audioSalutations21.play();
 });
 
-/* audio pour "bonne chance" */
+/* audio pour "bon weekend" */
 
 let salutations22 = document.getElementById("salutations22");
 let audioSalutations22 = document.getElementById("audioSalutations22");
@@ -423,7 +423,7 @@ salutations22.addEventListener("click", () => {
   audioSalutations22.play();
 });
 
-/* audio pour "bon courage" */
+/* audio pour "bonne chance" */
 
 let salutations23 = document.getElementById("salutations23");
 let audioSalutations23 = document.getElementById("audioSalutations23");
@@ -432,7 +432,7 @@ salutations23.addEventListener("click", () => {
   audioSalutations23.play();
 });
 
-/* audio pour "allo" */
+/* audio pour "bon courage" */
 
 let salutations24 = document.getElementById("salutations24");
 let audioSalutations24 = document.getElementById("audioSalutations24");
@@ -441,7 +441,7 @@ salutations24.addEventListener("click", () => {
   audioSalutations24.play();
 });
 
-/* audio pour "madame" */
+/* audio pour "allo" */
 
 let salutations25 = document.getElementById("salutations25");
 let audioSalutations25 = document.getElementById("audioSalutations25");
@@ -450,11 +450,20 @@ salutations25.addEventListener("click", () => {
   audioSalutations25.play();
 });
 
-/* audio pour "monsieur" */
+/* audio "madame"*/
 
 let salutations26 = document.getElementById("salutations26");
 let audioSalutations26 = document.getElementById("audioSalutations26");
 
 salutations26.addEventListener("click", () => {
   audioSalutations26.play();
+});
+
+/* audio pour "monsieur" */
+
+let salutations27 = document.getElementById("salutations27");
+let audioSalutations27 = document.getElementById("audioSalutations27");
+
+salutations27.addEventListener("click", () => {
+  audioSalutations27.play();
 });
