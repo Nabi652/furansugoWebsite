@@ -180,7 +180,12 @@ footer i {
 /* titres h4 texte 1 - texte 4 */
 
 h4 {
-  text-align: center;
+  margin-left: 50px;
+}
+
+h4 i {
+  font-size: large;
+  padding-right: 7px;
 }
 
 /* media query of lesson 1 */
