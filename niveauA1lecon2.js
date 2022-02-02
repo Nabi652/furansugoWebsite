@@ -44,7 +44,7 @@ lettreSePresenter5.addEventListener("click", () => {
   audioSePresenter5.play();
 });
 
-/* audio pour "je m'appelle..Je suis marié(男)/mariée(女)*/
+/* audio pour "Je suis marié(男)/mariée(女)*/
 
 let lettreSePresenter6 = document.getElementById("sePresenter6");
 let audioSePresenter6 = document.getElementById("audioSePresenter6");
@@ -53,7 +53,7 @@ lettreSePresenter6.addEventListener("click", () => {
   audioSePresenter6.play();
 });
 
-/* audio pour "j'ai un enfant"*/
+/* audio pour "je suis celibataire"*/
 
 let lettreSePresenter7 = document.getElementById("sePresenter7");
 let audioSePresenter7 = document.getElementById("audioSePresenter7");
@@ -62,7 +62,7 @@ lettreSePresenter7.addEventListener("click", () => {
   audioSePresenter7.play();
 });
 
-/* audio pour "je n'ai pas d'enfant"*/
+/* audio pour "je suis veuf/veuve"*/
 
 let lettreSePresenter8 = document.getElementById("sePresenter8");
 let audioSePresenter8 = document.getElementById("audioSePresenter8");
@@ -71,7 +71,7 @@ lettreSePresenter8.addEventListener("click", () => {
   audioSePresenter8.play();
 });
 
-/* audio pour "j'ai un frere"*/
+/* audio pour "j'ai un enfant"*/
 
 let lettreSePresenter9 = document.getElementById("sePresenter9");
 let audioSePresenter9 = document.getElementById("audioSePresenter9");
@@ -80,7 +80,7 @@ lettreSePresenter9.addEventListener("click", () => {
   audioSePresenter9.play();
 });
 
-/* audio pour "j'ai une soeur"*/
+/* audio pour "je n'ai pas denfant"*/
 
 let lettreSePresenter10 = document.getElementById("sePresenter10");
 let audioSePresenter10 = document.getElementById("audioSePresenter10");
@@ -89,7 +89,7 @@ lettreSePresenter10.addEventListener("click", () => {
   audioSePresenter10.play();
 });
 
-/* audio pour "je suis fils unique "*/
+/* audio pour "j'ai un frère' "*/
 
 let lettreSePresenter11 = document.getElementById("sePresenter11");
 let audioSePresenter11 = document.getElementById("audioSePresenter11");
@@ -98,7 +98,7 @@ lettreSePresenter11.addEventListener("click", () => {
   audioSePresenter11.play();
 });
 
-/* audio pour "je suis étudiant"*/
+/* audio pour "j'ai une soeur'"*/
 
 let lettreSePresenter12 = document.getElementById("sePresenter12");
 let audioSePresenter12 = document.getElementById("audioSePresenter12");
@@ -107,7 +107,7 @@ lettreSePresenter12.addEventListener("click", () => {
   audioSePresenter12.play();
 });
 
-/* audio pour "je suis ecolier/collegien..."*/
+/* audio pour "je suis fils unique"*/
 
 let lettreSePresenter13 = document.getElementById("sePresenter13");
 let audioSePresenter13 = document.getElementById("audioSePresenter13");
@@ -116,7 +116,7 @@ lettreSePresenter13.addEventListener("click", () => {
   audioSePresenter13.play();
 });
 
-/* audio pour "je travaille comme/en tant que..."*/
+/* audio pour "je suis étudiant"*/
 
 let lettreSePresenter14 = document.getElementById("sePresenter14");
 let audioSePresenter14 = document.getElementById("audioSePresenter14");
@@ -125,7 +125,7 @@ lettreSePresenter14.addEventListener("click", () => {
   audioSePresenter14.play();
 });
 
-/* audio pour "je suis au chomage"*/
+/* audio pour "je suis écolier/collégien/lycéen"*/
 
 let lettreSePresenter15 = document.getElementById("sePresenter15");
 let audioSePresenter15 = document.getElementById("audioSePresenter15");
@@ -134,7 +134,7 @@ lettreSePresenter15.addEventListener("click", () => {
   audioSePresenter15.play();
 });
 
-/* audio pour "j'ai quitté mon travail"*/
+/* audio pour "je travaille comme..en tant que.."*/
 
 let lettreSePresenter16 = document.getElementById("sePresenter16");
 let audioSePresenter16 = document.getElementById("audioSePresenter16");
@@ -143,7 +143,7 @@ lettreSePresenter16.addEventListener("click", () => {
   audioSePresenter16.play();
 });
 
-/* audio pour "je suis a la retaite"*/
+/* audio pour "je suis au chomage"*/
 
 let lettreSePresenter17 = document.getElementById("sePresenter17");
 let audioSePresenter17 = document.getElementById("audioSePresenter17");
@@ -152,7 +152,7 @@ lettreSePresenter17.addEventListener("click", () => {
   audioSePresenter17.play();
 });
 
-/* audio pour "je suis en france depuis 1 an"*/
+/* audio pour "j'ai quitté mon travail'"*/
 
 let lettreSePresenter18 = document.getElementById("sePresenter18");
 let audioSePresenter18 = document.getElementById("audioSePresenter18");
@@ -161,7 +161,7 @@ lettreSePresenter18.addEventListener("click", () => {
   audioSePresenter18.play();
 });
 
-/* audio pour "j'ai habité en france pendant 1 an'"*/
+/* audio pour "je suis à la retraite'"*/
 
 let lettreSePresenter19 = document.getElementById("sePresenter19");
 let audioSePresenter19 = document.getElementById("audioSePresenter19");
@@ -170,7 +170,7 @@ lettreSePresenter19.addEventListener("click", () => {
   audioSePresenter19.play();
 });
 
-/* audio pour "j'ai déjà habité à l'étranger"*/
+/* audio pour "je suis en france depuis 1 an"*/
 
 let lettreSePresenter20 = document.getElementById("sePresenter20");
 let audioSePresenter20 = document.getElementById("audioSePresenter20");
@@ -179,7 +179,7 @@ lettreSePresenter20.addEventListener("click", () => {
   audioSePresenter20.play();
 });
 
-/* audio pour "j'ai  jamais habité à l'étranger"*/
+/* audio pour "j'ai habité en france pendant 1 an"*/
 
 let lettreSePresenter21 = document.getElementById("sePresenter21");
 let audioSePresenter21 = document.getElementById("audioSePresenter21");
@@ -188,7 +188,7 @@ lettreSePresenter21.addEventListener("click", () => {
   audioSePresenter21.play();
 });
 
-/* audio pour "j'aime la culture française"*/
+/* audio pour "j'ai déjà habité à l'étranger"*/
 
 let lettreSePresenter22 = document.getElementById("sePresenter22");
 let audioSePresenter22 = document.getElementById("audioSePresenter22");
@@ -197,7 +197,7 @@ lettreSePresenter22.addEventListener("click", () => {
   audioSePresenter22.play();
 });
 
-/* audio pour "je n'aime pas le métro "*/
+/* audio pour "je n'ai jamais habité à l'étranger "*/
 
 let lettreSePresenter23 = document.getElementById("sePresenter23");
 let audioSePresenter23 = document.getElementById("audioSePresenter23");
@@ -206,7 +206,7 @@ lettreSePresenter23.addEventListener("click", () => {
   audioSePresenter23.play();
 });
 
-/* audio pour "j'ai un ami français"*/
+/* audio pour "j'aime la culture french"*/
 
 let lettreSePresenter24 = document.getElementById("sePresenter24");
 let audioSePresenter24 = document.getElementById("audioSePresenter24");
@@ -215,13 +215,31 @@ lettreSePresenter24.addEventListener("click", () => {
   audioSePresenter24.play();
 });
 
-/* audio pour "je n'ai pas d'ami français"*/
+/* audio pour "je n'aime pas le métro parisien"*/
 
 let lettreSePresenter25 = document.getElementById("sePresenter25");
 let audioSePresenter25 = document.getElementById("audioSePresenter25");
 
 lettreSePresenter25.addEventListener("click", () => {
   audioSePresenter25.play();
+});
+
+/* audio pour "j'ai un ami francais'"*/
+
+let lettreSePresenter26 = document.getElementById("sePresenter26");
+let audioSePresenter26 = document.getElementById("audioSePresenter26");
+
+lettreSePresenter26.addEventListener("click", () => {
+  audioSePresenter26.play();
+});
+
+/* audio pour "je n'ai pas d'ami français"*/
+
+let lettreSePresenter27 = document.getElementById("sePresenter27");
+let audioSePresenter27 = document.getElementById("audioSePresenter27");
+
+lettreSePresenter27.addEventListener("click", () => {
+  audioSePresenter27.play();
 });
 
 /* exemples : se presenter */
@@ -765,4 +783,83 @@ let audioSalutations27 = document.getElementById("audioSalutations27");
 
 salutations27.addEventListener("click", () => {
   audioSalutations27.play();
+});
+
+/* exemples : salutations */
+
+/* exemple 1*/
+
+let salutationsExemple1 = document.getElementById("salutationsExemple1");
+let audioSalutationsExemple1 = document.getElementById(
+  "audioSalutationsExemple1"
+);
+
+salutationsExemple1.addEventListener("click", () => {
+  audioSalutationsExemple1.play();
+});
+
+/* exemple 2*/
+
+let salutationsExemple2 = document.getElementById("salutationsExemple2");
+let audioSalutationsExemple2 = document.getElementById(
+  "audioSalutationsExemple2"
+);
+
+salutationsExemple2.addEventListener("click", () => {
+  audioSalutationsExemple2.play();
+});
+
+/* exemple 3*/
+
+let salutationsExemple3 = document.getElementById("salutationsExemple3");
+let audioSalutationsExemple3 = document.getElementById(
+  "audioSalutationsExemple3"
+);
+
+salutationsExemple3.addEventListener("click", () => {
+  audioSalutationsExemple3.play();
+});
+
+/* exemple 4*/
+
+let salutationsExemple4 = document.getElementById("salutationsExemple4");
+let audioSalutationsExemple4 = document.getElementById(
+  "audioSalutationsExemple4"
+);
+
+salutationsExemple4.addEventListener("click", () => {
+  audioSalutationsExemple4.play();
+});
+
+/* exemple 5*/
+
+let salutationsExemple5 = document.getElementById("salutationsExemple5");
+let audioSalutationsExemple5 = document.getElementById(
+  "audioSalutationsExemple5"
+);
+
+salutationsExemple5.addEventListener("click", () => {
+  audioSalutationsExemple5.play();
+});
+
+/* exemple 6*/
+
+let salutationsExemple6 = document.getElementById("salutationsExemple6");
+let audioSalutationsExemple6 = document.getElementById(
+  "audioSalutationsExemple6"
+);
+
+salutationsExemple6.addEventListener("click", () => {
+  audioSalutationsExemple6.play();
+});
+
+/* exemple 7*/
+
+let salutationsExemple7 = document.getElementById("salutationsExemple7");
+let audioSalutationsExemple7 = document.getElementById(
+  "audioSalutationsExemple7"
+);
+
+salutationsExemple7.addEventListener("click", () => {
+  audioSalutationsExemple7.play();
 });
