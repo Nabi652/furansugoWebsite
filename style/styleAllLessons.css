@@ -169,6 +169,20 @@ footer i {
   padding: 5px;
 }
 
+/* MEDIA QUERY LECON 2 */
+
+@media only screen and (min-width: 360px) and (max-width: 700px) {
+  /* menu nav */
+  .texte {
+    margin: auto;
+    width: 90%;
+  }
+  .texte p {
+    margin: 0px;
+    padding: 0px;
+  }
+}
+
 /* lecon 9*/
 .listelecon9 {
   margin-left: 50px;
