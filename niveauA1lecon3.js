@@ -1585,3 +1585,47 @@ let audioArretDeBus = document.getElementById("audioArretDeBus");
 laVille34.addEventListener("click", () => {
   audioArretDeBus.play();
 });
+
+/* exemples la ville*/
+
+let villeExemple1 = document.getElementById("villeExemple1");
+let audioVilleExemple1 = document.getElementById("audioVilleExemple1");
+villeExemple1.addEventListener("click", () => {
+  audioVilleExemple1.play();
+});
+
+let villeExemple2 = document.getElementById("villeExemple2");
+let audioVilleExemple2 = document.getElementById("audioVilleExemple2");
+villeExemple2.addEventListener("click", () => {
+  audioVilleExemple2.play();
+});
+
+let villeExemple3 = document.getElementById("villeExemple3");
+let audioVilleExemple3 = document.getElementById("audioVilleExemple3");
+villeExemple3.addEventListener("click", () => {
+  audioVilleExemple3.play();
+});
+
+let villeExemple4 = document.getElementById("villeExemple4");
+let audioVilleExemple4 = document.getElementById("audioVilleExemple4");
+villeExemple4.addEventListener("click", () => {
+  audioVilleExemple4.play();
+});
+
+let villeExemple5 = document.getElementById("villeExemple5");
+let audioVilleExemple5 = document.getElementById("audioVilleExemple5");
+villeExemple5.addEventListener("click", () => {
+  audioVilleExemple5.play();
+});
+
+let villeExemple6 = document.getElementById("villeExemple6");
+let audioVilleExemple6 = document.getElementById("audioVilleExemple6");
+villeExemple6.addEventListener("click", () => {
+  audioVilleExemple6.play();
+});
+
+let villeExemple7 = document.getElementById("villeExemple7");
+let audioVilleExemple7 = document.getElementById("audioVilleExemple7");
+villeExemple7.addEventListener("click", () => {
+  audioVilleExemple7.play();
+});
