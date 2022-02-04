@@ -1345,3 +1345,243 @@ let audioCouleursExemple5 = document.getElementById("audioCouleursExemple5");
 couleursExemple5.addEventListener("click", () => {
   audioCouleursExemple5.play();
 });
+
+/* tableau : la ville */
+
+let laVille1 = document.getElementById("laVille1");
+let audioUneMaison = document.getElementById("audioUneMaison");
+
+laVille1.addEventListener("click", () => {
+  audioUneMaison.play();
+});
+
+let laVille2 = document.getElementById("laVille2");
+let audioUnImmeuble = document.getElementById("audioUnImmeuble");
+
+laVille2.addEventListener("click", () => {
+  audioUnImmeuble.play();
+});
+
+let laVille3 = document.getElementById("laVille3");
+let audioUnBatiment = document.getElementById("audioUnBatiment");
+
+laVille3.addEventListener("click", () => {
+  audioUnBatiment.play();
+});
+
+let laVille4 = document.getElementById("laVille4");
+let audioUnAppartement = document.getElementById("audioUnAppartement");
+
+laVille4.addEventListener("click", () => {
+  audioUnAppartement.play();
+});
+
+let laVille5 = document.getElementById("laVille5");
+let audioLaRue = document.getElementById("audioLaRue");
+
+laVille5.addEventListener("click", () => {
+  audioLaRue.play();
+});
+
+let laVille6 = document.getElementById("laVille6");
+let audioLaMosquee = document.getElementById("audioLaMosquee");
+
+laVille6.addEventListener("click", () => {
+  audioLaMosquee.play();
+});
+
+let laVille7 = document.getElementById("laVille7");
+let audioLeglise = document.getElementById("audioLeglise");
+
+laVille7.addEventListener("click", () => {
+  audioLeglise.play();
+});
+
+let laVille8 = document.getElementById("laVille8");
+let audioLaSynagogue = document.getElementById("audioLaSynagogue");
+
+laVille8.addEventListener("click", () => {
+  audioLaSynagogue.play();
+});
+
+let laVille9 = document.getElementById("laVille9");
+let audioLeTemple = document.getElementById("audioLeTemple");
+
+laVille9.addEventListener("click", () => {
+  audioLeTemple.play();
+});
+
+let laVille10 = document.getElementById("laVille2");
+let audioLaMairie = document.getElementById("audioLaMairie");
+
+laVille10.addEventListener("click", () => {
+  audioLaMairie.play();
+});
+
+let laVille11 = document.getElementById("laVille11");
+let audioLaPoste = document.getElementById("audioLaPoste");
+
+laVille11.addEventListener("click", () => {
+  audioLaPoste.play();
+});
+
+let laVille12 = document.getElementById("laVille12");
+let audioLeCommissariat = document.getElementById("audioLeCommissariat");
+
+laVille12.addEventListener("click", () => {
+  audioLeCommissariat.play();
+});
+
+let laVille13 = document.getElementById("laVille13");
+let audioLeMusee = document.getElementById("audioLeMusee");
+
+laVille13.addEventListener("click", () => {
+  audioLeMusee.play();
+});
+
+let laVille14 = document.getElementById("laVille14");
+let audioLeCinema = document.getElementById("audioLeCinema");
+
+laVille14.addEventListener("click", () => {
+  audioLeCinema.play();
+});
+
+let laVille15 = document.getElementById("laVille15");
+let audioLaPiscine = document.getElementById("audioLaPiscine");
+
+laVille15.addEventListener("click", () => {
+  audioLaPiscine.play();
+});
+
+let laVille16 = document.getElementById("laVille16");
+let audioLeGymnase = document.getElementById("audioLeGymnase");
+
+laVille16.addEventListener("click", () => {
+  audioLeGymnase.play();
+});
+
+let laVille17 = document.getElementById("laVille17");
+let audioLaBibliotheque = document.getElementById("audioLaBibliotheque");
+
+laVille17.addEventListener("click", () => {
+  audioLaBibliotheque.play();
+});
+
+let laVille18 = document.getElementById("laVille18");
+let audioLaLibrairie = document.getElementById("audioLaLibrairie");
+
+laVille18.addEventListener("click", () => {
+  audioLaLibrairie.play();
+});
+
+let laVille19 = document.getElementById("laVille19");
+let audioLaBanque = document.getElementById("audioLaBanque");
+
+laVille19.addEventListener("click", () => {
+  audioLaBanque.play();
+});
+
+let laVille20 = document.getElementById("laVille20");
+let audioLeSalonDeCoiffure = document.getElementById("audioLeSalonDeCoiffure");
+
+laVille20.addEventListener("click", () => {
+  audioLeSalonDeCoiffure.play();
+});
+
+let laVille21 = document.getElementById("laVille21");
+let audioLeRestaurant = document.getElementById("audioLeRestaurant");
+
+laVille21.addEventListener("click", () => {
+  audioLeRestaurant.play();
+});
+
+let laVille22 = document.getElementById("laVille22");
+let audioLeCafe = document.getElementById("audioLeCafe");
+
+laVille22.addEventListener("click", () => {
+  audioLeCafe.play();
+});
+
+let laVille23 = document.getElementById("laVille23");
+let audioLeBar = document.getElementById("audioLeBar");
+
+laVille23.addEventListener("click", () => {
+  audioLeBar.play();
+});
+
+let laVille24 = document.getElementById("laVille24");
+let audioHotel = document.getElementById("audioHotel");
+
+laVille24.addEventListener("click", () => {
+  audioHotel.play();
+});
+
+let laVille25 = document.getElementById("laVille25");
+let audioEcole = document.getElementById("audioEcole");
+
+laVille25.addEventListener("click", () => {
+  audioEcole.play();
+});
+
+let laVille26 = document.getElementById("laVille26");
+let audioCollege = document.getElementById("audioCollege");
+
+laVille26.addEventListener("click", () => {
+  audioCollege.play();
+});
+
+let laVille27 = document.getElementById("laVille27");
+let audioLycee = document.getElementById("audioLycee");
+
+laVille27.addEventListener("click", () => {
+  audioLycee.play();
+});
+
+let laVille28 = document.getElementById("laVille28");
+let audioUniversite = document.getElementById("audioUniversite");
+
+laVille28.addEventListener("click", () => {
+  audioUniversite.play();
+});
+
+let laVille29 = document.getElementById("laVille29");
+let audioAgenceVoyage = document.getElementById("audioAgenceVoyage");
+
+laVille29.addEventListener("click", () => {
+  audioAgenceVoyage.play();
+});
+
+let laVille30 = document.getElementById("laVille30");
+let audioLeBureau = document.getElementById("audioLeBureau");
+
+laVille30.addEventListener("click", () => {
+  audioLeBureau.play();
+});
+
+let laVille31 = document.getElementById("laVille31");
+let audioLeParking = document.getElementById("audioLeParking");
+
+laVille31.addEventListener("click", () => {
+  audioLeParking.play();
+});
+
+let laVille32 = document.getElementById("laVille32");
+let audioLeParc = document.getElementById("audioLeParc");
+
+laVille32.addEventListener("click", () => {
+  audioLeParc.play();
+});
+
+let laVille33 = document.getElementById("laVille33");
+let audioLaGare = document.getElementById("audioLaGare");
+
+laVille33.addEventListener("click", () => {
+  audioLaGare.play();
+});
+
+let laVille34 = document.getElementById("laVille34");
+let audioArretDeBus = document.getElementById("audioArretDeBus");
+
+laVille34.addEventListener("click", () => {
+  audioArretDeBus.play();
+});
