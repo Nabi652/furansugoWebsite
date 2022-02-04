@@ -252,3 +252,682 @@ let audioFamilleLaGrandeTante = document.getElementById(
 familleLaGrandeTante.addEventListener("click", () => {
   audioFamilleLaGrandeTante.play();
 });
+
+/* exemples: famille */
+
+/* exemple 1*/
+let familleExemple1 = document.getElementById("familleExemple1");
+let audioFamilleExemple1 = document.getElementById("audioFamilleExemple1");
+
+familleExemple1.addEventListener("click", () => {
+  audioFamilleExemple1.play();
+});
+
+/* exemple 2*/
+let familleExemple2 = document.getElementById("familleExemple2");
+let audioFamilleExemple2 = document.getElementById("audioFamilleExemple2");
+
+familleExemple2.addEventListener("click", () => {
+  audioFamilleExemple2.play();
+});
+
+/* exemple 3*/
+let familleExemple3 = document.getElementById("familleExemple3");
+let audioFamilleExemple3 = document.getElementById("audioFamilleExemple3");
+
+familleExemple3.addEventListener("click", () => {
+  audioFamilleExemple3.play();
+});
+
+/* exemple 4*/
+let familleExemple4 = document.getElementById("familleExemple4");
+let audioFamilleExemple4 = document.getElementById("audioFamilleExemple4");
+
+familleExemple4.addEventListener("click", () => {
+  audioFamilleExemple4.play();
+});
+
+/* exemple 5*/
+let familleExemple5 = document.getElementById("familleExemple5");
+let audioFamilleExemple5 = document.getElementById("audioFamilleExemple5");
+
+familleExemple5.addEventListener("click", () => {
+  audioFamilleExemple5.play();
+});
+
+/* exemple 6*/
+let familleExemple6 = document.getElementById("familleExemple6");
+let audioFamilleExemple6 = document.getElementById("audioFamilleExemple6");
+
+familleExemple6.addEventListener("click", () => {
+  audioFamilleExemple6.play();
+});
+
+/* exemple 7*/
+let familleExemple7 = document.getElementById("familleExemple7");
+let audioFamilleExemple7 = document.getElementById("audioFamilleExemple7");
+
+familleExemple7.addEventListener("click", () => {
+  audioFamilleExemple7.play();
+});
+
+/* exemple 8*/
+let familleExemple8 = document.getElementById("familleExemple8");
+let audioFamilleExemple8 = document.getElementById("audioFamilleExemple8");
+
+familleExemple8.addEventListener("click", () => {
+  audioFamilleExemple8.play();
+});
+
+/* exemple 9*/
+let familleExemple9 = document.getElementById("familleExemple9");
+let audioFamilleExemple9 = document.getElementById("audioFamilleExemple9");
+
+familleExemple9.addEventListener("click", () => {
+  audioFamilleExemple9.play();
+});
+
+/* exemple 10*/
+let familleExemple10 = document.getElementById("familleExemple10");
+let audioFamilleExemple10 = document.getElementById("audioFamilleExemple10");
+
+familleExemple10.addEventListener("click", () => {
+  audioFamilleExemple10.play();
+});
+
+/* exemple 11*/
+let familleExemple11 = document.getElementById("familleExemple11");
+let audioFamilleExemple11 = document.getElementById("audioFamilleExemple11");
+
+familleExemple11.addEventListener("click", () => {
+  audioFamilleExemple11.play();
+});
+
+/* exemple 12*/
+let familleExemple12 = document.getElementById("familleExemple12");
+let audioFamilleExemple12 = document.getElementById("audioFamilleExemple12");
+
+familleExemple12.addEventListener("click", () => {
+  audioFamilleExemple12.play();
+});
+
+/* audios le tableau metiers */
+
+/* acteur*/
+
+let metiers1 = document.getElementById("metiers1");
+let audioMetiers1 = document.getElementById("audioMetiers1");
+
+metiers1.addEventListener("click", () => {
+  audioMetiers1.play();
+});
+
+/* agent de la gare*/
+
+let metiers2 = document.getElementById("metiers2");
+let audioMetiers2 = document.getElementById("audioMetiers2");
+
+metiers2.addEventListener("click", () => {
+  audioMetiers2.play();
+});
+
+/* agent de securite*/
+
+let metiers3 = document.getElementById("metiers3");
+let audioMetiers3 = document.getElementById("audioMetiers3");
+
+metiers3.addEventListener("click", () => {
+  audioMetiers3.play();
+});
+
+/* architecte*/
+
+let metiers4 = document.getElementById("metiers4");
+let audioMetiers4 = document.getElementById("audioMetiers4");
+
+metiers4.addEventListener("click", () => {
+  audioMetiers4.play();
+});
+
+/* artiste*/
+
+let metiers5 = document.getElementById("metiers5");
+let audioMetiers5 = document.getElementById("audioMetiers5");
+
+metiers5.addEventListener("click", () => {
+  audioMetiers5.play();
+});
+
+/* astronaute*/
+
+let metiers6 = document.getElementById("metiers6");
+let audioMetiers6 = document.getElementById("audioMetiers6");
+
+metiers6.addEventListener("click", () => {
+  audioMetiers6.play();
+});
+
+/* avocat*/
+
+let metiers7 = document.getElementById("metiers7");
+let audioMetiers7 = document.getElementById("audioMetiers7");
+
+metiers7.addEventListener("click", () => {
+  audioMetiers7.play();
+});
+
+/* boucher*/
+
+let metiers8 = document.getElementById("metiers8");
+let audioMetiers8 = document.getElementById("audioMetiers8");
+
+metiers8.addEventListener("click", () => {
+  audioMetiers8.play();
+});
+
+/* boulangerr*/
+
+let metiers9 = document.getElementById("metiers9");
+let audioMetiers9 = document.getElementById("audioMetiers9");
+
+metiers9.addEventListener("click", () => {
+  audioMetiers9.play();
+});
+
+/* caissier*/
+
+let metiers10 = document.getElementById("metiers10");
+let audioMetiers10 = document.getElementById("audioMetiers10");
+
+metiers10.addEventListener("click", () => {
+  audioMetiers10.play();
+});
+
+/* chanteur*/
+
+let metiers11 = document.getElementById("metiers11");
+let audioMetiers11 = document.getElementById("audioMetiers11");
+
+metiers11.addEventListener("click", () => {
+  audioMetiers11.play();
+});
+
+/* chef d'orchestre*/
+
+let metiers12 = document.getElementById("metiers12");
+let audioMetiers12 = document.getElementById("audioMetiers12");
+
+metiers12.addEventListener("click", () => {
+  audioMetiers12.play();
+});
+
+/* chirurgien*/
+
+let metiers13 = document.getElementById("metiers13");
+let audioMetiers13 = document.getElementById("audioMetiers13");
+
+metiers13.addEventListener("click", () => {
+  audioMetiers13.play();
+});
+
+/* coiffeur*/
+
+let metiers14 = document.getElementById("metiers14");
+let audioMetiers14 = document.getElementById("audioMetiers14");
+
+metiers14.addEventListener("click", () => {
+  audioMetiers14.play();
+});
+
+/* cuisinier*/
+
+let metiers15 = document.getElementById("metiers15");
+let audioMetiers15 = document.getElementById("audioMetiers15");
+
+metiers15.addEventListener("click", () => {
+  audioMetiers15.play();
+});
+
+/* dentiste*/
+
+let metiers16 = document.getElementById("metiers16");
+let audioMetiers16 = document.getElementById("audioMetiers16");
+
+metiers16.addEventListener("click", () => {
+  audioMetiers16.play();
+});
+
+/* dermatologue*/
+
+let metiers17 = document.getElementById("metiers17");
+let audioMetiers17 = document.getElementById("audioMetiers17");
+
+metiers17.addEventListener("click", () => {
+  audioMetiers17.play();
+});
+
+/* detective*/
+
+let metiers18 = document.getElementById("metiers18");
+let audioMetiers18 = document.getElementById("audioMetiers18");
+
+metiers18.addEventListener("click", () => {
+  audioMetiers18.play();
+});
+
+/* douanier*/
+
+let metiers19 = document.getElementById("metiers19");
+let audioMetiers19 = document.getElementById("audioMetiers19");
+
+metiers19.addEventListener("click", () => {
+  audioMetiers19.play();
+});
+
+/* electricien*/
+
+let metiers20 = document.getElementById("metiers20");
+let audioMetiers20 = document.getElementById("audioMetiers20");
+
+metiers20.addEventListener("click", () => {
+  audioMetiers20.play();
+});
+
+/* employé*/
+
+let metiers21 = document.getElementById("metiers21");
+let audioMetiers21 = document.getElementById("audioMetiers21");
+
+metiers21.addEventListener("click", () => {
+  audioMetiers21.play();
+});
+
+/* entrepeneur*/
+
+let metiers22 = document.getElementById("metiers22");
+let audioMetiers22 = document.getElementById("audioMetiers22");
+
+metiers22.addEventListener("click", () => {
+  audioMetiers22.play();
+});
+
+/* epicier*/
+
+let metiers23 = document.getElementById("metiers23");
+let audioMetiers23 = document.getElementById("audioMetiers23");
+
+metiers23.addEventListener("click", () => {
+  audioMetiers23.play();
+});
+
+/* esthéticien*/
+
+let metiers24 = document.getElementById("metiers24");
+let audioMetiers24 = document.getElementById("audioMetiers24");
+
+metiers24.addEventListener("click", () => {
+  audioMetiers24.play();
+});
+
+/* facteur*/
+
+let metiers25 = document.getElementById("metiers25");
+let audioMetiers25 = document.getElementById("audioMetiers25");
+
+metiers25.addEventListener("click", () => {
+  audioMetiers25.play();
+});
+
+/*  femme au foyer*/
+
+let metiers26 = document.getElementById("metiers26");
+let audioMetiers26 = document.getElementById("audioMetiers26");
+
+metiers26.addEventListener("click", () => {
+  audioMetiers26.play();
+});
+
+/*  fermier*/
+
+let metiers27 = document.getElementById("metiers27");
+let audioMetiers27 = document.getElementById("audioMetiers27");
+
+metiers27.addEventListener("click", () => {
+  audioMetiers27.play();
+});
+
+/*  fonctionnaire*/
+
+let metiers28 = document.getElementById("metiers28");
+let audioMetiers28 = document.getElementById("audioMetiers28");
+
+metiers28.addEventListener("click", () => {
+  audioMetiers28.play();
+});
+
+/*  garagiste*/
+
+let metiers29 = document.getElementById("metiers29");
+let audioMetiers29 = document.getElementById("audioMetiers29");
+
+metiers29.addEventListener("click", () => {
+  audioMetiers29.play();
+});
+
+/*  homme d'affaires*/
+
+let metiers30 = document.getElementById("metiers30");
+let audioMetiers30 = document.getElementById("audioMetiers30");
+
+metiers30.addEventListener("click", () => {
+  audioMetiers30.play();
+});
+
+/*  infirmier*/
+
+let metiers31 = document.getElementById("metiers31");
+let audioMetiers31 = document.getElementById("audioMetiers31");
+
+metiers31.addEventListener("click", () => {
+  audioMetiers31.play();
+});
+
+/*  ingénieur */
+
+let metiers32 = document.getElementById("metiers32");
+let audioMetiers32 = document.getElementById("audioMetiers32");
+
+metiers32.addEventListener("click", () => {
+  audioMetiers32.play();
+});
+
+/*  jadinier */
+
+let metiers33 = document.getElementById("metiers33");
+let audioMetiers33 = document.getElementById("audioMetiers33");
+
+metiers33.addEventListener("click", () => {
+  audioMetiers33.play();
+});
+
+/*  joueur de foot*/
+
+let metiers34 = document.getElementById("metiers34");
+let audioMetiers34 = document.getElementById("audioMetiers34");
+
+metiers34.addEventListener("click", () => {
+  audioMetiers34.play();
+});
+
+/*  journaliste*/
+
+let metiers35 = document.getElementById("metiers35");
+let audioMetiers35 = document.getElementById("audioMetiers35");
+
+metiers35.addEventListener("click", () => {
+  audioMetiers35.play();
+});
+
+/*  juge*/
+
+let metiers36 = document.getElementById("metiers36");
+let audioMetiers36 = document.getElementById("audioMetiers36");
+
+metiers36.addEventListener("click", () => {
+  audioMetiers36.play();
+});
+
+/* kine*/
+
+let metiers37 = document.getElementById("metiers37");
+let audioMetiers37 = document.getElementById("audioMetiers37");
+
+metiers37.addEventListener("click", () => {
+  audioMetiers37.play();
+});
+
+/*  macon */
+
+let metiers38 = document.getElementById("metiers38");
+let audioMetiers38 = document.getElementById("audioMetiers38");
+
+metiers38.addEventListener("click", () => {
+  audioMetiers38.play();
+});
+
+/*  maitre d'école */
+
+let metiers39 = document.getElementById("metiers39");
+let audioMetiers39 = document.getElementById("audioMetiers39");
+
+metiers39.addEventListener("click", () => {
+  audioMetiers39.play();
+});
+
+/*  masseur */
+
+let metiers40 = document.getElementById("metiers40");
+let audioMetiers40 = document.getElementById("audioMetiers40");
+
+metiers40.addEventListener("click", () => {
+  audioMetiers40.play();
+});
+
+/*  medecin */
+
+let metiers41 = document.getElementById("metiers41");
+let audioMetiers41 = document.getElementById("audioMetiers41");
+
+metiers41.addEventListener("click", () => {
+  audioMetiers41.play();
+});
+
+/*  ophtalmo */
+
+let metiers42 = document.getElementById("metiers42");
+let audioMetiers42 = document.getElementById("audioMetiers42");
+
+metiers42.addEventListener("click", () => {
+  audioMetiers42.play();
+});
+
+/*  ouvrier */
+
+let metiers43 = document.getElementById("metiers43");
+let audioMetiers43 = document.getElementById("audioMetiers43");
+
+metiers43.addEventListener("click", () => {
+  audioMetiers43.play();
+});
+
+/*  patissier */
+
+let metiers44 = document.getElementById("metiers44");
+let audioMetiers44 = document.getElementById("audioMetiers44");
+
+metiers44.addEventListener("click", () => {
+  audioMetiers44.play();
+});
+
+/*  pianiste */
+
+let metiers45 = document.getElementById("metiers45");
+let audioMetiers45 = document.getElementById("audioMetiers45");
+
+metiers45.addEventListener("click", () => {
+  audioMetiers45.play();
+});
+
+/*  pecheur */
+
+let metiers46 = document.getElementById("metiers46");
+let audioMetiers46 = document.getElementById("audioMetiers46");
+
+metiers46.addEventListener("click", () => {
+  audioMetiers46.play();
+});
+
+/*  peintre */
+
+let metiers47 = document.getElementById("metiers47");
+let audioMetiers47 = document.getElementById("audioMetiers47");
+
+metiers47.addEventListener("click", () => {
+  audioMetiers47.play();
+});
+
+/*  plombier*/
+
+let metiers48 = document.getElementById("metiers48");
+let audioMetiers48 = document.getElementById("audioMetiers48");
+
+metiers48.addEventListener("click", () => {
+  audioMetiers48.play();
+});
+
+/* podologue */
+
+let metiers49 = document.getElementById("metiers49");
+let audioMetiers49 = document.getElementById("audioMetiers49");
+
+metiers49.addEventListener("click", () => {
+  audioMetiers49.play();
+});
+
+/*  policier */
+
+let metiers50 = document.getElementById("metiers50");
+let audioMetiers50 = document.getElementById("audioMetiers50");
+
+metiers50.addEventListener("click", () => {
+  audioMetiers50.play();
+});
+
+/*  pompier */
+
+let metiers51 = document.getElementById("metiers51");
+let audioMetiers51 = document.getElementById("audioMetiers51");
+
+metiers51.addEventListener("click", () => {
+  audioMetiers51.play();
+});
+
+/*  prof */
+
+let metiers52 = document.getElementById("metiers52");
+let audioMetiers52 = document.getElementById("audioMetiers52");
+
+metiers52.addEventListener("click", () => {
+  audioMetiers52.play();
+});
+
+/* scientifique*/
+
+let metiers53 = document.getElementById("metiers53");
+let audioMetiers53 = document.getElementById("audioMetiers53");
+
+metiers53.addEventListener("click", () => {
+  audioMetiers53.play();
+});
+/*  serrurier */
+
+let metiers54 = document.getElementById("metiers54");
+let audioMetiers54 = document.getElementById("audioMetiers54");
+
+metiers54.addEventListener("click", () => {
+  audioMetiers54.play();
+});
+
+/* serveur */
+
+let metiers55 = document.getElementById("metiers55");
+let audioMetiers55 = document.getElementById("audioMetiers55");
+
+metiers55.addEventListener("click", () => {
+  audioMetiers55.play();
+});
+
+/* serveur */
+
+let metiers56 = document.getElementById("metiers56");
+let audioMetiers56 = document.getElementById("audioMetiers56");
+
+metiers56.addEventListener("click", () => {
+  audioMetiers56.play();
+});
+
+/* sportif */
+
+let metiers57 = document.getElementById("metiers57");
+let audioMetiers57 = document.getElementById("audioMetiers57");
+
+metiers57.addEventListener("click", () => {
+  audioMetiers57.play();
+});
+
+/* vétérinaire */
+
+let metiers58 = document.getElementById("metiers58");
+let audioMetiers58 = document.getElementById("audioMetiers58");
+
+metiers58.addEventListener("click", () => {
+  audioMetiers58.play();
+});
+
+/* audios exemples: metiers */
+
+/* exemple 1*/
+let metiersExemple1 = document.getElementById("metiersExemple1");
+let audioMetiersExemple1 = document.getElementById("audioMetiersExemple1");
+
+metiersExemple1.addEventListener("click", () => {
+  audioMetiersExemple1.play();
+});
+
+/* exemple 2*/
+let metiersExemple2 = document.getElementById("metiersExemple2");
+let audioMetiersExemple2 = document.getElementById("audioMetiersExemple2");
+
+metiersExemple2.addEventListener("click", () => {
+  audioMetiersExemple2.play();
+});
+
+/* exemple 3*/
+let metiersExemple3 = document.getElementById("metiersExemple3");
+let audioMetiersExemple3 = document.getElementById("audioMetiersExemple3");
+
+metiersExemple3.addEventListener("click", () => {
+  audioMetiersExemple3.play();
+});
+
+/* exemple 4*/
+let metiersExemple4 = document.getElementById("metiersExemple4");
+let audioMetiersExemple4 = document.getElementById("audioMetiersExemple4");
+
+metiersExemple4.addEventListener("click", () => {
+  audioMetiersExemple4.play();
+});
+
+/* exemple 5*/
+let metiersExemple5 = document.getElementById("metiersExemple5");
+let audioMetiersExemple5 = document.getElementById("audioMetiersExemple5");
+
+metiersExemple5.addEventListener("click", () => {
+  audioMetiersExemple5.play();
+});
+
+/* exemple 6*/
+let metiersExemple6 = document.getElementById("metiersExemple6");
+let audioMetiersExemple6 = document.getElementById("audioMetiersExemple6");
+
+metiersExemple1.addEventListener("click", () => {
+  audioMetiersExemple1.play();
+});
+
+/* exemple 7*/
+let metiersExemple7 = document.getElementById("metiersExemple7");
+let audioMetiersExemple7 = document.getElementById("audioMetiersExemple7");
+
+metiersExemple7.addEventListener("click", () => {
+  audioMetiersExemple7.play();
+});
