@@ -1173,3 +1173,140 @@ let audioMoyensTransportExemple4 = document.getElementById(
 moyensTransportExemple4.addEventListener("click", () => {
   audioMoyensTransportExemple4.play();
 });
+
+/* tableau les couleurs */
+
+let couleur1 = document.getElementById("couleur1");
+let audioCouleurs1 = document.getElementById("audioCouleurs1");
+
+couleur1.addEventListener("click", () => {
+  audioCouleurs1.play();
+});
+
+let couleur2 = document.getElementById("couleur2");
+let audioCouleurs2 = document.getElementById("audioCouleurs2");
+
+couleur2.addEventListener("click", () => {
+  audioCouleurs2.play();
+});
+
+let couleur3 = document.getElementById("couleur3");
+let audioCouleurs3 = document.getElementById("audioCouleurs3");
+
+couleur3.addEventListener("click", () => {
+  audioCouleurs3.play();
+});
+
+let couleur4 = document.getElementById("couleur4");
+let audioCouleurs4 = document.getElementById("audioCouleurs4");
+
+couleur4.addEventListener("click", () => {
+  audioCouleurs4.play();
+});
+
+let couleur5 = document.getElementById("couleur5");
+let audioCouleurs5 = document.getElementById("audioCouleurs5");
+
+couleur5.addEventListener("click", () => {
+  audioCouleurs5.play();
+});
+
+let couleur6 = document.getElementById("couleur6");
+let audioCouleurs6 = document.getElementById("audioCouleurs6");
+
+couleur6.addEventListener("click", () => {
+  audioCouleurs6.play();
+});
+
+let couleur7 = document.getElementById("couleur7");
+let audioCouleurs7 = document.getElementById("audioCouleurs7");
+
+couleur7.addEventListener("click", () => {
+  audioCouleurs7.play();
+});
+
+let couleur8 = document.getElementById("couleur8");
+let audioCouleurs8 = document.getElementById("audioCouleurs8");
+
+couleur8.addEventListener("click", () => {
+  audioCouleurs8.play();
+});
+
+let couleur9 = document.getElementById("couleur9");
+let audioCouleurs9 = document.getElementById("audioCouleurs9");
+
+couleur9.addEventListener("click", () => {
+  audioCouleurs9.play();
+});
+
+let couleur10 = document.getElementById("couleur10");
+let audioCouleurs10 = document.getElementById("audioCouleurs10");
+
+couleur10.addEventListener("click", () => {
+  audioCouleurs10.play();
+});
+
+let couleur11 = document.getElementById("couleur11");
+let audioCouleurs11 = document.getElementById("audioCouleurs11");
+
+couleur11.addEventListener("click", () => {
+  audioCouleurs11.play();
+});
+
+let couleur12 = document.getElementById("couleur12");
+let audioCouleurs12 = document.getElementById("audioCouleurs12");
+
+couleur12.addEventListener("click", () => {
+  audioCouleurs12.play();
+});
+
+let couleur13 = document.getElementById("couleur13");
+let audioCouleurs13 = document.getElementById("audioCouleurs13");
+
+couleur13.addEventListener("click", () => {
+  audioCouleurs13.play();
+});
+
+let couleur14 = document.getElementById("couleur14");
+let audioCouleurs14 = document.getElementById("audioCouleurs14");
+
+couleur14.addEventListener("click", () => {
+  audioCouleurs14.play();
+});
+
+let couleur15 = document.getElementById("couleur15");
+let audioCouleurs15 = document.getElementById("audioCouleurs15");
+
+couleur15.addEventListener("click", () => {
+  audioCouleurs15.play();
+});
+
+let couleur16 = document.getElementById("couleur16");
+let audioCouleurs16 = document.getElementById("audioCouleurs16");
+
+couleur16.addEventListener("click", () => {
+  audioCouleurs16.play();
+});
+
+let couleur17 = document.getElementById("couleur17");
+let audioCouleurs17 = document.getElementById("audioCouleurs17");
+
+couleur17.addEventListener("click", () => {
+  audioCouleurs17.play();
+});
+
+let couleur18 = document.getElementById("couleur18");
+let audioCouleurs18 = document.getElementById("audioCouleurs18");
+
+couleur18.addEventListener("click", () => {
+  audioCouleurs18.play();
+});
+
+let couleur19 = document.getElementById("couleur19");
+let audioCouleurs19 = document.getElementById("audioCouleurs19");
+
+couleur19.addEventListener("click", () => {
+  audioCouleurs19.play();
+});
+
+/* exemples les couleurs */
