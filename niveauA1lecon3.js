@@ -1310,3 +1310,38 @@ couleur19.addEventListener("click", () => {
 });
 
 /* exemples les couleurs */
+
+let couleursExemple1 = document.getElementById("couleursExemple1");
+let audioCouleursExemple1 = document.getElementById("audioCouleursExemple1");
+
+couleursExemple1.addEventListener("click", () => {
+  audioCouleursExemple1.play();
+});
+
+let couleursExemple2 = document.getElementById("couleursExemple2");
+let audioCouleursExemple2 = document.getElementById("audioCouleursExemple2");
+
+couleursExemple2.addEventListener("click", () => {
+  audioCouleursExemple2.play();
+});
+
+let couleursExemple3 = document.getElementById("couleursExemple3");
+let audioCouleursExemple3 = document.getElementById("audioCouleursExemple3");
+
+couleursExemple3.addEventListener("click", () => {
+  audioCouleursExemple3.play();
+});
+
+let couleursExemple4 = document.getElementById("couleursExemple4");
+let audioCouleursExemple4 = document.getElementById("audioCouleursExemple4");
+
+couleursExemple4.addEventListener("click", () => {
+  audioCouleursExemple4.play();
+});
+
+let couleursExemple5 = document.getElementById("couleursExemple5");
+let audioCouleursExemple5 = document.getElementById("audioCouleursExemple5");
+
+couleursExemple5.addEventListener("click", () => {
+  audioCouleursExemple5.play();
+});
