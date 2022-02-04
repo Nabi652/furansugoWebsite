@@ -1411,7 +1411,7 @@ laVille9.addEventListener("click", () => {
   audioLeTemple.play();
 });
 
-let laVille10 = document.getElementById("laVille2");
+let laVille10 = document.getElementById("laVille10");
 let audioLaMairie = document.getElementById("audioLaMairie");
 
 laVille10.addEventListener("click", () => {
