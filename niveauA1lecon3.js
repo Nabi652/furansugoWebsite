@@ -931,3 +931,245 @@ let audioMetiersExemple7 = document.getElementById("audioMetiersExemple7");
 metiersExemple7.addEventListener("click", () => {
   audioMetiersExemple7.play();
 });
+
+/* audio pour le tableau moyen de transport */
+
+/* a pied */
+
+let moyensDeTransport1 = document.getElementById("moyensDeTransport1");
+let audioMoyensDeTransport1 = document.getElementById(
+  "audioMoyensDeTransport1"
+);
+
+moyensDeTransport1.addEventListener("click", () => {
+  audioMoyensDeTransport1.play();
+});
+
+/* le vélo*/
+
+let moyensDeTransport2 = document.getElementById("moyensDeTransport2");
+let audioMoyensDeTransport2 = document.getElementById(
+  "audioMoyensDeTransport2"
+);
+
+moyensDeTransport2.addEventListener("click", () => {
+  audioMoyensDeTransport2.play();
+});
+
+/* en vélo */
+
+let moyensDeTransport3 = document.getElementById("moyensDeTransport3");
+let audioMoyensDeTransport3 = document.getElementById(
+  "audioMoyensDeTransport3"
+);
+
+moyensDeTransport3.addEventListener("click", () => {
+  audioMoyensDeTransport3.play();
+});
+
+/* la trottinette */
+
+let moyensDeTransport4 = document.getElementById("moyensDeTransport4");
+let audioMoyensDeTransport4 = document.getElementById(
+  "audioMoyensDeTransport4"
+);
+
+moyensDeTransport4.addEventListener("click", () => {
+  audioMoyensDeTransport4.play();
+});
+
+/*à trottinette */
+let moyensDeTransport5 = document.getElementById("moyensDeTransport5");
+let audioMoyensDeTransport5 = document.getElementById(
+  "audioMoyensDeTransport5"
+);
+
+moyensDeTransport5.addEventListener("click", () => {
+  audioMoyensDeTransport5.play();
+});
+
+/*le bus */
+
+let moyensDeTransport6 = document.getElementById("moyensDeTransport6");
+let audioMoyensDeTransport6 = document.getElementById(
+  "audioMoyensDeTransport6"
+);
+
+moyensDeTransport6.addEventListener("click", () => {
+  audioMoyensDeTransport6.play();
+});
+
+/* en bus */
+
+let moyensDeTransport7 = document.getElementById("moyensDeTransport7");
+let audioMoyensDeTransport7 = document.getElementById(
+  "audioMoyensDeTransport7"
+);
+
+moyensDeTransport7.addEventListener("click", () => {
+  audioMoyensDeTransport7.play();
+});
+
+/* le métro */
+
+let moyensDeTransport8 = document.getElementById("moyensDeTransport8");
+let audioMoyensDeTransport8 = document.getElementById(
+  "audioMoyensDeTransport8"
+);
+
+moyensDeTransport8.addEventListener("click", () => {
+  audioMoyensDeTransport8.play();
+});
+
+/* en métro */
+let moyensDeTransport9 = document.getElementById("moyensDeTransport9");
+let audioMoyensDeTransport9 = document.getElementById(
+  "audioMoyensDeTransport9"
+);
+
+moyensDeTransport9.addEventListener("click", () => {
+  audioMoyensDeTransport9.play();
+});
+
+/*le tramway */
+let moyensDeTransport10 = document.getElementById("moyensDeTransport10");
+let audioMoyensDeTransport10 = document.getElementById(
+  "audioMoyensDeTransport10"
+);
+
+moyensDeTransport10.addEventListener("click", () => {
+  audioMoyensDeTransport10.play();
+});
+
+/* en tramway */
+let moyensDeTransport11 = document.getElementById("moyensDeTransport11");
+let audioMoyensDeTransport11 = document.getElementById(
+  "audioMoyensDeTransport11"
+);
+
+moyensDeTransport11.addEventListener("click", () => {
+  audioMoyensDeTransport11.play();
+});
+
+/* le train */
+let moyensDeTransport12 = document.getElementById("moyensDeTransport12");
+let audioMoyensDeTransport12 = document.getElementById(
+  "audioMoyensDeTransport12"
+);
+
+moyensDeTransport12.addEventListener("click", () => {
+  audioMoyensDeTransport12.play();
+});
+
+/* en train */
+let moyensDeTransport13 = document.getElementById("moyensDeTransport13");
+let audioMoyensDeTransport13 = document.getElementById(
+  "audioMoyensDeTransport13"
+);
+
+moyensDeTransport13.addEventListener("click", () => {
+  audioMoyensDeTransport13.play();
+});
+
+/* la voiture */
+let moyensDeTransport14 = document.getElementById("moyensDeTransport14");
+let audioMoyensDeTransport14 = document.getElementById(
+  "audioMoyensDeTransport14"
+);
+
+moyensDeTransport14.addEventListener("click", () => {
+  audioMoyensDeTransport14.play();
+});
+
+/* en voiture */
+let moyensDeTransport15 = document.getElementById("moyensDeTransport15");
+let audioMoyensDeTransport15 = document.getElementById(
+  "audioMoyensDeTransport15"
+);
+
+moyensDeTransport15.addEventListener("click", () => {
+  audioMoyensDeTransport15.play();
+});
+/* le taxi*/
+let moyensDeTransport16 = document.getElementById("moyensDeTransport16");
+let audioMoyensDeTransport16 = document.getElementById(
+  "audioMoyensDeTransport16"
+);
+
+moyensDeTransport16.addEventListener("click", () => {
+  audioMoyensDeTransport16.play();
+});
+/* en taxi */
+let moyensDeTransport17 = document.getElementById("moyensDeTransport17");
+let audioMoyensDeTransport17 = document.getElementById(
+  "audioMoyensDeTransport17"
+);
+
+moyensDeTransport17.addEventListener("click", () => {
+  audioMoyensDeTransport17.play();
+});
+/*l'avion*/
+
+let moyensDeTransport18 = document.getElementById("moyensDeTransport18");
+let audioMoyensDeTransport18 = document.getElementById(
+  "audioMoyensDeTransport18"
+);
+
+moyensDeTransport18.addEventListener("click", () => {
+  audioMoyensDeTransport18.play();
+});
+/*en avion */
+
+let moyensDeTransport19 = document.getElementById("moyensDeTransport19");
+let audioMoyensDeTransport19 = document.getElementById(
+  "audioMoyensDeTransport19"
+);
+
+moyensDeTransport19.addEventListener("click", () => {
+  audioMoyensDeTransport19.play();
+});
+
+/* exemples: moyen de transport */
+/* exemple 1*/
+let moyensTransportExemple1 = document.getElementById(
+  "moyensTransportExemple1"
+);
+let audioMoyensTransportExemple1 = document.getElementById(
+  "audioMoyensTransportExemple1"
+);
+moyensTransportExemple1.addEventListener("click", () => {
+  audioMoyensTransportExemple1.play();
+});
+
+/* exemple 2*/
+let moyensTransportExemple2 = document.getElementById(
+  "moyensTransportExemple2"
+);
+let audioMoyensTransportExemple2 = document.getElementById(
+  "audioMoyensTransportExemple2"
+);
+moyensTransportExemple2.addEventListener("click", () => {
+  audioMoyensTransportExemple2.play();
+});
+
+/* exemple 3*/
+let moyensTransportExemple3 = document.getElementById(
+  "moyensTransportExemple3"
+);
+let audioMoyensTransportExemple3 = document.getElementById(
+  "audioMoyensTransportExemple3"
+);
+moyensTransportExemple3.addEventListener("click", () => {
+  audioMoyensTransportExemple3.play();
+});
+
+/* exemple 4*/
+let moyensTransportExemple4 = document.getElementById(
+  "moyensTransportExemple4"
+);
+let audioMoyensTransportExemple4 = document.getElementById(
+  "audioMoyensTransportExemple4"
+);
+moyensTransportExemple4.addEventListener("click", () => {
+  audioMoyensTransportExemple4.play();
+});
