@@ -280,12 +280,30 @@ familleExemple2.addEventListener("click", () => {
   audioFamilleExemple2.play();
 });
 
+/* bouton stop */
+
+let buttonStop2 = document.getElementById("buttonStop2");
+
+buttonStop2.addEventListener("click", () => {
+  audioFamilleExemple2.pause();
+  audioFamilleExemple2.currentTime = 0;
+});
+
 /* exemple 3*/
 let familleExemple3 = document.getElementById("familleExemple3");
 let audioFamilleExemple3 = document.getElementById("audioFamilleExemple3");
 
 familleExemple3.addEventListener("click", () => {
   audioFamilleExemple3.play();
+});
+
+/* bouton stop */
+
+let buttonStop3 = document.getElementById("buttonStop3");
+
+buttonStop3.addEventListener("click", () => {
+  audioFamilleExemple3.pause();
+  audioFamilleExemple3.currentTime = 0;
 });
 
 /* exemple 4*/
@@ -296,6 +314,15 @@ familleExemple4.addEventListener("click", () => {
   audioFamilleExemple4.play();
 });
 
+/* bouton stop */
+
+let buttonStop4 = document.getElementById("buttonStop4");
+
+buttonStop4.addEventListener("click", () => {
+  audioFamilleExemple4.pause();
+  audioFamilleExemple4.currentTime = 0;
+});
+
 /* exemple 5*/
 let familleExemple5 = document.getElementById("familleExemple5");
 let audioFamilleExemple5 = document.getElementById("audioFamilleExemple5");
@@ -304,12 +331,29 @@ familleExemple5.addEventListener("click", () => {
   audioFamilleExemple5.play();
 });
 
+/* bouton stop */
+
+let buttonStop5 = document.getElementById("buttonStop5");
+
+buttonStop5.addEventListener("click", () => {
+  audioFamilleExemple5.pause();
+  audioFamilleExemple5.currentTime = 0;
+});
+
 /* exemple 6*/
 let familleExemple6 = document.getElementById("familleExemple6");
 let audioFamilleExemple6 = document.getElementById("audioFamilleExemple6");
 
 familleExemple6.addEventListener("click", () => {
   audioFamilleExemple6.play();
+});
+/* bouton stop */
+
+let buttonStop6 = document.getElementById("buttonStop6");
+
+buttonStop6.addEventListener("click", () => {
+  audioFamilleExemple6.pause();
+  audioFamilleExemple6.currentTime = 0;
 });
 
 /* exemple 7*/
@@ -320,12 +364,30 @@ familleExemple7.addEventListener("click", () => {
   audioFamilleExemple7.play();
 });
 
+/* bouton stop */
+
+let buttonStop7 = document.getElementById("buttonStop7");
+
+buttonStop7.addEventListener("click", () => {
+  audioFamilleExemple7.pause();
+  audioFamilleExemple7.currentTime = 0;
+});
+
 /* exemple 8*/
 let familleExemple8 = document.getElementById("familleExemple8");
 let audioFamilleExemple8 = document.getElementById("audioFamilleExemple8");
 
 familleExemple8.addEventListener("click", () => {
   audioFamilleExemple8.play();
+});
+
+/* bouton stop */
+
+let buttonStop8 = document.getElementById("buttonStop8");
+
+buttonStop8.addEventListener("click", () => {
+  audioFamilleExemple8.pause();
+  audioFamilleExemple8.currentTime = 0;
 });
 
 /* exemple 9*/
@@ -336,12 +398,30 @@ familleExemple9.addEventListener("click", () => {
   audioFamilleExemple9.play();
 });
 
+/* bouton stop */
+
+let buttonStop9 = document.getElementById("buttonStop9");
+
+buttonStop9.addEventListener("click", () => {
+  audioFamilleExemple9.pause();
+  audioFamilleExemple9.currentTime = 0;
+});
+
 /* exemple 10*/
 let familleExemple10 = document.getElementById("familleExemple10");
 let audioFamilleExemple10 = document.getElementById("audioFamilleExemple10");
 
 familleExemple10.addEventListener("click", () => {
   audioFamilleExemple10.play();
+});
+
+/* bouton stop */
+
+let buttonStop10 = document.getElementById("buttonStop10");
+
+buttonStop10.addEventListener("click", () => {
+  audioFamilleExemple10.pause();
+  audioFamilleExemple10.currentTime = 0;
 });
 
 /* exemple 11*/
@@ -352,12 +432,30 @@ familleExemple11.addEventListener("click", () => {
   audioFamilleExemple11.play();
 });
 
+/* bouton stop */
+
+let buttonStop11 = document.getElementById("buttonStop11");
+
+buttonStop11.addEventListener("click", () => {
+  audioFamilleExemple11.pause();
+  audioFamilleExemple11.currentTime = 0;
+});
+
 /* exemple 12*/
 let familleExemple12 = document.getElementById("familleExemple12");
 let audioFamilleExemple12 = document.getElementById("audioFamilleExemple12");
 
 familleExemple12.addEventListener("click", () => {
   audioFamilleExemple12.play();
+});
+
+/* bouton stop */
+
+let buttonStop12 = document.getElementById("buttonStop12");
+
+buttonStop12.addEventListener("click", () => {
+  audioFamilleExemple12.pause();
+  audioFamilleExemple12.currentTime = 0;
 });
 
 /* audios le tableau metiers */
