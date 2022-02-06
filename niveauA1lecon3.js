@@ -1305,6 +1305,15 @@ moyensTransportExemple1.addEventListener("click", () => {
   audioMoyensTransportExemple1.play();
 });
 
+/* bouton stop */
+
+let buttonStop20 = document.getElementById("buttonStop20");
+
+buttonStop20.addEventListener("click", () => {
+  audioMoyensTransportExemple1.pause();
+  audioMoyensTransportExemple1.currentTime = 0;
+});
+
 /* exemple 2*/
 let moyensTransportExemple2 = document.getElementById(
   "moyensTransportExemple2"
@@ -1314,6 +1323,15 @@ let audioMoyensTransportExemple2 = document.getElementById(
 );
 moyensTransportExemple2.addEventListener("click", () => {
   audioMoyensTransportExemple2.play();
+});
+
+/* bouton stop */
+
+let buttonStop21 = document.getElementById("buttonStop21");
+
+buttonStop21.addEventListener("click", () => {
+  audioMoyensTransportExemple2.pause();
+  audioMoyensTransportExemple2.currentTime = 0;
 });
 
 /* exemple 3*/
@@ -1327,6 +1345,15 @@ moyensTransportExemple3.addEventListener("click", () => {
   audioMoyensTransportExemple3.play();
 });
 
+/* bouton stop */
+
+let buttonStop22 = document.getElementById("buttonStop22");
+
+buttonStop22.addEventListener("click", () => {
+  audioMoyensTransportExemple3.pause();
+  audioMoyensTransportExemple3.currentTime = 0;
+});
+
 /* exemple 4*/
 let moyensTransportExemple4 = document.getElementById(
   "moyensTransportExemple4"
@@ -1336,6 +1363,15 @@ let audioMoyensTransportExemple4 = document.getElementById(
 );
 moyensTransportExemple4.addEventListener("click", () => {
   audioMoyensTransportExemple4.play();
+});
+
+/* bouton stop */
+
+let buttonStop23 = document.getElementById("buttonStop23");
+
+buttonStop23.addEventListener("click", () => {
+  audioMoyensTransportExemple4.pause();
+  audioMoyensTransportExemple4.currentTime = 0;
 });
 
 /* tableau les couleurs */
@@ -1482,11 +1518,29 @@ couleursExemple1.addEventListener("click", () => {
   audioCouleursExemple1.play();
 });
 
+/* bouton stop */
+
+let buttonStop24 = document.getElementById("buttonStop24");
+
+buttonStop24.addEventListener("click", () => {
+  audioCouleursExemple1.pause();
+  audioCouleursExemple1.currentTime = 0;
+});
+
 let couleursExemple2 = document.getElementById("couleursExemple2");
 let audioCouleursExemple2 = document.getElementById("audioCouleursExemple2");
 
 couleursExemple2.addEventListener("click", () => {
   audioCouleursExemple2.play();
+});
+
+/* bouton stop */
+
+let buttonStop25 = document.getElementById("buttonStop25");
+
+buttonStop25.addEventListener("click", () => {
+  audioCouleursExemple2.pause();
+  audioCouleursExemple2.currentTime = 0;
 });
 
 let couleursExemple3 = document.getElementById("couleursExemple3");
@@ -1496,6 +1550,15 @@ couleursExemple3.addEventListener("click", () => {
   audioCouleursExemple3.play();
 });
 
+/* bouton stop */
+
+let buttonStop26 = document.getElementById("buttonStop26");
+
+buttonStop26.addEventListener("click", () => {
+  audioCouleursExemple3.pause();
+  audioCouleursExemple3.currentTime = 0;
+});
+
 let couleursExemple4 = document.getElementById("couleursExemple4");
 let audioCouleursExemple4 = document.getElementById("audioCouleursExemple4");
 
@@ -1503,11 +1566,29 @@ couleursExemple4.addEventListener("click", () => {
   audioCouleursExemple4.play();
 });
 
+/* bouton stop */
+
+let buttonStop27 = document.getElementById("buttonStop27");
+
+buttonStop27.addEventListener("click", () => {
+  audioCouleursExemple4.pause();
+  audioCouleursExemple4.currentTime = 0;
+});
+
 let couleursExemple5 = document.getElementById("couleursExemple5");
 let audioCouleursExemple5 = document.getElementById("audioCouleursExemple5");
 
 couleursExemple5.addEventListener("click", () => {
   audioCouleursExemple5.play();
+});
+
+/* bouton stop */
+
+let buttonStop28 = document.getElementById("buttonStop28");
+
+buttonStop28.addEventListener("click", () => {
+  audioCouleursExemple5.pause();
+  audioCouleursExemple5.currentTime = 0;
 });
 
 /* tableau : la ville */
@@ -1758,10 +1839,28 @@ villeExemple1.addEventListener("click", () => {
   audioVilleExemple1.play();
 });
 
+/* bouton stop */
+
+let buttonStop29 = document.getElementById("buttonStop29");
+
+buttonStop29.addEventListener("click", () => {
+  audioVilleExemple1.pause();
+  audioVilleExemple1.currentTime = 0;
+});
+
 let villeExemple2 = document.getElementById("villeExemple2");
 let audioVilleExemple2 = document.getElementById("audioVilleExemple2");
 villeExemple2.addEventListener("click", () => {
   audioVilleExemple2.play();
+});
+
+/* bouton stop */
+
+let buttonStop30 = document.getElementById("buttonStop30");
+
+buttonStop30.addEventListener("click", () => {
+  audioVilleExemple2.pause();
+  audioVilleExemple2.currentTime = 0;
 });
 
 let villeExemple3 = document.getElementById("villeExemple3");
@@ -1770,10 +1869,28 @@ villeExemple3.addEventListener("click", () => {
   audioVilleExemple3.play();
 });
 
+/* bouton stop */
+
+let buttonStop31 = document.getElementById("buttonStop31");
+
+buttonStop31.addEventListener("click", () => {
+  audioVilleExemple3.pause();
+  audioVilleExemple3.currentTime = 0;
+});
+
 let villeExemple4 = document.getElementById("villeExemple4");
 let audioVilleExemple4 = document.getElementById("audioVilleExemple4");
 villeExemple4.addEventListener("click", () => {
   audioVilleExemple4.play();
+});
+
+/* bouton stop */
+
+let buttonStop32 = document.getElementById("buttonStop32");
+
+buttonStop32.addEventListener("click", () => {
+  audioVilleExemple4.pause();
+  audioVilleExemple4.currentTime = 0;
 });
 
 let villeExemple5 = document.getElementById("villeExemple5");
@@ -1782,14 +1899,589 @@ villeExemple5.addEventListener("click", () => {
   audioVilleExemple5.play();
 });
 
+/* bouton stop */
+
+let buttonStop33 = document.getElementById("buttonStop33");
+
+buttonStop33.addEventListener("click", () => {
+  audioVilleExemple5.pause();
+  audioVilleExemple5.currentTime = 0;
+});
+
 let villeExemple6 = document.getElementById("villeExemple6");
 let audioVilleExemple6 = document.getElementById("audioVilleExemple6");
 villeExemple6.addEventListener("click", () => {
   audioVilleExemple6.play();
 });
 
+/* bouton stop */
+
+let buttonStop34 = document.getElementById("buttonStop34");
+
+buttonStop34.addEventListener("click", () => {
+  audioVilleExemple6.pause();
+  audioVilleExemple6.currentTime = 0;
+});
+
 let villeExemple7 = document.getElementById("villeExemple7");
 let audioVilleExemple7 = document.getElementById("audioVilleExemple7");
 villeExemple7.addEventListener("click", () => {
   audioVilleExemple7.play();
+});
+
+/* bouton stop */
+
+let buttonStop35 = document.getElementById("buttonStop35");
+
+buttonStop35.addEventListener("click", () => {
+  audioVilleExemple7.pause();
+  audioVilleExemple7.currentTime = 0;
+});
+
+/* la nourriture tableau */
+
+let laNourriture1 = document.getElementById("laNourriture1");
+let audioLegume = document.getElementById("audioLegume");
+
+laNourriture1.addEventListener("click", () => {
+  audioLegume.play();
+});
+
+let laNourriture2 = document.getElementById("laNourriture2");
+let audioBrocoli = document.getElementById("audioBrocoli");
+
+laNourriture2.addEventListener("click", () => {
+  audioBrocoli.play();
+});
+
+let laNourriture3 = document.getElementById("laNourriture1");
+let audioConcombre = document.getElementById("audioConcombre");
+
+laNourriture3.addEventListener("click", () => {
+  audioConcombre.play();
+});
+
+let laNourriture4 = document.getElementById("laNourriture4");
+let audioOignon = document.getElementById("audioOignon");
+
+laNourriture4.addEventListener("click", () => {
+  audioOignon.play();
+});
+
+let laNourriture5 = document.getElementById("laNourriture5");
+let audioAil = document.getElementById("audioAil");
+
+laNourriture5.addEventListener("click", () => {
+  audioAil.play();
+});
+
+let laNourriture6 = document.getElementById("laNourriture6");
+let audioChampignon = document.getElementById("audioChampignon");
+
+laNourriture6.addEventListener("click", () => {
+  audioChampignon.play();
+});
+
+let laNourriture7 = document.getElementById("laNourriture7");
+let audioCarotte = document.getElementById("audioCarotte");
+
+laNourriture7.addEventListener("click", () => {
+  audioCarotte.play();
+});
+
+let laNourriture8 = document.getElementById("laNourriture8");
+let audioRadis = document.getElementById("audioRadis");
+
+laNourriture8.addEventListener("click", () => {
+  audioRadis.play();
+});
+
+let laNourriture9 = document.getElementById("laNourriture9");
+let audioTomate = document.getElementById("audioTomate");
+
+laNourriture9.addEventListener("click", () => {
+  audioTomate.play();
+});
+
+let laNourriture10 = document.getElementById("laNourriture10");
+let audioPoivron = document.getElementById("audioPoivron");
+
+laNourriture10.addEventListener("click", () => {
+  audioPoivron.play();
+});
+
+let laNourriture11 = document.getElementById("laNourriture11");
+let audioChouFleur = document.getElementById("audioChouFleur");
+
+laNourriture11.addEventListener("click", () => {
+  audioChouFleur.play();
+});
+
+let laNourriture12 = document.getElementById("laNourriture12");
+let audioChou = document.getElementById("audioChou");
+
+laNourriture12.addEventListener("click", () => {
+  audioaudioChou.play();
+});
+
+let laNourriture13 = document.getElementById("laNourriture13");
+let audioAubergine = document.getElementById("audioAubergine");
+
+laNourriture13.addEventListener("click", () => {
+  audioAubergine.play();
+});
+
+let laNourriture14 = document.getElementById("laNourriture14");
+let audioSalade = document.getElementById("audioSalade");
+
+laNourriture14.addEventListener("click", () => {
+  audioSalade.play();
+});
+
+let laNourriture15 = document.getElementById("laNourriture15");
+let audioPommeDeTerre = document.getElementById("audioPommeDeTerre");
+
+laNourriture15.addEventListener("click", () => {
+  audioPommeDeTerre.play();
+});
+
+let laNourriture16 = document.getElementById("laNourriture16");
+let audioEpinard = document.getElementById("audioEpinard");
+
+laNourriture16.addEventListener("click", () => {
+  audioEpinard.play();
+});
+
+let laNourriture17 = document.getElementById("laNourriture17");
+let audioPoireau = document.getElementById("audioPoireau");
+
+laNourriture17.addEventListener("click", () => {
+  audioPoireau.play();
+});
+
+let laNourriture18 = document.getElementById("laNourriture18");
+let audioCourgette = document.getElementById("audioCourgette");
+
+laNourriture18.addEventListener("click", () => {
+  audioCourgette.play();
+});
+
+let laNourriture19 = document.getElementById("laNourriture19");
+let audioPiment = document.getElementById("audioPiment");
+
+laNourriture19.addEventListener("click", () => {
+  audioPiment.play();
+});
+
+let laNourriture20 = document.getElementById("laNourriture20");
+let audioFruits = document.getElementById("audioFruits");
+
+laNourriture20.addEventListener("click", () => {
+  audioFruits.play();
+});
+
+let laNourriture21 = document.getElementById("laNourriture21");
+let audioAvocat = document.getElementById("audioAvocat");
+
+laNourriture21.addEventListener("click", () => {
+  audioAvocat.play();
+});
+
+let laNourriture22 = document.getElementById("laNourriture22");
+let audioCerise = document.getElementById("audioCerise");
+
+laNourriture7.addEventListener("click", () => {
+  audioCerise.play();
+});
+
+let laNourriture23 = document.getElementById("laNourriture23");
+let audioNoixDeCoco = document.getElementById("audioNoixDeCoco");
+
+laNourriture23.addEventListener("click", () => {
+  audioNoixDeCoco.play();
+});
+
+let laNourriture24 = document.getElementById("laNourriture24");
+let audioOrange = document.getElementById("audioOrange");
+
+laNourriture24.addEventListener("click", () => {
+  audioOrange.play();
+});
+
+let laNourriture25 = document.getElementById("laNourriture25");
+let audioAbricot = document.getElementById("audioAbricot");
+
+laNourriture25.addEventListener("click", () => {
+  audioAbricot.play();
+});
+
+let laNourriture26 = document.getElementById("laNourriture26");
+let audioFraise = document.getElementById("audioFraise");
+
+laNourriture26.addEventListener("click", () => {
+  audioFraise.play();
+});
+
+let laNourriture27 = document.getElementById("laNourriture27");
+let audioPoire = document.getElementById("audioPoire");
+
+laNourriture27.addEventListener("click", () => {
+  audioPoire.play();
+});
+
+let laNourriture28 = document.getElementById("laNourriture28");
+let audioPomme = document.getElementById("audioPomme");
+
+laNourriture28.addEventListener("click", () => {
+  audioPomme.play();
+});
+
+let laNourriture29 = document.getElementById("laNourriture29");
+let audioMangue = document.getElementById("audioMangue");
+
+laNourriture29.addEventListener("click", () => {
+  audioMangue.play();
+});
+
+let laNourriture30 = document.getElementById("laNourriture30");
+let audioPeche = document.getElementById("audioPeche");
+
+laNourriture30.addEventListener("click", () => {
+  audioPeche.play();
+});
+
+let laNourriture31 = document.getElementById("laNourriture31");
+let audioMyrtille = document.getElementById("audioMyrtille");
+
+laNourriture31.addEventListener("click", () => {
+  audioMyrtille.play();
+});
+
+let laNourriture32 = document.getElementById("laNourriture32");
+let audioAnanas = document.getElementById("audioAnanas");
+
+laNourriture32.addEventListener("click", () => {
+  audioAnanas.play();
+});
+
+let laNourriture33 = document.getElementById("laNourriture33");
+let audioPasteque = document.getElementById("audioPasteque");
+
+laNourriture33.addEventListener("click", () => {
+  audioPasteque.play();
+});
+
+let laNourriture34 = document.getElementById("laNourriture34");
+let audioBanane = document.getElementById("audioBanane");
+
+laNourriture34.addEventListener("click", () => {
+  audioBanane.play();
+});
+
+let laNourriture35 = document.getElementById("laNourriture35");
+let audioPrune = document.getElementById("audioPrune");
+
+laNourriture35.addEventListener("click", () => {
+  audioPrune.play();
+});
+
+let laNourriture36 = document.getElementById("laNourriture36");
+let audioRaisin = document.getElementById("audioRaisin");
+
+laNourriture36.addEventListener("click", () => {
+  audioRaisin.play();
+});
+
+let laNourriture37 = document.getElementById("laNourriture37");
+let audioMelon = document.getElementById("audioMelon");
+
+laNourriture37.addEventListener("click", () => {
+  audioMelon.play();
+});
+
+let laNourriture38 = document.getElementById("laNourriture38");
+let audioFigue = document.getElementById("audioFigue");
+
+laNourriture38.addEventListener("click", () => {
+  audioFigue.play();
+});
+
+let laNourriture39 = document.getElementById("laNourriture39");
+let audioFramboise = document.getElementById("audioFramboise");
+
+laNourriture39.addEventListener("click", () => {
+  audioFramboise.play();
+});
+
+let laNourriture40 = document.getElementById("laNourriture40");
+let audioPamplemousse = document.getElementById("audioPamplemousse");
+
+laNourriture40.addEventListener("click", () => {
+  audioPamplemousse.play();
+});
+
+let laNourriture41 = document.getElementById("laNourriture41");
+let audioPain = document.getElementById("audioPain");
+
+laNourriture41.addEventListener("click", () => {
+  audioPain.play();
+});
+
+let laNourriture42 = document.getElementById("laNourriture42");
+let audioBeurre = document.getElementById("audioBeurre");
+
+laNourriture42.addEventListener("click", () => {
+  audioBeurre.play();
+});
+
+let laNourriture43 = document.getElementById("laNourriture43");
+let audioFromage = document.getElementById("audioFromage");
+
+laNourriture43.addEventListener("click", () => {
+  audioFromage.play();
+});
+
+let laNourriture44 = document.getElementById("laNourriture44");
+let audioConfiture = document.getElementById("audioConfiture");
+
+laNourriture44.addEventListener("click", () => {
+  audioConfiture.play();
+});
+
+let laNourriture45 = document.getElementById("laNourriture45");
+let audioChocolat = document.getElementById("audioChocolat");
+
+laNourriture45.addEventListener("click", () => {
+  audioChocolat.play();
+});
+
+let laNourriture46 = document.getElementById("laNourriture46");
+let audioCaramel = document.getElementById("audioCaramel");
+
+laNourriture46.addEventListener("click", () => {
+  audioCaramel.play();
+});
+
+let laNourriture47 = document.getElementById("laNourriture47");
+let audioOeuf = document.getElementById("audioOeuf");
+
+laNourriture47.addEventListener("click", () => {
+  audioOeuf.play();
+});
+
+let laNourriture48 = document.getElementById("laNourriture48");
+let audioPoulet = document.getElementById("audioPoulet");
+
+laNourriture48.addEventListener("click", () => {
+  audioPoulet.play();
+});
+
+let laNourriture49 = document.getElementById("laNourriture49");
+let audioPoisson = document.getElementById("audioPoisson");
+
+laNourriture49.addEventListener("click", () => {
+  audioPoisson.play();
+});
+
+let laNourriture50 = document.getElementById("laNourriture50");
+let audioViande = document.getElementById("audioViande");
+
+laNourriture50.addEventListener("click", () => {
+  audioViande.play();
+});
+
+let laNourriture51 = document.getElementById("laNourriture51");
+let audioFrites = document.getElementById("audioFrites");
+
+laNourriture51.addEventListener("click", () => {
+  audioFrites.play();
+});
+
+let laNourriture52 = document.getElementById("laNourriture52");
+let audioChips = document.getElementById("audioChips");
+
+laNourriture52.addEventListener("click", () => {
+  audioChips.play();
+});
+
+let laNourriture53 = document.getElementById("laNourriture53");
+let audioLait = document.getElementById("audioLait");
+
+laNourriture53.addEventListener("click", () => {
+  aaudioLait.play();
+});
+
+let laNourriture54 = document.getElementById("laNourriture54");
+let audioYaourt = document.getElementById("audioYaourt");
+
+laNourriture54.addEventListener("click", () => {
+  audioYaourt.play();
+});
+
+let laNourriture55 = document.getElementById("laNourriture55");
+let audioSoupe = document.getElementById("audioSoupe");
+
+laNourriture55.addEventListener("click", () => {
+  audioSoupe.play();
+});
+
+let laNourriture56 = document.getElementById("laNourriture56");
+let audioThe = document.getElementById("audioThe");
+
+laNourriture56.addEventListener("click", () => {
+  audioThe.play();
+});
+
+let laNourriture57 = document.getElementById("laNourriture57");
+let audioChocolatAuLait = document.getElementById("audioChocolatAuLait");
+
+laNourriture57.addEventListener("click", () => {
+  audioChocolatAuLait.play();
+});
+
+let laNourriture58 = document.getElementById("laNourriture58");
+let audioCafe = document.getElementById("audioCafe");
+
+laNourriture58.addEventListener("click", () => {
+  audioCafe.play();
+});
+
+let laNourriture59 = document.getElementById("laNourriture59");
+let audioJusdOrange = document.getElementById("audioJusdOrange");
+
+laNourriture39.addEventListener("click", () => {
+  audioJusdOrange.play();
+});
+
+let laNourriture60 = document.getElementById("laNourriture60");
+let audioGateau = document.getElementById("audioGateau");
+
+laNourriture60.addEventListener("click", () => {
+  audioGateau.play();
+});
+
+let laNourriture61 = document.getElementById("laNourriture61");
+let audioPainAuChocolat = document.getElementById("audioPainAuChocolat");
+
+laNourriture61.addEventListener("click", () => {
+  audioPainAuChocolat.play();
+});
+
+let laNourriture62 = document.getElementById("laNourriture62");
+let audioCroissant = document.getElementById("audioCroissant");
+
+laNourriture62.addEventListener("click", () => {
+  audioCroissant.play();
+});
+
+let laNourriture63 = document.getElementById("laNourriture63");
+let audioCrepe = document.getElementById("audioCrepe");
+
+laNourriture63.addEventListener("click", () => {
+  audioCrepe.play();
+});
+
+let laNourriture64 = document.getElementById("laNourriture64");
+let audioCremeGlacee = document.getElementById("audioCremeGlacee");
+
+laNourriture64.addEventListener("click", () => {
+  audioCremeGlacee.play();
+});
+
+let laNourriture65 = document.getElementById("laNourriture65");
+let audioMoutarde = document.getElementById("audioMoutarde");
+
+laNourriture65.addEventListener("click", () => {
+  audioMoutarde.play();
+});
+
+let laNourriture66 = document.getElementById("laNourriture66");
+let audioMayonnaise = document.getElementById("audioMayonnaise");
+
+laNourriture66.addEventListener("click", () => {
+  audioMayonnaise.play();
+});
+
+let laNourriture67 = document.getElementById("laNourriture67");
+let audioKetchup = document.getElementById("audioKetchup");
+
+laNourriture67.addEventListener("click", () => {
+  audioKetchup.play();
+});
+
+/* exemples nourriture */
+
+let nourritureExemple1 = document.getElementById("nourritureExemple1");
+let audioNourritureExemple1 = document.getElementById(
+  "audioNourritureExemple1"
+);
+nourritureExemple1.addEventListener("click", () => {
+  audioNourritureExemple1.play();
+});
+
+let buttonStop36 = document.getElementById("buttonStop36");
+
+buttonStop36.addEventListener("click", () => {
+  audioNourritureExemple1.pause();
+  audioNourritureExemple1.currentTime = 0;
+});
+
+let nourritureExemple2 = document.getElementById("nourritureExemple2");
+let audioNourritureExemple2 = document.getElementById(
+  "audioNourritureExemple2"
+);
+nourritureExemple2.addEventListener("click", () => {
+  audioNourritureExemple2.play();
+});
+
+let buttonStop37 = document.getElementById("buttonStop37");
+
+buttonStop37.addEventListener("click", () => {
+  audioNourritureExemple2.pause();
+  audioNourritureExemple2.currentTime = 0;
+});
+
+let nourritureExemple3 = document.getElementById("nourritureExemple3");
+let audioNourritureExemple3 = document.getElementById(
+  "audioNourritureExemple3"
+);
+nourritureExemple3.addEventListener("click", () => {
+  audioNourritureExemple3.play();
+});
+
+let buttonStop38 = document.getElementById("buttonStop38");
+
+buttonStop38.addEventListener("click", () => {
+  audioNourritureExemple3.pause();
+  audioNourritureExemple3.currentTime = 0;
+});
+
+let nourritureExemple4 = document.getElementById("nourritureExemple4");
+let audioNourritureExemple4 = document.getElementById(
+  "audioNourritureExemple4"
+);
+nourritureExemple4.addEventListener("click", () => {
+  audioNourritureExemple4.play();
+});
+
+let buttonStop39 = document.getElementById("buttonStop39");
+
+buttonStop39.addEventListener("click", () => {
+  audioNourritureExemple4.currentTime = 0;
+  audioNourritureExemple4.pause();
+});
+
+let nourritureExemple5 = document.getElementById("nourritureExemple5");
+let audioNourritureExemple5 = document.getElementById(
+  "audioNourritureExemple5"
+);
+nourritureExemple5.addEventListener("click", () => {
+  audioNourritureExemple5.play();
+});
+
+let buttonStop40 = document.getElementById("buttonStop40");
+
+buttonStop40.addEventListener("click", () => {
+  audioNourritureExemple5.pause();
+  audioNourritureExemple5.currentTime = 0;
 });
