@@ -263,6 +263,15 @@ familleExemple1.addEventListener("click", () => {
   audioFamilleExemple1.play();
 });
 
+/* bouton stop */
+
+let buttonStop1 = document.getElementById("buttonStop1");
+
+buttonStop1.addEventListener("click", () => {
+  audioFamilleExemple1.pause();
+  audioFamilleExemple1.currentTime = 0;
+});
+
 /* exemple 2*/
 let familleExemple2 = document.getElementById("familleExemple2");
 let audioFamilleExemple2 = document.getElementById("audioFamilleExemple2");
@@ -397,7 +406,6 @@ let audioMetiers5 = document.getElementById("audioMetiers5");
 metiers5.addEventListener("click", () => {
   audioMetiers5.play();
 });
-
 /* astronaute*/
 
 let metiers6 = document.getElementById("metiers6");
@@ -415,7 +423,6 @@ let audioMetiers7 = document.getElementById("audioMetiers7");
 metiers7.addEventListener("click", () => {
   audioMetiers7.play();
 });
-
 /* boucher*/
 
 let metiers8 = document.getElementById("metiers8");
@@ -631,7 +638,6 @@ let audioMetiers31 = document.getElementById("audioMetiers31");
 metiers31.addEventListener("click", () => {
   audioMetiers31.play();
 });
-
 /*  ingénieur */
 
 let metiers32 = document.getElementById("metiers32");
@@ -667,7 +673,6 @@ let audioMetiers35 = document.getElementById("audioMetiers35");
 metiers35.addEventListener("click", () => {
   audioMetiers35.play();
 });
-
 /*  juge*/
 
 let metiers36 = document.getElementById("metiers36");
@@ -676,7 +681,6 @@ let audioMetiers36 = document.getElementById("audioMetiers36");
 metiers36.addEventListener("click", () => {
   audioMetiers36.play();
 });
-
 /* kine*/
 
 let metiers37 = document.getElementById("metiers37");
@@ -685,7 +689,6 @@ let audioMetiers37 = document.getElementById("audioMetiers37");
 metiers37.addEventListener("click", () => {
   audioMetiers37.play();
 });
-
 /*  macon */
 
 let metiers38 = document.getElementById("metiers38");
@@ -739,7 +742,6 @@ let audioMetiers43 = document.getElementById("audioMetiers43");
 metiers43.addEventListener("click", () => {
   audioMetiers43.play();
 });
-
 /*  patissier */
 
 let metiers44 = document.getElementById("metiers44");
@@ -829,6 +831,7 @@ let audioMetiers53 = document.getElementById("audioMetiers53");
 metiers53.addEventListener("click", () => {
   audioMetiers53.play();
 });
+
 /*  serrurier */
 
 let metiers54 = document.getElementById("metiers54");
@@ -998,7 +1001,6 @@ let audioMoyensDeTransport6 = document.getElementById(
 moyensDeTransport6.addEventListener("click", () => {
   audioMoyensDeTransport6.play();
 });
-
 /* en bus */
 
 let moyensDeTransport7 = document.getElementById("moyensDeTransport7");
@@ -1040,7 +1042,6 @@ let audioMoyensDeTransport10 = document.getElementById(
 moyensDeTransport10.addEventListener("click", () => {
   audioMoyensDeTransport10.play();
 });
-
 /* en tramway */
 let moyensDeTransport11 = document.getElementById("moyensDeTransport11");
 let audioMoyensDeTransport11 = document.getElementById(
@@ -1050,7 +1051,6 @@ let audioMoyensDeTransport11 = document.getElementById(
 moyensDeTransport11.addEventListener("click", () => {
   audioMoyensDeTransport11.play();
 });
-
 /* le train */
 let moyensDeTransport12 = document.getElementById("moyensDeTransport12");
 let audioMoyensDeTransport12 = document.getElementById(
@@ -1090,6 +1090,7 @@ let audioMoyensDeTransport15 = document.getElementById(
 moyensDeTransport15.addEventListener("click", () => {
   audioMoyensDeTransport15.play();
 });
+
 /* le taxi*/
 let moyensDeTransport16 = document.getElementById("moyensDeTransport16");
 let audioMoyensDeTransport16 = document.getElementById(
@@ -1099,6 +1100,7 @@ let audioMoyensDeTransport16 = document.getElementById(
 moyensDeTransport16.addEventListener("click", () => {
   audioMoyensDeTransport16.play();
 });
+
 /* en taxi */
 let moyensDeTransport17 = document.getElementById("moyensDeTransport17");
 let audioMoyensDeTransport17 = document.getElementById(
@@ -1108,6 +1110,7 @@ let audioMoyensDeTransport17 = document.getElementById(
 moyensDeTransport17.addEventListener("click", () => {
   audioMoyensDeTransport17.play();
 });
+
 /*l'avion*/
 
 let moyensDeTransport18 = document.getElementById("moyensDeTransport18");
