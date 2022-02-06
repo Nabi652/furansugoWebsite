@@ -985,12 +985,30 @@ metiersExemple1.addEventListener("click", () => {
   audioMetiersExemple1.play();
 });
 
+/* bouton stop */
+
+let buttonStop13 = document.getElementById("buttonStop13");
+
+buttonStop13.addEventListener("click", () => {
+  audioMetiersExemple1.pause();
+  audioMetiersExemple1.currentTime = 0;
+});
+
 /* exemple 2*/
 let metiersExemple2 = document.getElementById("metiersExemple2");
 let audioMetiersExemple2 = document.getElementById("audioMetiersExemple2");
 
 metiersExemple2.addEventListener("click", () => {
   audioMetiersExemple2.play();
+});
+
+/* bouton stop */
+
+let buttonStop14 = document.getElementById("buttonStop14");
+
+buttonStop14.addEventListener("click", () => {
+  audioMetiersExemple2.currentTime = 0;
+  audioMetiersExemple2.pause();
 });
 
 /* exemple 3*/
@@ -1001,12 +1019,30 @@ metiersExemple3.addEventListener("click", () => {
   audioMetiersExemple3.play();
 });
 
+/* bouton stop */
+
+let buttonStop15 = document.getElementById("buttonStop15");
+
+buttonStop15.addEventListener("click", () => {
+  audioMetiersExemple3.pause();
+  audioMetiersExemple3.currentTime = 0;
+});
+
 /* exemple 4*/
 let metiersExemple4 = document.getElementById("metiersExemple4");
 let audioMetiersExemple4 = document.getElementById("audioMetiersExemple4");
 
 metiersExemple4.addEventListener("click", () => {
   audioMetiersExemple4.play();
+});
+
+/* bouton stop */
+
+let buttonStop16 = document.getElementById("buttonStop16");
+
+buttonStop16.addEventListener("click", () => {
+  audioMetiersExemple4.pause();
+  audioMetiersExemple4.currentTime = 0;
 });
 
 /* exemple 5*/
@@ -1017,12 +1053,30 @@ metiersExemple5.addEventListener("click", () => {
   audioMetiersExemple5.play();
 });
 
+/* bouton stop */
+
+let buttonStop17 = document.getElementById("buttonStop17");
+
+buttonStop17.addEventListener("click", () => {
+  audioMetiersExemple5.pause();
+  audioMetiersExemple5.currentTime = 0;
+});
+
 /* exemple 6*/
 let metiersExemple6 = document.getElementById("metiersExemple6");
 let audioMetiersExemple6 = document.getElementById("audioMetiersExemple6");
 
-metiersExemple1.addEventListener("click", () => {
-  audioMetiersExemple1.play();
+metiersExemple6.addEventListener("click", () => {
+  audioMetiersExemple6.play();
+});
+
+/* bouton stop */
+
+let buttonStop18 = document.getElementById("buttonStop18");
+
+buttonStop18.addEventListener("click", () => {
+  audioMetiersExemple6.pause();
+  audioMetiersExemple6.currentTime = 0;
 });
 
 /* exemple 7*/
@@ -1031,6 +1085,15 @@ let audioMetiersExemple7 = document.getElementById("audioMetiersExemple7");
 
 metiersExemple7.addEventListener("click", () => {
   audioMetiersExemple7.play();
+});
+
+/* bouton stop */
+
+let buttonStop19 = document.getElementById("buttonStop19");
+
+buttonStop19.addEventListener("click", () => {
+  audioMetiersExemple7.pause();
+  audioMetiersExemple7.currentTime = 0;
 });
 
 /* audio pour le tableau moyen de transport */
