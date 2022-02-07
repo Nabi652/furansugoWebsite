@@ -143,67 +143,9 @@ i {
   margin-left: 5px;
 }
 
-/* LECON 2 --------------------- les salutations ----------------*/
-/* ---------------- footer ------------*/
-
-footer {
-  width: 100%;
-  height: 100px;
-  background-color: #b69f9f77;
-  margin-top: 50px;
-}
-.footer-ul {
-  display: flex;
-  height: 100%;
-  justify-content: space-evenly;
-}
-
-footer li {
-  color: black;
-  margin-top: 30px;
-  font-size: 20px;
-}
-
-footer i {
-  font-size: 30px;
-  padding: 5px;
-}
-
-/* MEDIA QUERY LECON 2 */
-
-@media only screen and (min-width: 360px) and (max-width: 700px) {
-  /* menu nav */
-  .texte {
-    margin: auto;
-    width: 90%;
-  }
-  .texte p {
-    margin: 0px;
-    padding: 0px;
-  }
-}
-
-/* lecon 9*/
-.listelecon9 {
-  margin-left: 50px;
-}
-
-/* ------------ style of audios */
-
-/* titres h4 texte 1 - texte 4 */
-
-h4 {
-  margin-left: 50px;
-}
-
-h4 i {
-  font-size: large;
-  padding-right: 7px;
-}
-
 /* media query of lesson 1 */
 
-@media only screen and (min-width: 360px) and (max-width: 700px) {
+@media only screen and (min-width: 360px) and (max-width: 1000px) {
   /* menu nav */
 
   .ulNav {
@@ -245,4 +187,52 @@ h4 i {
     text-align: center;
     padding: 0px;
   }
+
+footer {
+  background-color: #b69f9f77;
+  padding: 20px;
+  margin-top: 20px;
+}
+
+.footer-ul {
+  display: flex;
+  justify-content: space-evenly;
+  height: 100%;
+}
+
+footer li {
+  color: black;
+  font-size: 20px;
+}
+
+/* MEDIA QUERY LECON 2 */
+
+@media only screen and (min-width: 360px) and (max-width: 1000px) {
+  /* menu nav */
+  .texte {
+    margin: auto;
+    width: 90%;
+  }
+  .texte p {
+    margin: 0px;
+    padding: 0px;
+  }
+}
+
+/* lecon 9*/
+.listelecon9 {
+  margin-left: 50px;
+}
+
+/* ------------ style of audios */
+
+/* titres h4 texte 1 - texte 4 */
+
+h4 {
+  margin-left: 50px;
+}
+
+h4 i {
+  font-size: large;
+  padding-right: 7px;
 }
