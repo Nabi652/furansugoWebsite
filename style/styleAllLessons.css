@@ -143,9 +143,32 @@ i {
   margin-left: 5px;
 }
 
+footer {
+  background-color: #b69f9f77;
+  padding: 20px;
+  margin-top: 20px;
+}
+
+.footer-ul {
+  display: flex;
+  justify-content: space-evenly;
+  height: 100%;
+}
+
+footer li {
+  color: black;
+  font-size: 20px;
+}
+
 /* media query of lesson 1 */
 
 @media only screen and (min-width: 360px) and (max-width: 1000px) {
+  /* tous les h1*/
+
+  h1 {
+    width: 350px;
+  }
+
   /* menu nav */
 
   .ulNav {
@@ -187,23 +210,10 @@ i {
     text-align: center;
     padding: 0px;
   }
-
-footer {
-  background-color: #b69f9f77;
-  padding: 20px;
-  margin-top: 20px;
 }
 
-.footer-ul {
-  display: flex;
-  justify-content: space-evenly;
-  height: 100%;
-}
-
-footer li {
-  color: black;
-  font-size: 20px;
-}
+/* LECON 2 --------------------- les salutations ----------------*/
+/* ---------------- footer ------------*/
 
 /* MEDIA QUERY LECON 2 */
 
