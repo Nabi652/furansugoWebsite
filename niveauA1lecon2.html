@@ -54,7 +54,8 @@
                       <code>audio</code> element.
                     </audio>
                   </td>
-                  <td class="cursorArrow">私の名前は...</td>
+                  <td class="cursorArrow" >
+                    <span id="spanJapanese">私の名前は...</span></td>
                 </tr>
 
                 <tr>
@@ -401,29 +402,31 @@
             <h3 class="cursorArrow">Exemples(例)</h3>
             <div class="texte">
               <h4 class="cursorArrow"><i class="fas fa-book-open"></i>Texte 1 文1</h4>
-                <p class="cursorArrow">
-                  <span id="sePresenterExemple1">
-                    Je m'appelle Paul　<span class="cursorPointerOnLetterAndWord">私はポ－ルです。</span><i class="far fa-play-circle"></i>
-                    <audio
-                      src="./assets/sePresenterExemple1.m4a"id="audioSePresenterExemple1">
-                      Your browser does not support the
-                      <code>audio</code> element.
-                    </audio>
-                  </span>
-                  <i class="fas fa-square" id="buttonStop1"></i>
-                  <br>
-                  <span id="sePresenterExemple2">
-                    Je suis français　<span class="cursorPointerOnLetterAndWord">私はフランス人です。</span><i class="far fa-play-circle"></i>
-                    <audio
-                      src="./assets/sePresenterExemple2.m4a"id="audioSePresenterExemple2">
-                      Your browser does not support the
-                      <code>audio</code> element.
-                    </audio>
+              <p>
+                <span id="sePresenterExemple1" class="cursorArrow"><span class="block">Je m'appelle Paul　</span>
+                <span class="cursorPointerOnLetterAndWord">私はポ－ルです。</span><i class="far fa-play-circle"></i>
+                <audio
+                  src="./assets/sePresenterExemple1.m4a"id="audioSePresenterExemple1">
+                  Your browser does not support the
+                  <code>audio</code> element.
+                </audio>
+                </span>
+         
+                <i class="fas fa-square" id="buttonStop1"></i><br>
+            
+                <span id="sePresenterExemple2" class="cursorArrow"><span class="block">Je suis français</span>
+                  <span class="cursorPointerOnLetterAndWord">私はフランス人です。</span><i class="far fa-play-circle"></i>
+                  <audio
+                    src="./assets/sePresenterExemple2.m4a"id="audioSePresenterExemple2">
+                    Your browser does not support the
+                    <code>audio</code> element.
+                  </audio>
                   </span>
                   <i class="fas fa-square" id="buttonStop2"></i>
+            
                   <br> 
                   <span id="sePresenterExemple3">
-                    J'ai 24 ans　<span class="cursorPointerOnLetterAndWord">私は２４歳です。</span><i class="far fa-play-circle"></i>
+                    <span class="block">J'ai 24 ans　</span><span class="cursorPointerOnLetterAndWord">私は24歳です。</span><i class="far fa-play-circle"></i>
                     <audio
                       src="./assets/sePresenterExemple3.m4a"id="audioSePresenterExemple3">
                       Your browser does not support the
@@ -433,7 +436,7 @@
                   <i class="fas fa-square" id="buttonStop3"></i>
                   <br> 
                   <span id="sePresenterExemple4">
-                    J'ai un petit frère　<span class="cursorPointerOnLetterAndWord">私は一人弟がいます</span>。<i class="far fa-play-circle"></i>
+                    <span class="block">J'ai un petit frère　</span><span class="cursorPointerOnLetterAndWord">私は一人弟がいます</span>。<i class="far fa-play-circle"></i>
                     <audio
                       src="./assets/sePresenterExemple4.m4a"id="audioSePresenterExemple4">
                       Your browser does not support the
@@ -443,7 +446,7 @@
                   <i class="fas fa-square" id="buttonStop4"></i>
                   <br> 
                   <span id="sePresenterExemple5">
-                    J'habite à Paris depuis un mois　<span class="cursorPointerOnLetterAndWord">一ヶ月間前からパリに住んでいます。</span><i class="far fa-play-circle"></i>
+                    <span class="block">J'habite à Paris depuis un mois　</span><span class="cursorPointerOnLetterAndWord">一ヶ月間前からパリに住んでいます。</span><i class="far fa-play-circle"></i>
                     <audio
                       src="./assets/sePresenterExemple5.m4a"id="audioSePresenterExemple5">
                       Your browser does not support the
@@ -453,7 +456,7 @@
                   <i class="fas fa-square" id="buttonStop5"></i>
                   <br> 
                   <span id="sePresenterExemple6">
-                    Je suis célibataire　<span class="cursorPointerOnLetterAndWord">私は独身です。</span><i class="far fa-play-circle"></i>
+                    <span class="block">Je suis célibataire　</span><span class="cursorPointerOnLetterAndWord">私は独身です。</span><i class="far fa-play-circle"></i>
                     <audio
                       src="./assets/sePresenterExemple6.m4a"id="audioSePresenterExemple6">
                       Your browser does not support the
@@ -463,7 +466,7 @@
                   <i class="fas fa-square" id="buttonStop6"></i>
                   <br> 
                   <span id="sePresenterExemple7">
-                    Je suis étudiant en marketing　<span class="cursorPointerOnLetterAndWord">私はマーケティングの学生です。</span><i class="far fa-play-circle"></i>
+                    <span class="block">Je suis étudiant en marketing　</span><span class="cursorPointerOnLetterAndWord">私はマーケティングの学生です。</span><i class="far fa-play-circle"></i>
                     <audio
                       src="./assets/sePresenterExemple7.m4a"id="audioSePresenterExemple7">
                       Your browser does not support the
@@ -473,7 +476,7 @@
                   <i class="fas fa-square" id="buttonStop7"></i>
                   <br> 
                   <span id="sePresenterExemple8">
-                    Les weekends, je travaille dans un restaurant en tant que serveur　<span class="cursorPointerOnLetterAndWord">週末,私はレストランでとして給仕として働いています。</span><i class="far fa-play-circle"></i>
+                    <span class="block">Les weekends, je travaille dans un restaurant en tant que serveur　</span><span class="cursorPointerOnLetterAndWord">週末,私はレストランでとして給仕として働いています。</span><i class="far fa-play-circle"></i>
                     <audio
                       src="./assets/sePresenterExemple8.m4a"id="audioSePresenterExemple8">
                       Your browser does not support the
@@ -481,13 +484,13 @@
                     </audio>
                   </span>
                   <i class="fas fa-square" id="buttonStop8"></i>
-                </p>
+              </div>
             </div>
             <div class="texte">
               <h4 class="cursorArrow"><i class="fas fa-book-open"></i>Texte 2 文2</h4>
                 <p class="cursorArrow">
                   <span id="sePresenterExemple9">
-                    Je m'appelle Julie　<span class="cursorPointerOnLetterAndWord">私はジュウリです。</span><i class="far fa-play-circle"></i>
+                    <span class="block">Je m'appelle Julie　</span><span class="cursorPointerOnLetterAndWord">私はジュウリです。</span><i class="far fa-play-circle"></i>
                     <audio
                       src="./assets/sePresenterExemple9.m4a"id="audioSePresenterExemple9">
                       Your browser does not support the
@@ -497,7 +500,7 @@
                   <i class="fas fa-square" id="buttonStop9"></i>
                   <br>
                   <span id="sePresenterExemple10">
-                    J'ai 15 ans et je suis lycéenne　<span class="cursorPointerOnLetterAndWord">私は15歳で,高校生です。</span><i class="far fa-play-circle"></i>
+                    <span class="block">J'ai 15 ans et je suis lycéenne　</span><span class="cursorPointerOnLetterAndWord">私は15歳で,高校生です。</span><i class="far fa-play-circle"></i>
                     <audio
                       src="./assets/sePresenterExemple10.m4a"id="audioSePresenterExemple10">
                       Your browser does not support the
@@ -507,7 +510,7 @@
                   <i class="fas fa-square" id="buttonStop10"></i>
                   <br> 
                   <span id="sePresenterExemple11">
-                    J'habite dans une maison avec mes parents et mes frères et soeurs　<span class="cursorPointerOnLetterAndWord">私は両親と兄弟と一緒に家で住んでいます。</span><i class="far fa-play-circle"></i>
+                    <span class="block">J'habite dans une maison avec mes parents et mes frères et soeurs　</span><span class="cursorPointerOnLetterAndWord">私は両親と兄弟と一緒に家で住んでいます。</span><i class="far fa-play-circle"></i>
                     <audio
                       src="./assets/sePresenterExemple11.m4a"id="audioSePresenterExemple11">
                       Your browser does not support the
@@ -517,7 +520,7 @@
                   <i class="fas fa-square" id="buttonStop11"></i>
                   <br> 
                   <span id="sePresenterExemple12">
-                    J'aime regarder la télévision et voir mes amis　<span class="cursorPointerOnLetterAndWord">私はテレビを見る事と友達を会う事が好きですか。</span><i class="far fa-play-circle"></i>
+                    <span class="block">J'aime regarder la télévision et voir mes amis　</span><span class="cursorPointerOnLetterAndWord">私はテレビを見る事と友達を会う事が好きですか。</span><i class="far fa-play-circle"></i>
                     <audio
                       src="./assets/sePresenterExemple12.m4a"id="audioSePresenterExemple12">
                       Your browser does not support the
@@ -531,7 +534,7 @@
               <h4 class="cursorArrow"><i class="fas fa-book-open"></i>Texte 3 文3</h4>
                 <p class="cursorArrow">
                    <span id="sePresenterExemple13">
-                    Je m'appelle Florence　<span class="cursorPointerOnLetterAndWord">私の名前はフローレンスです。</span><i class="far fa-play-circle"></i>
+                    <span class="block">Je m'appelle Florence　</span><span class="cursorPointerOnLetterAndWord">私の名前はフローレンスです。</span><i class="far fa-play-circle"></i>
                     <audio
                       src="./assets/sePresenterExemple13.m4a"id="audioSePresenterExemple13">
                       Your browser does not support the
@@ -541,7 +544,7 @@
                   <i class="fas fa-square" id="buttonStop13"></i>
                   <br> 
                    <span id="sePresenterExemple14">
-                    Je suis italienne　<span class="cursorPointerOnLetterAndWord">私はイタリア人です。</span><i class="far fa-play-circle"></i>
+                    <span class="block">Je suis italienne　</span><span class="cursorPointerOnLetterAndWord">私はイタリア人です。</span><i class="far fa-play-circle"></i>
                     <audio
                       src="./assets/sePresenterExemple14.m4a"id="audioSePresenterExemple14">
                       Your browser does not support the
@@ -551,7 +554,7 @@
                   <i class="fas fa-square" id="buttonStop14"></i>
                   <br> 
                    <span id="sePresenterExemple15">
-                    J'ai 65 ans et je suis à la retraite　<span class="cursorPointerOnLetterAndWord">私は65歳で,私は引退しました。</span><i class="far fa-play-circle"></i>
+                    <span class="block">J'ai 65 ans et je suis à la retraite　</span><span class="cursorPointerOnLetterAndWord">私は65歳で,私は引退しました。</span><i class="far fa-play-circle"></i>
                     <audio
                       src="./assets/sePresenterExemple15.m4a"id="audioSePresenterExemple15">
                       Your browser does not support the
@@ -561,7 +564,7 @@
                    <i class="fas fa-square" id="buttonStop15"></i>
                   <br>
                    <span id="sePresenterExemple16">
-                    Je suis veuve　<span class="cursorPointerOnLetterAndWord">私は未亡人です。</span><i class="far fa-play-circle"></i>
+                    <span class="block">Je suis veuve　</span><span class="cursorPointerOnLetterAndWord">私は未亡人です。</span><i class="far fa-play-circle"></i>
                     <audio
                       src="./assets/sePresenterExemple16.m4a"id="audioSePresenterExemple16">
                       Your browser does not support the
@@ -571,7 +574,7 @@
                    <i class="fas fa-square" id="buttonStop16"></i>
                   <br>
                    <span id="sePresenterExemple17">
-                    J'habite à la campagne　<span class="cursorPointerOnLetterAndWord">私は田舎で住んでいます。</span><i class="far fa-play-circle"></i>
+                    <span class="block">J'habite à la campagne　</span><span class="cursorPointerOnLetterAndWord">私は田舎で住んでいます。</span><i class="far fa-play-circle"></i>
                     <audio
                       src="./assets/sePresenterExemple17.m4a"id="audioSePresenterExemple17">
                       Your browser does not support the
@@ -581,7 +584,7 @@
                   <i class="fas fa-square" id="buttonStop17"></i>
                   <br> 
                    <span id="sePresenterExemple18">
-                    J'ai trois enfants　<span class="cursorPointerOnLetterAndWord">私は三人の子供がいます。</span><i class="far fa-play-circle"></i>
+                    <span class="block">J'ai trois enfants　</span><span class="cursorPointerOnLetterAndWord">私は三人の子供がいます。</span><i class="far fa-play-circle"></i>
                     <audio
                       src="./assets/sePresenterExemple18.m4a"id="audioSePresenterExemple18">
                       Your browser does not support the
@@ -591,7 +594,7 @@
                   <i class="fas fa-square" id="buttonStop18"></i>
                   <br> 
                    <span id="sePresenterExemple19">
-                    Mes enfants sont tous mariés　<span class="cursorPointerOnLetterAndWord">私の子供はみんな結婚しています。</span><i class="far fa-play-circle"></i>
+                    <span class="block">Mes enfants sont tous mariés　</span><span class="cursorPointerOnLetterAndWord">私の子供はみんな結婚しています。</span><i class="far fa-play-circle"></i>
                     <audio
                       src="./assets/sePresenterExemple19.m4a"id="audioSePresenterExemple19">
                       Your browser does not support the
@@ -601,7 +604,7 @@
                    <i class="fas fa-square" id="buttonStop19"></i>
                    <br> 
                    <span id="sePresenterExemple20">
-                    J'ai déjà habité à l'étranger　<span class="cursorPointerOnLetterAndWord">私は外国で住んだことがあります。</span><i class="far fa-play-circle"></i>
+                    <span class="block">J'ai déjà habité à l'étranger　</span><span class="cursorPointerOnLetterAndWord">私は外国で住んだことがあります。</span><i class="far fa-play-circle"></i>
                     <audio
                       src="./assets/sePresenterExemple20.m4a"id="audioSePresenterExemple20">
                       Your browser does not support the
@@ -611,7 +614,7 @@
                    <i class="fas fa-square" id="buttonStop20"></i>
                    <br> 
                    <span id="sePresenterExemple21">
-                    J'ai habité en Argentine pendant dix ans　<span class="cursorPointerOnLetterAndWord">私はアルゼンチンに10年間住んでいました。</span><i class="far fa-play-circle"></i>
+                    <span class="block">J'ai habité en Argentine pendant dix ans　</span><span class="cursorPointerOnLetterAndWord">私はアルゼンチンに10年間住んでいました。</span><i class="far fa-play-circle"></i>
                     <audio
                       src="./assets/sePresenterExemple21.m4a"id="audioSePresenterExemple21">
                       Your browser does not support the
@@ -621,7 +624,7 @@
                   <i class="fas fa-square" id="buttonStop21"></i>
                   <br>
                    <span id="sePresenterExemple22">
-                    J'aime jardiner et la nature　<span class="cursorPointerOnLetterAndWord">私はガーデニングと自然が好きです。</span><i class="far fa-play-circle"></i>
+                    <span class="block">J'aime jardiner et la nature　</span><span class="cursorPointerOnLetterAndWord">私はガーデニングと自然が好きです。</span><i class="far fa-play-circle"></i>
                     <audio
                       src="./assets/sePresenterExemple22.m4a"id="audioSePresenterExemple22">
                       Your browser does not support the
@@ -636,7 +639,7 @@
               <h4 class="cursorArrow"><i class="fas fa-book-open"></i>Texte 4 文4</h4>
                 <p class="cursorArrow">
                   <span id="sePresenterExemple23">
-                    Je m'appelle John　<span class="cursorPointerOnLetterAndWord">私はジョンです。</span><i class="far fa-play-circle"></i>
+                    <span class="block">Je m'appelle John　</span><span class="cursorPointerOnLetterAndWord">私はジョンです。</span><i class="far fa-play-circle"></i>
                     <audio
                       src="./assets/sePresenterExemple23.m4a"id="audioSePresenterExemple23">
                       Your browser does not support the
@@ -646,7 +649,7 @@
                   <i class="fas fa-square" id="buttonStop23"></i>
                   <br> 
                   <span id="sePresenterExemple24">
-                    Je suis américain　<span class="cursorPointerOnLetterAndWord">私はアメリカ人です。</span><i class="far fa-play-circle"></i>
+                    <span class="block">Je suis américain　</span><span class="cursorPointerOnLetterAndWord">私はアメリカ人です。</span><i class="far fa-play-circle"></i>
                     <audio
                       src="./assets/sePresenterExemple24.m4a"id="audioSePresenterExemple24">
                       Your browser does not support the
@@ -656,7 +659,7 @@
                   <i class="fas fa-square" id="buttonStop24"></i>
                   <br> 
                   <span id="sePresenterExemple25">
-                    J'ai 32 ans et je travaille en tant que banquier dans une entreprise internationale　<span class="cursorPointerOnLetterAndWord">私は32歳で,私は国際的な会社で銀行家として働いています。</span><i class="far fa-play-circle"></i>
+                    <span class="block">J'ai 32 ans et je travaille en tant que banquier dans une entreprise internationale　</span><span class="cursorPointerOnLetterAndWord">私は32歳で,私は国際的な会社で銀行家として働いています。</span><i class="far fa-play-circle"></i>
                     <audio
                       src="./assets/sePresenterExemple25.m4a"id="audioSePresenterExemple25">
                       Your browser does not support the
@@ -666,7 +669,7 @@
                   <i class="fas fa-square" id="buttonStop25"></i>
                   <br>
                   <span id="sePresenterExemple26">
-                    Je suis marié et j'ai une fille　<span class="cursorPointerOnLetterAndWord">私は結婚して,一人娘がいます。</span><i class="far fa-play-circle"></i>
+                    <span class="block">Je suis marié et j'ai une fille　</span><span class="cursorPointerOnLetterAndWord">私は結婚して,一人娘がいます。</span><i class="far fa-play-circle"></i>
                     <audio
                       src="./assets/sePresenterExemple26.m4a"id="audioSePresenterExemple26">
                       Your browser does not support the
@@ -676,7 +679,7 @@
                   <i class="fas fa-square" id="buttonStop26"></i>
                   <br>
                  <span id="sePresenterExemple27">
-                   Avant, j'habitais à Paris avec ma femme mais maintenant, j'habite dans le sud de la France depuis quatre ans　<span class="cursorPointerOnLetterAndWord">前は妻と一緒にパリに住んでいたけど,今は4年間前からフランスの南に住んでいます。</span><i class="far fa-play-circle"></i>
+                  <span class="block">Avant, j'habitais à Paris avec ma femme mais maintenant, j'habite dans le sud de la France depuis quatre ans　</span><span class="cursorPointerOnLetterAndWord">前は妻と一緒にパリに住んでいたけど,今は4年間前からフランスの南に住んでいます。</span><i class="far fa-play-circle"></i>
                   <audio
                       src="./assets/sePresenterExemple27.m4a"id="audioSePresenterExemple27">
                       Your browser does not support the
