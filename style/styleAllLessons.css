@@ -273,11 +273,34 @@ footer li {
   display: block;
 }
 
-/* media query pour premiere tableau lecon 2 et phrases exemples */
+/* media query pour premiere  cellule tableau lecon 2  */
 @media only screen and (min-width: 360px) and (max-width: 525px) {
   #spanJapanese {
     display: block;
     width: 100px;
+  }
+}
+
+/* media query pour premiere  cellule tableau lecon 3  */
+@media only screen and (min-width: 360px) and (max-width: 515px) {
+  #spanJapanese1 {
+    display: block;
+    width: 100px;
+    /* height: 34px; */
+  }
+}
+
+@media only screen and (min-width: 360px) and (max-width: 858px) {
+  #spanJapanese2 {
+    display: block;
+    width: 120px;
+  }
+}
+
+@media only screen and (min-width: 360px) and (max-width: 430px) {
+  #spanJapanese3 {
+    display: block;
+    width: 65px;
   }
 }
 
