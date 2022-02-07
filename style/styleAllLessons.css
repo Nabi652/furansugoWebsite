@@ -221,6 +221,13 @@ footer li {
     padding: 0px;
   }
 }
+@media only screen and (min-width: 360px) and (max-width: 500px) {
+  .footer-ul {
+    display: flex;
+    flex-direction: column;
+    justify-content: space-between;
+  }
+}
 
 /* LECON 2 --------------------- les salutations ----------------*/
 /* ---------------- footer ------------*/
