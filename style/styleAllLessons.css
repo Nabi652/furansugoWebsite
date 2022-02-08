@@ -113,6 +113,10 @@ table {
   color: red;
 }
 
+.div3 {
+  border: 5px solid green;
+}
+
 /* icone play des tableaux */
 
 i {
@@ -306,8 +310,18 @@ footer li {
 
 /* lecon 4 */
 
+/* mettre en italique les exemples de la partie présent */
+
 .styleExemple {
   font-style: italic;
+}
+
+.troisGroupes {
+  text-align: center;
+}
+.troisGroupes li {
+  padding: 5px;
+  cursor: default;
 }
 
 /* lecon 9*/
