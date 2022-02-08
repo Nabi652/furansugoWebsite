@@ -304,6 +304,12 @@ footer li {
   }
 }
 
+/* lecon 4 */
+
+.styleExemple {
+  font-style: italic;
+}
+
 /* lecon 9*/
 .listelecon9 {
   margin-left: 50px;
