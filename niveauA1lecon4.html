@@ -13,7 +13,7 @@
   </head>
   <body>
     <header>
-        <a href="./index.html"> <h1>Furansugo4All: Leçon 4</h1></a>
+        <!-- <a href="./index.html"> <h1>Furansugo4All: Leçon 4</h1></a> -->
       <div class="div-imageBanniere">
         <img
           src="./assets/dimitri-iakymuk-zc7EnDmfkao-unsplash.jpg"
@@ -41,9 +41,10 @@
 
     <main>
       <a href=""id="lecon4-2">
-        <h2>a- Le présent de l'indicatif　現在形</h2>
+        <h2 class="titreH2Lecon4">a- Le présent de l'indicatif　現在形</h2>
       </a>
       <div class="ensemble1">
+       <div class="divUl">
       <ul>
         <li>On utilise le présent de l'indicatif pour parler</li>
       </ul>
@@ -52,11 +53,13 @@
         <li> 2- d'une action habituelle <span class="styleExemple">(exemple: Je cours tous les matins</span>　習慣的な行動の<span class="styleExemple">(例:私は毎朝走ります)</span></li>
         <li> 3- d'une action en train de se réaliser <span class="styleExemple">(exemple:Maintenant, je lis le livre)</span>　進行中のアクションの<span class="styleExemple">(例:今私は本を読んでいます)</span></li>
       </ol>
+    </div>
+   
       <div class="exemples">
         <h3>Exemples(例)</h3>
-        <p>
+        <p class="ensembleParagraphe">
           <span id="presentExemple1"class="cursorArrow">
-            <span class="block">Je chante sous la douche　</span><span class="cursorPointerOnLetterAndWord">私はシャワーを浴びながら歌います。</span><i class="far fa-play-circle"></i>
+            <span class="block">Je <span class="greenSpan">chant</span><span class="redSpan">e</span> sous la douche　</span><span class="cursorPointerOnLetterAndWord">私はシャワーを浴びながら歌います。</span><i class="far fa-play-circle"></i>
           <audio
             src="./assets/presentExemple1.m4a"id="audioPresentExemple1">
             Your browser does not support the
@@ -66,9 +69,9 @@
           <i class="fas fa-square" id="buttonStop1"></i>
         </p>
 
-        <p>
+        <p class="ensembleParagraphe">
           <span id="presentExemple2"class="cursorArrow">
-          <span class="block">Il fait du sport tous les jours　</span><span class="cursorPointerOnLetterAndWord">彼は毎日スポーツをしています。</span><i class="far fa-play-circle"></i>
+          <span class="block">Il <span class="greenSpan">fai</span><span class="redSpan">t</span> du sport tous les jours　</span><span class="cursorPointerOnLetterAndWord">彼は毎日スポーツをしています。</span><i class="far fa-play-circle"></i>
           <audio
             src="./assets/presentExemple2.m4a"id="audioPresentExemple2">
             Your browser does not support the
@@ -78,9 +81,9 @@
         <i class="fas fa-square" id="buttonStop2"></i>
         </p>
 
-        <p>
+        <p class="ensembleParagraphe">
           <span id="presentExemple3"class="cursorArrow">
-          <span class="block">Les français sont râleurs　</span><span class="cursorPointerOnLetterAndWord">フランス人は何にでも文句を言う。</span><i class="far fa-play-circle"></i>
+          <span class="block">Les français <span class="redSpan">sont</span> râleurs　</span><span class="cursorPointerOnLetterAndWord">フランス人は何にでも文句を言う。</span><i class="far fa-play-circle"></i>
           <audio
             src="./assets/presentExemple3.m4a"id="audioPresentExemple3">
             Your browser does not support the
@@ -89,9 +92,10 @@
         </span>
         <i class="fas fa-square" id="buttonStop3"></i>
         </p>
-        <p>
+
+        <p class="ensembleParagraphe">
           <span id="presentExemple4"class="cursorArrow">
-          <span class="block">Je regarde la télévision　</span><span class="cursorPointerOnLetterAndWord">私はテレビを見ています。</span><i class="far fa-play-circle"></i>
+          <span class="block">Je <span class="greenSpan">regard</span><span class="redSpan">e</span> la télévision　</span><span class="cursorPointerOnLetterAndWord">私はテレビを見ています。</span><i class="far fa-play-circle"></i>
           <audio
             src="./assets/presentExemple4.m4a"id="audioPresentExemple4">
             Your browser does not support the
@@ -100,9 +104,10 @@
         </span>
         <i class="fas fa-square" id="buttonStop4"></i>
         </p>
-        <p>
+
+        <p class="ensembleParagraphe">
           <span id="presentExemple5"class="cursorArrow">
-          <span class="block">Tu brosses tes dents　</span><span class="cursorPointerOnLetterAndWord">あなた/君は歯を磨きます。</span><i class="far fa-play-circle"></i>
+          <span class="block">Tu <span class="greenSpan">bross</span><span class="redSpan">es</span> tes dents　</span><span class="cursorPointerOnLetterAndWord">あなた/君は歯を磨きます。</span><i class="far fa-play-circle"></i>
           <audio
             src="./assets/presentExemple5.m4a"id="audioPresentExemple5">
             Your browser does not support the
@@ -114,19 +119,33 @@
       </div>
     </div>
 
-    <h3>En français, il y a trois groupes フランス語には、次の3つのグループがあります。</h3>
+    <h3 class="titreH3Lecon4">En français, il y a trois groupes フランス語には、次の3つのグループがあります。</h3>
       <ul class="troisGroupes">
-        <li>Le premier groupe (-er) 第1群規則動詞</li>
-        <li>Le deuxième groupe (-ir) 第2群規則動詞</li>
-        <li>Le troisième groupe (-er, -ir, -re, -oir ) 第3群規則動詞</li>
+        <li>Le premier groupe [<span class="redSpan">er</span>] 第1群規則動詞</li>
+        <li>Le deuxième groupe [<span class="redSpan">ir</span>] 第2群規則動詞</li>
+        <li>Le troisième groupe [<span class="redSpan">er</span>], [<span class="redSpan">ir</span>], [<span class="redSpan">re</span>], [<span class="redSpan">oir</span>] 第3群規則動詞</li>
+      </ul>
+
+      <p>Pour connaitre le groupe d'un verbe, on regarde donc sa termination. Ensuite, on isole le radical pour ajouter les terminaisons correspondantes</p>
+      <p>Exemple: le verbe [<span class="greenSpan">jou</span><span class="redSpan">er</span>] est un verbe du premier groupe, parce que la terminaison est [<span class="redSpan">er</span>]. On enlève le [<span class="redSpan">er</span>]pour avoir le radical : [<span class="greenSpan">jou</span>]</p>
+      <p>Ensuite, on regarde les terminaisons du premier groupe [<span class="redSpan">er</span>] au présent et on les ajoute au radical:</p>
+      <ul class="exempleRadical">
+        <li>Je <span class="greenSpan">jou</span><span class="redSpan">e</span></li>
+        <li>Tu <span class="greenSpan">jou</span><span class="redSpan">es</span></li>
+        <li>Il <span class="greenSpan">jou</span><span class="redSpan">e</span></li>
+        <li>Elle <span class="greenSpan">jou</span><span class="redSpan">e</span></li>
+        <li>Nous <span class="greenSpan">jou</span><span class="redSpan">ons</span></li>
+        <li>Vous <span class="greenSpan">jou</span><span class="redSpan">ez</span></li>
+        <li>Ils <span class="greenSpan">jou</span><span class="redSpan">ent</span></li>
+        <li>Elles <span class="greenSpan">jou</span><span class="redSpan">ent</span></li>
       </ul>
     
     <div class="ensemble2">
-      <a href=""id="lecon4-3"><h2>b- Les verbes du premier groupe　第1群規則動詞の動詞</h2></a>
+      <a href=""id="lecon4-3"><h2 class="titreH2Lecon4">b- Les verbes du premier groupe　第1群規則動詞の動詞</h2></a>
 
-      <p>Les verbes du premier groupe finissent par "-er", à l'infinitif.　第1群規則動詞の動詞は、不定詞の「-er」で終わります。</p>
-      <h4>Voici les terminaisons au présent　現在形のエンディングは次のとおりです。</h4>
-      <table>
+      <p class="ensembleParagraphe">Les verbes du premier groupe finissent par [<span class="redSpan">er</span>], à l'infinitif.　第1群規則動詞の動詞は、不定詞の「er」で終わります。</p>
+      <h4 class="ensembleParagraphe">Voici les terminaisons au présent　現在形のエンディングは次のとおりです。</h4>
+      <table class="tableau1">
         <tr>
           <td class="sizeLetter">Je  私</td>
           <td>-e</td>
@@ -164,7 +183,7 @@
       <div class="exemples">
         <h3>Exemples(例)</h3>
         <p>
-          <span id="premierGroupeExemple1" class="cursorArrow"><span class="block">Je danse dans le salon　</span><span class="cursorPointerOnLetterAndWord">私はリビングで踊ています。</span><i class="far fa-play-circle"></i>
+          <span id="premierGroupeExemple1" class="cursorArrow"><span class="block">Je <span class="greenSpan">dans</span><span class="redSpan">e</span> dans le salon　</span><span class="cursorPointerOnLetterAndWord">私はリビングで踊ています。</span><i class="far fa-play-circle"></i>
           <audio
             src="./assets/premierGroupeExemple1.m4a"id="audioPremierGroupeExemple1">
             Your browser does not support the
@@ -175,7 +194,7 @@
       </p>
       
         <p>
-          <span id="premierGroupeExemple2" class="cursorArrow"><span class="block">Elle chante très bien　</span><span class="cursorPointerOnLetterAndWord">彼女は上手に歌います。</span><i class="far fa-play-circle"></i>
+          <span id="premierGroupeExemple2" class="cursorArrow"><span class="block">Elle <span class="greenSpan">chant</span><span class="redSpan">e</span> très bien　</span><span class="cursorPointerOnLetterAndWord">彼女は上手に歌います。</span><i class="far fa-play-circle"></i>
           <audio
             src="./assets/premierGroupeExemple2.m4a"id="audioPremierGroupeExemple2">
             Your browser does not support the
@@ -186,7 +205,7 @@
       </p>
 
         <p>
-          <span id="premierGroupeExemple3" class="cursorArrow"><span class="block">Tu manges des sushis　</span><span class="cursorPointerOnLetterAndWord">あなた/君は寿司を食べています。</span><i class="far fa-play-circle"></i>
+          <span id="premierGroupeExemple3" class="cursorArrow"><span class="block">Tu <span class="greenSpan">mang</span><span class="redSpan">es</span> des sushis　</span><span class="cursorPointerOnLetterAndWord">あなた/君は寿司を食べています。</span><i class="far fa-play-circle"></i>
           <audio
             src="./assets/premierGroupeExemple3.m4a"id="audioPremierGroupeExemple3">
             Your browser does not support the
@@ -197,7 +216,7 @@
         </p>
 
         <p>
-          <span id="premierGroupeExemple4" class="cursorArrow"><span class="block">Nous regardons un film　</span><span class="cursorPointerOnLetterAndWord">私達は映画を見ています。</span><i class="far fa-play-circle"></i>
+          <span id="premierGroupeExemple4" class="cursorArrow"><span class="block">Nous <span class="greenSpan">regard</span><span class="redSpan">ons</span> un film　</span><span class="cursorPointerOnLetterAndWord">私達は映画を見ています。</span><i class="far fa-play-circle"></i>
           <audio
           src="./assets/premierGroupeExemple4.m4a"id="audioPremierGroupeExemple4">
           Your browser does not support the
@@ -207,7 +226,7 @@
         <i class="fas fa-square" id="buttonStop9"></i>
       </p>
         <p>
-          <span id="premierGroupeExemple5" class="cursorArrow"><span class="block">Tu ranges les livres　</span><span class="cursorPointerOnLetterAndWord">あなた/君は本を片付けいます。</span><i class="far fa-play-circle"></i>
+          <span id="premierGroupeExemple5" class="cursorArrow"><span class="block">Tu <span class="greenSpan">rang</span><span class="redSpan">es</span> les livres　</span><span class="cursorPointerOnLetterAndWord">あなた/君は本を片付けいます。</span><i class="far fa-play-circle"></i>
           <audio
           src="./assets/premierGroupeExemple5.m4a"id="audioPremierGroupeExemple5">
           Your browser does not support the
@@ -219,9 +238,9 @@
       </div>
             
         <h3>Exception　例外</h3>
-          <table>
+          <table class="tableau2">
             <tr>
-              <td rowspan="8"><span id="manger1" class="cursorPointerOnLetterAndWord">Manger<i class="far fa-play-circle"></i></span>
+              <td rowspan="8"><span id="manger1" class="cursorPointerOnLetterAndWord"><span class="greenSpan">Mang</span><span class="redSpan">er</span><i class="far fa-play-circle"></i></span>
                 <audio
                   src="./assets/audioManger1.m4a"id="audioManger1">
                   Your browser does not support the
@@ -229,7 +248,7 @@
                 </audio>
                 <br><span class="cursorArrow">食べる</span></td>
 
-              <td class="sizeLetter"><span id="manger2" class="cursorPointerOnLetterAndWord">Je mange  私は食べます<i class="far fa-play-circle"></i>
+              <td class="sizeLetter"><span id="manger2" class="cursorPointerOnLetterAndWord">Je <span class="greenSpan">mang</span><span class="redSpan">e</span>  私は食べます<i class="far fa-play-circle"></i>
                 <audio
                   src="./assets/audioManger2.m4a"id="audioManger2">
                   Your browser does not support the
@@ -239,7 +258,7 @@
             </tr>
 
             <tr>
-              <td class="sizeLetter"><span id="manger3" class="cursorPointerOnLetterAndWord">Tu manges  あなた/君は食べます<i class="far fa-play-circle"></i></span></td>
+              <td class="sizeLetter"><span id="manger3" class="cursorPointerOnLetterAndWord">Tu <span class="greenSpan">mang</span><span class="redSpan">es</span>  あなた/君は食べます<i class="far fa-play-circle"></i></span></td>
               <audio
                 src="./assets/audioManger3.m4a"id="audioManger3">
                 Your browser does not support the
@@ -249,7 +268,7 @@
             </tr>
 
             <tr>
-              <td class="sizeLetter"><span id="manger4" class="cursorPointerOnLetterAndWord">Il mange  彼は食べます<i class="far fa-play-circle"></i></span>
+              <td class="sizeLetter"><span id="manger4" class="cursorPointerOnLetterAndWord">Il <span class="greenSpan">mang</span><span class="redSpan">e</span>  彼は食べます<i class="far fa-play-circle"></i></span>
               <audio
                 src="./assets/audioManger4.m4a"id="audioManger4">
                 Your browser does not support the
@@ -259,7 +278,7 @@
             </tr>
 
             <tr>
-              <td class="sizeLetter"><span id="manger5" class="cursorPointerOnLetterAndWord">Elle mange  彼女は食べます<i class="far fa-play-circle"></i></span>
+              <td class="sizeLetter"><span id="manger5" class="cursorPointerOnLetterAndWord">Elle <span class="greenSpan">mang</span><span class="redSpan">e</span>  彼女は食べます<i class="far fa-play-circle"></i></span>
               <audio
                 src="./assets/audioManger5.m4a"id="audioManger5">
                 Your browser does not support the
@@ -269,7 +288,7 @@
             </tr>
 
             <tr>
-              <td class="sizeLetter"><span id="manger6" class="cursorPointerOnLetterAndWord">Nous mang<span class="redSpan">e</span>ons 私達は食べます<i class="far fa-play-circle"></i></span>
+              <td class="sizeLetter"><span id="manger6" class="cursorPointerOnLetterAndWord">Nous <span class="greenSpan">mang</span><span class="blueSpan">e</span></span><span class="redSpan">ons</span> 私達は食べます<i class="far fa-play-circle"></i></span>
                 <audio
                   src="./assets/audioManger6.m4a"id="audioManger6">
                   Your browser does not support the
@@ -279,7 +298,7 @@
             </tr>
 
             <tr>
-              <td class="sizeLetter"><span id="manger7" class="cursorPointerOnLetterAndWord">Vous mangez  あなた/あなた達は食べます<i class="far fa-play-circle"></i></span>
+              <td class="sizeLetter"><span id="manger7" class="cursorPointerOnLetterAndWord">Vous <span class="greenSpan">mang</span><span class="redSpan">ez</span>  あなた/あなた達は食べます<i class="far fa-play-circle"></i></span>
                 <audio
                   src="./assets/audioManger7.m4a"id="audioManger7">
                   Your browser does not support the
@@ -289,7 +308,7 @@
             </tr>
 
             <tr>
-              <td class="sizeLetter"><span id="manger8" class="cursorPointerOnLetterAndWord">Ils mangent  彼らは食べます<i class="far fa-play-circle"></i></span>
+              <td class="sizeLetter"><span id="manger8" class="cursorPointerOnLetterAndWord">Ils <span class="greenSpan">mang</span><span class="redSpan">ent</span>  彼らは食べます<i class="far fa-play-circle"></i></span>
                 <audio
                   src="./assets/audioManger8.m4a"id="audioManger8">
                   Your browser does not support the
@@ -299,7 +318,7 @@
             </tr>
 
             <tr>
-              <td class="sizeLetter"><span id="manger9" class="cursorPointerOnLetterAndWord">Elles mangent  彼女達は食べます<i class="far fa-play-circle"></i></span>
+              <td class="sizeLetter"><span id="manger9" class="cursorPointerOnLetterAndWord">Elles <span class="greenSpan">mang</span><span class="redSpan">ent</span>  彼女達は食べます<i class="far fa-play-circle"></i></span>
               <audio
                 src="./assets/audioManger9.m4a"id="audioManger9">
                 Your browser does not support the
@@ -308,15 +327,16 @@
               </td>
             </tr>
           </table>
-          <p>Il y a d'autres exceptions mais vous les verrez au fur et à mesure de votre apprentissage.</p>
+          <p class="ensembleParagraphe">On a ajouté un [e] à [nous mangeons], en plus de la terminaison [ons], pour faciliter la prononciation.</p>
+          <p class="ensembleParagraphe">Il y a d'autres exceptions mais vous les verrez au fur et à mesure de votre apprentissage.</p>
     </div>
     <div class="ensemble3">
       <a href=""id="lecon4-4">
-        <h2>c- Les verbes du deuxième groupe groupe　第2群規則動詞の動詞</h2>
+        <h2 class="titreH2Lecon4">c- Les verbes du deuxième groupe groupe　第2群規則動詞の動詞</h2>
       </a>
-      <p>Les verbes du deuxième groupe finissent par "-ir", à l'infinitif　第2群規則動詞の動詞は、不定詞の「-ir」で終わります。</p>
-      <h4>Voici les terminaisons au présent　現在形のエンディングは次のとおりです。</h4>
-      <table>
+      <p class="ensembleParagraphe">Les verbes du deuxième groupe finissent par [<span class="redSpan">ir</span>], à l'infinitif　第2群規則動詞の動詞は、不定詞の「-ir」で終わります。</p>
+      <h4 class="ensembleParagraphe">Voici les terminaisons au présent　現在形のエンディングは次のとおりです。</h4>
+      <table  class="tableau3">
         <tr>
           <td class="sizeLetter">Je  私</td>
           <td>-is</td>
@@ -355,7 +375,7 @@
           <h3>Exemples(例)</h3>
 
           <p>
-            <span id="deuxiemeGroupeExemple1" class="cursorArrow"><span class="block">Elle finit le travail　</span><span  class="cursorPointerOnLetterAndWord">彼女は仕事を終わっています。</span><i class="far fa-play-circle"></i>
+            <span id="deuxiemeGroupeExemple1" class="cursorArrow"><span class="block">Elle <span class="greenSpan">fin</span><span class="redSpan">it</span> le travail　</span><span  class="cursorPointerOnLetterAndWord">彼女は仕事を終わっています。</span><i class="far fa-play-circle"></i>
             <audio
               src="./assets/deuxiemeGroupeExemple1.m4a"id="audioDeuxiemeGroupeExemple1">
               Your browser does not support the
@@ -366,7 +386,7 @@
           </p>
 
           <p>
-            <span id="deuxiemeGroupeExemple2" class="cursorArrow"><span class="block">Tu choisis une boisson dans le restaurant　</span><span  class="cursorPointerOnLetterAndWord">あなた/君はレストランで飲み物を選んでいます。</span><i class="far fa-play-circle"></i>
+            <span id="deuxiemeGroupeExemple2" class="cursorArrow"><span class="block">Tu <span class="greenSpan">chois</span><span class="redSpan">is</span> une boisson dans le restaurant　</span><span  class="cursorPointerOnLetterAndWord">あなた/君はレストランで飲み物を選んでいます。</span><i class="far fa-play-circle"></i>
             <audio
               src="./assets/deuxiemeGroupeExemple2.m4a"id="audioDeuxiemeGroupeExemple2">
               Your browser does not support the
@@ -377,7 +397,7 @@
           </p>
 
           <p>
-            <span id="deuxiemeGroupeExemple3" class="cursorArrow"><span class="block">Il nourrit le chat　</span><span  class="cursorPointerOnLetterAndWord">彼は猫にエサをあげています。</span><i class="far fa-play-circle"></i>
+            <span id="deuxiemeGroupeExemple3" class="cursorArrow"><span class="block">Il <span class="greenSpan">nourr</span><span class="redSpan">it</span> le chat　</span><span  class="cursorPointerOnLetterAndWord">彼は猫にエサをあげています。</span><i class="far fa-play-circle"></i>
             <audio
               src="./assets/deuxiemeGroupeExemple3.m4a"id="audioDeuxiemeGroupeExemple3">
               Your browser does not support the
@@ -388,7 +408,7 @@
           </p>
 
           <p>
-            <span id="deuxiemeGroupeExemple4" class="cursorArrow"><span class="block">Le public applaudit　</span><span  class="cursorPointerOnLetterAndWord">観客は拍手をしています。</span><i class="far fa-play-circle"></i>
+            <span id="deuxiemeGroupeExemple4" class="cursorArrow"><span class="block">Le public <span class="greenSpan">applaud</span><span class="redSpan">it</span>　</span><span  class="cursorPointerOnLetterAndWord">観客は拍手をしています。</span><i class="far fa-play-circle"></i>
             <audio
               src="./assets/deuxiemeGroupeExemple4.m4a"id="audioDeuxiemeGroupeExemple4">
               Your browser does not support the
@@ -399,7 +419,7 @@
           </p>
 
           <p>
-            <span id="deuxiemeGroupeExemple5" class="cursorArrow"><span class="block">Nous obéissons au professeur　</span><span  class="cursorPointerOnLetterAndWord">私たちは先生に従います。</span><i class="far fa-play-circle"></i>
+            <span id="deuxiemeGroupeExemple5" class="cursorArrow"><span class="block">Nous <span class="greenSpan">obé</span><span class="redSpan">issons</span> au professeur　</span><span  class="cursorPointerOnLetterAndWord">私たちは先生に従います。</span><i class="far fa-play-circle"></i>
             <audio
               src="./assets/deuxiemeGroupeExemple5.m4a"id="audioDeuxiemeGroupeExemple5">
               Your browser does not support the
@@ -414,98 +434,98 @@
 
        <div class="ensemble4">
         <a href=""id="lecon4-5">
-          <h2>d- Les verbes du troisième groupe　第3群規則動詞の動詞</h2>
+          <h2 class="titreH2Lecon4">d- Les verbes du troisième groupe　第3群規則動詞の動詞</h2>
         </a>
-        <p>Les verbes du troisième groupe finissent par 「-er」, 「-ir」, 「-re」, et 「-oir」, à l'infinitif　第3群規則動詞の動詞は、不定詞の「-er」「-ir」「-re」「-oir」で終わります</p>
-        <h4>Voici les terminaisons au présent　現在形のエンディングは次のとおりです。</h4>
-        <table>
+        <p class="ensembleParagraphe">Les verbes du troisième groupe finissent par 「<span class="redSpan">er</span>」, 「<span class="redSpan">ir</span>」, 「<span class="redSpan">re</span>」, et 「<span class="redSpan">oir</span>」, à l'infinitif　第3群規則動詞の動詞は、不定詞の「-er」「-ir」「-re」「-oir」で終わります</p>
+        <h4 class="ensembleParagraphe">Voici les terminaisons au présent　現在形のエンディングは次のとおりです。</h4>
+        <table class="tableaue">
           <tr>
-            <td class="sizeLetter" >Je  私</td>
-            <td class="sizeLetter" >Tu  あなた/君</td>
-            <td class="sizeLetter" >Il  彼</td>
-            <td class="sizeLetter" >Elle  彼女</td>
-            <td class="sizeLetter" >Nous  私達</td>
-            <td class="sizeLetter" >Vous  あなた/あなた達</td>
-            <td class="sizeLetter" >Ils  彼ら</td>
-            <td class="sizeLetter" >Elles  彼女達</td>
+            <td class="sizeLetter">Je<br>私</td>
+            <td class="sizeLetter" >Tu<br>あなた/君</td>
+            <td class="sizeLetter" >Il<br>彼</td>
+            <td class="sizeLetter" >Elle<br>彼女</td>
+            <td class="sizeLetter" >Nous<br>私達</td>
+            <td class="sizeLetter" >Vous<br>あなた/あなた達</td>
+            <td class="sizeLetter" >Ils<br>彼ら</td>
+            <td class="sizeLetter" >Elles<br>彼女達</td>
           </tr>
           <tr>
-            <td class="sizeLetter">- e</td>
-            <td>- es</td>
-            <td>- e</td>
-            <td>- e</td>
-            <td>- ons</td>
-            <td>- ez</td>
-            <td>- ent</td>
-            <td>- ent</td>
+            <td>-e</td>
+            <td>-es</td>
+            <td>-e</td>
+            <td>-e</td>
+            <td>-ons</td>
+            <td>-ez</td>
+            <td>-ent</td>
+            <td>-ent</td>
           </tr>
           <tr>
             <td class="sizeLetter">- ds</td>
-            <td>- ds</td>
-            <td>- d</td>
-            <td>- d</td>
-            <td>- ons</td>
-            <td>- ez</td>
-            <td>- ent</td>
-            <td>- ent</td>
+            <td>-ds</td>
+            <td>-d</td>
+            <td>-d</td>
+            <td>-ons</td>
+            <td>-ez</td>
+            <td>-ent</td>
+            <td>-ent</td>
           </tr>
           <tr>
             <td class="sizeLetter">- s</td>
-            <td>- s</td>
-            <td>- t</td>
-            <td>- t</td>
-            <td>- gons</td>
-            <td>- gnez</td>
-            <td>- gnent</td>
-            <td>- gnent</td>
+            <td>-s</td>
+            <td>-t</td>
+            <td>-t</td>
+            <td>-gons</td>
+            <td>-gnez</td>
+            <td>-gnent</td>
+            <td>-gnent</td>
           </tr>
           <tr>
             <td class="sizeLetter">- ts</td>
-            <td>- ts</td>
-            <td>- t</td>
-            <td>- t</td>
-            <td>- ttons</td>
-            <td>- ttez</td>
-            <td>- ttent</td>
-            <td>- ttent</td>
+            <td>-ts</td>
+            <td>-t</td>
+            <td>-t</td>
+            <td>-ttons</td>
+            <td>-ttez</td>
+            <td>-ttent</td>
+            <td>-ttent</td>
           </tr>
           <tr>
             <td class="sizeLetter">- ps</td>
-            <td>- ps</td>
-            <td>- p</td>
-            <td>- p</td>
-            <td>- pons</td>
-            <td>- pez</td>
-            <td>- pent</td>
-            <td>- pent</td>
+            <td>-ps</td>
+            <td>-p</td>
+            <td>-p</td>
+            <td>-pons</td>
+            <td>-pez</td>
+            <td>-pent</td>
+            <td>-pent</td>
           </tr>
           <tr>
             <td class="sizeLetter">- x</td>
-            <td>- x</td>
-            <td>- t</td>
-            <td>- t</td>
-            <td>- lons</td>
-            <td>- lez</td>
-            <td>- lent</td>
-            <td>- lent</td>
+            <td>-x</td>
+            <td>-t</td>
+            <td>-t</td>
+            <td>-lons</td>
+            <td>-lez</td>
+            <td>-lent</td>
+            <td>-lent</td>
           </tr>
           <tr>
             <td class="sizeLetter">- x</td>
-            <td>- x</td>
-            <td>- t</td>
-            <td>- t</td>
-            <td>- vons</td>
-            <td>- vez</td>
-            <td>- vent</td>
-            <td>- vent</td>
+            <td>-x</td>
+            <td>-t</td>
+            <td>-t</td>
+            <td>-vons</td>
+            <td>-vez</td>
+            <td>-vent</td>
+            <td>-vent</td>
           </tr>
         </table>  
 
           <div class="exemples">
             <h3>Exemples(例)</h3>
 
-            <p>
-              <span id="troisiemeGroupeExemple1" class="cursorArrow"><span class="block">J'ouvre le cadeau　</span><span  class="cursorPointerOnLetterAndWord">私はプレゼントを開けます。</span><i class="far fa-play-circle"></i>
+            <p class="ensembleParagraphe">
+              <span id="troisiemeGroupeExemple1" class="cursorArrow"><span class="block">J'<span class="greenSpan">ouvr</span><span class="redSpan">e</span> le cadeau　</span><span  class="cursorPointerOnLetterAndWord">私はプレゼントを開けます。</span><i class="far fa-play-circle"></i>
               <audio
                 src="./assets/troisiemeGroupeExemple1.m4a"id="audioTroisiemeGroupeExemple1">
                 Your browser does not support the
@@ -515,8 +535,8 @@
               <i class="fas fa-square" id="buttonStop16"></i>
             </p>
 
-            <p>
-              <span id="troisiemeGroupeExemple2" class="cursorArrow"><span class="block">Il offre des chocolats　</span><span  class="cursorPointerOnLetterAndWord">彼はチョコレートをプレゼントします。</span><i class="far fa-play-circle"></i>
+            <p class="ensembleParagraphe">
+              <span id="troisiemeGroupeExemple2" class="cursorArrow"><span class="block">Il <span class="greenSpan">offr</span><span class="redSpan">e</span> des chocolats　</span><span  class="cursorPointerOnLetterAndWord">彼はチョコレートをプレゼントします。</span><i class="far fa-play-circle"></i>
               <audio
                 src="./assets/troisiemeGroupeExemple2.m4a"id="audioTroisiemeGroupeExemple2">
                 Your browser does not support the
@@ -526,8 +546,8 @@
               <i class="fas fa-square" id="buttonStop17"></i>
             </p>
 
-            <p>
-              <span id="troisiemeGroupeExemple3" class="cursorArrow"><span class="block">Tu prends le bus　</span><span  class="cursorPointerOnLetterAndWord">あなたはバスを乗ります。</span><i class="far fa-play-circle"></i>
+            <p class="ensembleParagraphe">
+              <span id="troisiemeGroupeExemple3" class="cursorArrow"><span class="block">Tu <span class="greenSpan">pren</span><span class="redSpan">ds</span> le bus　</span><span  class="cursorPointerOnLetterAndWord">あなたはバスを乗ります。</span><i class="far fa-play-circle"></i>
               <audio
                 src="./assets/troisiemeGroupeExemple3.m4a"id="audioTroisiemeGroupeExemple3">
                 Your browser does not support the
@@ -537,8 +557,8 @@
               <i class="fas fa-square" id="buttonStop18"></i>
             </p>
 
-            <p>
-              <span id="troisiemeGroupeExemple4" class="cursorArrow"><span class="block">Nous craignons le noir　</span><span  class="cursorPointerOnLetterAndWord">私達は暗いのが怖いです。</span><i class="far fa-play-circle"></i>
+            <p class="ensembleParagraphe">
+              <span id="troisiemeGroupeExemple4" class="cursorArrow"><span class="block">Nous <span class="greenSpan">crai</span><span class="redSpan">gnons</span> le noir　</span><span  class="cursorPointerOnLetterAndWord">私達は暗いのが怖いです。</span><i class="far fa-play-circle"></i>
               <audio
                 src="./assets/troisiemeGroupeExemple4.m4a"id="audioTroisiemeGroupeExemple4">
                 Your browser does not support the
@@ -548,8 +568,8 @@
               <i class="fas fa-square" id="buttonStop19"></i>
             </p>
 
-            <p>
-              <span id="troisiemeGroupeExemple5" class="cursorArrow"><span class="block">Elle bat les oeufs en neige　</span><span  class="cursorPointerOnLetterAndWord">彼女は卵を泡立てる。</span><i class="far fa-play-circle"></i>
+            <p class="ensembleParagraphe">
+              <span id="troisiemeGroupeExemple5" class="cursorArrow"><span class="block">Elle <span class="greenSpan">ba</span><span class="redSpan">t</span> les oeufs en neige　</span><span  class="cursorPointerOnLetterAndWord">彼女は卵を泡立てる。</span><i class="far fa-play-circle"></i>
               <audio
                 src="./assets/troisiemeGroupeExemple5.m4a"id="audioTroisiemeGroupeExemple5">
                 Your browser does not support the
@@ -559,8 +579,8 @@
               <i class="fas fa-square" id="buttonStop20"></i>
             </p>
 
-            <p>
-              <span id="troisiemeGroupeExemple6" class="cursorArrow"><span class="block">Vous pouvez parler français　</span><span  class="cursorPointerOnLetterAndWord">あなた達はフランス語が話せますか。</span><i class="far fa-play-circle"></i>
+            <p class="ensembleParagraphe">
+              <span id="troisiemeGroupeExemple6" class="cursorArrow"><span class="block">Vous <span class="greenSpan">pou</span><span class="redSpan">vez</span> parler français　</span><span  class="cursorPointerOnLetterAndWord">あなた達はフランス語が話せますか。</span><i class="far fa-play-circle"></i>
               <audio
                 src="./assets/troisiemeGroupeExemple6.m4a"id="audioTroisiemeGroupeExemple6">
                 Your browser does not support the
@@ -574,9 +594,9 @@
           <h3>Exceptions　例外</h3>
           
           <div class="div1">
-          <table>
+          <table class="tableau2">
             <tr style="border-top:3px solid black">
-              <td rowspan="8"><span id="aller1" class="cursorPointerOnLetterAndWord">Aller<i class="far fa-play-circle"></i></span>
+              <td rowspan="8"><span id="aller1" class="cursorPointerOnLetterAndWord"><span class="greenSpan">All</span><span class="redSpan">er</span><i class="far fa-play-circle"></i></span>
                 <audio
                   src="./assets/audioAller1.m4a"id="audioAller1">
                   Your browser does not support the
@@ -584,7 +604,7 @@
                 </audio>
                 <br><span class="cursorArrow">行く</span></td>
 
-              <td class="sizeLetter"><span id="aller2" class="cursorPointerOnLetterAndWord">Je vais  私は行きます<i class="far fa-play-circle"></i></span>
+              <td class="sizeLetter"><span id="aller2" class="cursorPointerOnLetterAndWord">Je <span class="redSpan">vais</span>  私は行きます<i class="far fa-play-circle"></i></span>
                 <audio
                   src="./assets/audioAller2.m4a"id="audioAller2">
                   Your browser does not support the
@@ -594,7 +614,7 @@
             </tr>
 
             <tr>
-              <td class="sizeLetter"><span id="aller3" class="cursorPointerOnLetterAndWord">Tu vas  あなた/君は行きます<i class="far fa-play-circle"></i></span>
+              <td class="sizeLetter"><span id="aller3" class="cursorPointerOnLetterAndWord">Tu <span class="redSpan">vas</span>  あなた/君は行きます<i class="far fa-play-circle"></i></span>
                 <audio
                   src="./assets/audioAller3.m4a"id="audioAller3">
                   Your browser does not support the
@@ -604,7 +624,7 @@
             </tr>
 
             <tr>
-              <td class="sizeLetter"><span id="aller4" class="cursorPointerOnLetterAndWord">Il va  彼は行きます<i class="far fa-play-circle"></i></span>
+              <td class="sizeLetter"><span id="aller4" class="cursorPointerOnLetterAndWord">Il <span class="redSpan">va</span>  彼は行きます<i class="far fa-play-circle"></i></span>
                 <audio
                   src="./assets/audioAller4.m4a"id="audioAller4">
                   Your browser does not support the
@@ -614,7 +634,7 @@
             </tr>
 
             <tr>
-              <td class="sizeLetter"><span id="aller5" class="cursorPointerOnLetterAndWord">Elle va  彼女は行きま<i class="far fa-play-circle"></i></span>
+              <td class="sizeLetter"><span id="aller5" class="cursorPointerOnLetterAndWord">Elle <span class="redSpan">va</span>  彼女は行きま<i class="far fa-play-circle"></i></span>
                 <audio
                   src="./assets/audioAller5.m4a"id="audioAller5">
                   Your browser does not support the
@@ -624,7 +644,7 @@
             </tr>
 
             <tr>
-              <td class="sizeLetter"><span id="aller6" class="cursorPointerOnLetterAndWord">Nous allons  私達は行きます<i class="far fa-play-circle"></i></span>
+              <td class="sizeLetter"><span id="aller6" class="cursorPointerOnLetterAndWord">Nous <span class="redSpan">allons</span> 私達は行きます<i class="far fa-play-circle"></i></span>
                 <audio
                   src="./assets/audioAller6.m4a"id="audioAller6">
                   Your browser does not support the
@@ -633,7 +653,7 @@
               </td>
             </tr>
             <tr>
-              <td class="sizeLetter"><span id="aller7" class="cursorPointerOnLetterAndWord">Vous allez  あなた/あなた達は行きます<i class="far fa-play-circle"></i></span>
+              <td class="sizeLetter"><span id="aller7" class="cursorPointerOnLetterAndWord">Vous <span class="redSpan">allez</span>  あなた/あなた達は行きます<i class="far fa-play-circle"></i></span>
                 <audio
                   src="./assets/audioAller7.m4a"id="audioAller7">
                   Your browser does not support the
@@ -642,7 +662,7 @@
               </td>
             </tr>
             <tr>
-              <td class="sizeLetter"><span id="aller8" class="cursorPointerOnLetterAndWord">Ils vont  彼らは行きます<i class="far fa-play-circle"></i></span>
+              <td class="sizeLetter"><span id="aller8" class="cursorPointerOnLetterAndWord">Ils <span class="redSpan">vont</span>  彼らは行きます<i class="far fa-play-circle"></i></span>
                 <audio
                   src="./assets/audioAller8.m4a"id="audioAller8">
                   Your browser does not support the
@@ -651,7 +671,7 @@
               </td>
             </tr>
             <tr>
-              <td class="sizeLetter"><span id="aller9" class="cursorPointerOnLetterAndWord">Elles vont  彼女達は行きます<i class="far fa-play-circle"></i></span>
+              <td class="sizeLetter"><span id="aller9" class="cursorPointerOnLetterAndWord">Elles <span class="redSpan">vont</span>  彼女達は行きます<i class="far fa-play-circle"></i></span>
                 <audio
                   src="./assets/audioAller9.m4a"id="audioAller9">
                   Your browser does not support the
@@ -661,7 +681,7 @@
             </tr>
 
             <tr style="border-top:3px solid black">
-            <td rowspan="8" ><span id="asseoir1" class="cursorPointerOnLetterAndWord">S'asseoir<i class="far fa-play-circle"></i></span>
+            <td rowspan="8" ><span id="asseoir1" class="cursorPointerOnLetterAndWord">S'<span class="greenSpan">ass</span><span class="redSpan">eoir</span><i class="far fa-play-circle"></i></span>
                 <audio
                   src="./assets/audioAsseoir1.m4a"id="audioAsseoir1">
                   Your browser does not support the
@@ -670,7 +690,7 @@
                 <br>
                 <span class="cursorArrow">座る</span></td>
 
-            <td class="sizeLetter"><span id="asseoir2" class="cursorPointerOnLetterAndWord">Je m'assois  私は座ります<i class="far fa-play-circle"></i></span>
+            <td class="sizeLetter"><span id="asseoir2" class="cursorPointerOnLetterAndWord">Je m'<span class="greenSpan">ass</span><span class="redSpan">ois</span>  私は座ります<i class="far fa-play-circle"></i></span>
               <audio
                   src="./assets/audioAsseoir2.m4a"id="audioAsseoir2">
                   Your browser does not support the
@@ -680,7 +700,7 @@
             </tr>
 
             <tr>
-              <td class="sizeLetter"><span id="asseoir3" class="cursorPointerOnLetterAndWord">Tu t'assois  あなた/君は座ります<i class="far fa-play-circle"></i></span>
+              <td class="sizeLetter"><span id="asseoir3" class="cursorPointerOnLetterAndWord">Tu t'<span class="greenSpan">ass</span><span class="redSpan">ois</span>  あなた/君は座ります<i class="far fa-play-circle"></i></span>
                 <audio
                   src="./assets/audioAsseoir3.m4a"id="audioAsseoir3">
                   Your browser does not support the
@@ -690,7 +710,7 @@
             </tr>
 
             <tr>
-              <td class="sizeLetter"><span id="asseoir4" class="cursorPointerOnLetterAndWord">Il s'assoit  彼は座ります<i class="far fa-play-circle"></i></span>
+              <td class="sizeLetter"><span id="asseoir4" class="cursorPointerOnLetterAndWord">Il s'<span class="greenSpan">ass</span><span class="greenSpan">oit</span>  彼は座ります<i class="far fa-play-circle"></i></span>
                 <audio
                   src="./assets/audioAsseoir4.m4a"id="audioAsseoir4">
                   Your browser does not support the
@@ -699,7 +719,7 @@
               </td>
             </tr>
             <tr>
-              <td class="sizeLetter"><span id="asseoir5" class="cursorPointerOnLetterAndWord">Elle s'assoit  彼女は座ります<i class="far fa-play-circle"></i></span>
+              <td class="sizeLetter"><span id="asseoir5" class="cursorPointerOnLetterAndWord">Elle s'<span class="greenSpan">ass</span><span class="redSpan">oit</span>  彼女は座ります<i class="far fa-play-circle"></i></span>
                 <audio
                   src="./assets/audioAsseoir5.m4a"id="audioAsseoir5">
                   Your browser does not support the
@@ -709,7 +729,7 @@
             </tr>
 
             <tr>
-              <td class="sizeLetter"><span id="asseoir6" class="cursorPointerOnLetterAndWord">Nous nous asseyons  私達は座ります<i class="far fa-play-circle"></i></span>
+              <td class="sizeLetter"><span id="asseoir6" class="cursorPointerOnLetterAndWord">Nous nous <span class="greenSpan">ass</span><span class="redSpan">eyons</span>  私達は座ります<i class="far fa-play-circle"></i></span>
               <audio
                 src="./assets/audioAsseoir6.m4a"id="audioAsseoir6">
                 Your browser does not support the
@@ -719,7 +739,7 @@
             </tr>
 
             <tr>
-              <td class="sizeLetter"><span id="asseoir7" class="cursorPointerOnLetterAndWord">Vous vous asseyez  あなた/あなた達は座ります<i class="far fa-play-circle"></i></span>
+              <td class="sizeLetter"><span id="asseoir7" class="cursorPointerOnLetterAndWord">Vous vous <span class="greenSpan">ass</span><span class="redSpan">eyez</span>  あなた/あなた達は座ります<i class="far fa-play-circle"></i></span>
                 <audio
                   src="./assets/audioAsseoir7.m4a"id="audioAsseoir7">
                   Your browser does not support the
@@ -729,7 +749,7 @@
             </tr>
 
             <tr>
-              <td class="sizeLetter"><span id="asseoir8" class="cursorPointerOnLetterAndWord">Ils s'assoient  彼らは座ります<i class="far fa-play-circle"></i></span>
+              <td class="sizeLetter"><span id="asseoir8" class="cursorPointerOnLetterAndWord">Ils s'<span class="greenSpan">ass</span><span class="redSpan">oient</span>  彼らは座ります<i class="far fa-play-circle"></i></span>
                 <audio
                   src="./assets/audioAsseoir8.m4a"id="audioAsseoir8">
                   Your browser does not support the
@@ -739,7 +759,7 @@
             </tr>
 
             <tr>
-              <td class="sizeLetter"><span id="asseoir9" class="cursorPointerOnLetterAndWord">Elles s'assoient  彼女達は座ります<i class="far fa-play-circle"></i></span>
+              <td class="sizeLetter"><span id="asseoir9" class="cursorPointerOnLetterAndWord">Elles s'<span class="greenSpan">ass</span><span class="redSpan">oient</span>  彼女達は座ります<i class="far fa-play-circle"></i></span>
                 <audio
                   src="./assets/audioAsseoir9.m4a"id="audioAsseoir9">
                   Your browser does not support the
@@ -749,14 +769,14 @@
             </tr>
 
             <tr style="border-top:3px solid black">
-              <td rowspan="8"><span id="croire1" class="cursorPointerOnLetterAndWord">Croire<i class="far fa-play-circle"></i></span>
+              <td rowspan="8"><span id="croire1" class="cursorPointerOnLetterAndWord"><span class="greenSpan">Cr</span><span class="redSpan">oire</span><i class="far fa-play-circle"></i></span>
                 <audio
                   src="./assets/audioCroire1.m4a"id="audioCroire1">
                   Your browser does not support the
                   <code>audio</code> element.
                 </audio>
                 <br><span class="cursorArrow">信じる</span></td>
-              <td class="sizeLetter" ><span id="croire2" class="cursorPointerOnLetterAndWord">Je crois  私は信じます<i class="far fa-play-circle"></i></span>
+              <td class="sizeLetter" ><span id="croire2" class="cursorPointerOnLetterAndWord">Je <span class="greenSpan">cr</span><span class="redSpan">ois</span>  私は信じます<i class="far fa-play-circle"></i></span>
                 <audio
                   src="./assets/audioCroire2.m4a"id="audioCroire2">
                   Your browser does not support the
@@ -766,7 +786,7 @@
             </tr>
 
             <tr>
-              <td class="sizeLetter"><span id="croire3" class="cursorPointerOnLetterAndWord">Tu crois  あなた/君は信じます<i class="far fa-play-circle"></i></span>
+              <td class="sizeLetter"><span id="croire3" class="cursorPointerOnLetterAndWord">Tu <span class="greenSpan">cr</span><span class="redSpan">ois</span>  あなた/君は信じます<i class="far fa-play-circle"></i></span>
                 <audio
                   src="./assets/audioCroire3.m4a"id="audioCroire3">
                   Your browser does not support the
@@ -776,7 +796,7 @@
             </tr>
 
             <tr>
-              <td class="sizeLetter"><span id="croire4" class="cursorPointerOnLetterAndWord">Il croit  彼は信じます<i class="far fa-play-circle"></i></span>
+              <td class="sizeLetter"><span id="croire4" class="cursorPointerOnLetterAndWord">Il <span class="greenSpan">cr</span><span class="redSpan">oit</span>  彼は信じます<i class="far fa-play-circle"></i></span>
                 <audio
                   src="./assets/audioCroire4.m4a"id="audioCroire4">
                   Your browser does not support the
@@ -786,7 +806,7 @@
             </tr>
 
             <tr>
-              <td class="sizeLetter"><span id="croire5" class="cursorPointerOnLetterAndWord">Elle croit  彼女は信じます<i class="far fa-play-circle"></i></span>
+              <td class="sizeLetter"><span id="croire5" class="cursorPointerOnLetterAndWord">Elle <span class="greenSpan">cr</span><span class="redSpan">oit</span>  彼女は信じます<i class="far fa-play-circle"></i></span>
                 <audio
                   src="./assets/audioCroire5.m4a"id="audioCroire5">
                   Your browser does not support the
@@ -796,7 +816,7 @@
             </tr>
 
             <tr>
-              <td class="sizeLetter"><span id="croire6" class="cursorPointerOnLetterAndWord">Nous croyons  私達は信じます<i class="far fa-play-circle"></i></span>
+              <td class="sizeLetter"><span id="croire6" class="cursorPointerOnLetterAndWord">Nous <span class="greenSpan">cr</span><span class="redSpan">oyons</span>  私達は信じます<i class="far fa-play-circle"></i></span>
                 <audio
                   src="./assets/audioCroire6.m4a"id="audioCroire6">
                   Your browser does not support the
@@ -806,7 +826,7 @@
             </tr>
 
             <tr>
-              <td class="sizeLetter"><span id="croire7" class="cursorPointerOnLetterAndWord">Vous croyez  あなた/あなた達は信じます<i class="far fa-play-circle"></i></span>
+              <td class="sizeLetter"><span id="croire7" class="cursorPointerOnLetterAndWord">Vous <span class="greenSpan">cr</span><span class="redSpan">oyez</span>  あなた/あなた達は信じます<i class="far fa-play-circle"></i></span>
                 <audio
                   src="./assets/audioCroire7.m4a"id="audioCroire7">
                   Your browser does not support the
@@ -816,7 +836,7 @@
             </tr>
 
             <tr>
-              <td class="sizeLetter"><span id="croire8" class="cursorPointerOnLetterAndWord">Ils croient  彼らは信じます<i class="far fa-play-circle"></i></span>
+              <td class="sizeLetter"><span id="croire8" class="cursorPointerOnLetterAndWord">Ils <span class="greenSpan">cr</span><span class="redSpan">oient</span> 彼らは信じます<i class="far fa-play-circle"></i></span>
                 <audio
                   src="./assets/audioCroire8.m4a"id="audioCroire8">
                   Your browser does not support the
@@ -826,7 +846,7 @@
             </tr>
 
             <tr style="border-bottom:3px solid black">
-              <td class="sizeLetter"><span id="croire9" class="cursorPointerOnLetterAndWord">Elles croient  彼女達は信じます<i class="far fa-play-circle"></i></span>
+              <td class="sizeLetter"><span id="croire9" class="cursorPointerOnLetterAndWord">Elles <span class="greenSpan">cr</span><span class="redSpan">oient</span>  彼女達は信じます<i class="far fa-play-circle"></i></span>
                 <audio
                   src="./assets/audioCroire9.m4a"id="audioCroire9">
                   Your browser does not support the
@@ -836,7 +856,7 @@
             </tr>
           </table>
 
-          <p>Il y a d'autres exceptions mais vous les verrez au fur et à mesure de votre apprentissage　他にも例外がありますが、学習するにつれてそれらが表示されます。</p>
+          <p class="ensembleParagraphe">Il y a d'autres exceptions mais vous les verrez au fur et à mesure de votre apprentissage　他にも例外がありますが、学習するにつれてそれらが表示されます。</p>
       </div>
     </main>
 

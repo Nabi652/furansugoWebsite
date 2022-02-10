@@ -113,6 +113,13 @@ table {
   color: red;
 }
 
+.greenSpan {
+  color: green;
+}
+
+.blueSpan {
+  color: darkblue;
+}
 .div3 {
   border: 5px solid green;
 }
@@ -279,7 +286,7 @@ footer li {
 
 /* media query pour premiere  cellule tableau lecon 2  */
 @media only screen and (min-width: 360px) and (max-width: 525px) {
-  #spanJapanese {
+  #spanJapanese1 {
     display: block;
     width: 100px;
   }
@@ -322,6 +329,57 @@ footer li {
 .troisGroupes li {
   padding: 5px;
   cursor: default;
+}
+
+.exempleRadical {
+  text-align: center;
+}
+
+/* media query of lesson 4 */
+
+@media only screen and (min-width: 360px) and (max-width: 1000px) {
+  .ensembleParagraphe {
+    width: 90%;
+    margin: auto;
+  }
+
+  .divUl {
+    width: 95%;
+    margin: auto;
+  }
+  .divUl ol,
+  .divUl ul {
+    padding: 0px;
+    margin: 0px;
+  }
+  .titreH3Lecon4 {
+    padding: 0px;
+    width: 85%;
+    margin: auto;
+    margin-top: 10px;
+  }
+
+  .titreH2Lecon4 {
+    text-align: center;
+    padding-bottom: 20px;
+  }
+
+  .troisGroupes {
+    padding: 0px;
+  }
+
+  /* titres h2*/
+  .titreH2Lecon4 {
+    width: 95%;
+    margin: auto;
+  }
+  .tableau1,
+  .tableau3 {
+    margin-top: 10px;
+  }
+  .tableau2 {
+    margin-bottom: 10px;
+  }
 }
 
 /* lecon 9*/
