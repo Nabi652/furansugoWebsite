@@ -284,6 +284,10 @@ footer li {
   display: block;
 }
 
+.block1 {
+  display: block;
+}
+
 /* media query pour premiere  cellule tableau lecon 2  */
 @media only screen and (min-width: 360px) and (max-width: 525px) {
   #spanJapanese1 {
