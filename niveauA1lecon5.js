@@ -101,3 +101,89 @@ let audioAvoir1 = document.getElementById("audioAvoir1");
 avoir1.addEventListener("click", () => {
   audioAvoir1.play();
 });
+
+let avoir2 = document.getElementById("avoir2");
+let audioAvoir2 = document.getElementById("audioAvoir2");
+
+avoir2.addEventListener("click", () => {
+  audioAvoir2.play();
+});
+
+let avoir3 = document.getElementById("avoir3");
+let audioAvoir3 = document.getElementById("audioAvoir3");
+
+avoir3.addEventListener("click", () => {
+  audioAvoir3.play();
+});
+
+let avoir4 = document.getElementById("avoir4");
+let audioAvoir4 = document.getElementById("audioAvoir4");
+
+avoir4.addEventListener("click", () => {
+  audioAvoir4.play();
+});
+
+let avoir5 = document.getElementById("avoir5");
+let audioAvoir5 = document.getElementById("audioAvoir5");
+
+avoir5.addEventListener("click", () => {
+  audioAvoir5.play();
+});
+
+let avoir6 = document.getElementById("avoir6");
+let audioAvoir6 = document.getElementById("audioAvoir6");
+
+avoir6.addEventListener("click", () => {
+  audioAvoir6.play();
+});
+
+let avoir7 = document.getElementById("avoir7");
+let audioAvoir7 = document.getElementById("audioAvoir7");
+
+avoir7.addEventListener("click", () => {
+  audioAvoir7.play();
+});
+
+let avoir8 = document.getElementById("avoir8");
+let audioAvoir8 = document.getElementById("audioAvoir8");
+
+avoir8.addEventListener("click", () => {
+  audioAvoir8.play();
+});
+
+/* exemples avoir */
+
+let avoirExemple1 = document.getElementById("avoirExemple1");
+let audioAvoirExemple1 = document.getElementById("audioAvoirExemple1");
+
+avoirExemple1.addEventListener("click", () => {
+  audioAvoirExemple1.play();
+});
+
+let avoirExemple2 = document.getElementById("avoirExemple2");
+let audioAvoirExemple2 = document.getElementById("audioAvoirExemple2");
+
+avoirExemple2.addEventListener("click", () => {
+  audioAvoirExemple2.play();
+});
+
+let avoirExemple3 = document.getElementById("avoirExemple3");
+let audioAvoirExemple3 = document.getElementById("audioAvoirExemple3");
+
+avoirExemple3.addEventListener("click", () => {
+  audioAvoirExemple3.play();
+});
+
+let avoirExemple4 = document.getElementById("avoirExemple4");
+let audioAvoirExemple4 = document.getElementById("audioAvoirExemple4");
+
+avoirExemple4.addEventListener("click", () => {
+  audioAvoirExemple4.play();
+});
+
+let avoirExemple5 = document.getElementById("avoirExemple5");
+let audioAvoirExemple5 = document.getElementById("audioAvoirExemple5");
+
+avoirExemple5.addEventListener("click", () => {
+  audioAvoirExemple5.play();
+});
