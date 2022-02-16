@@ -111,6 +111,10 @@ footer li {
     padding: 0px;
   }
 
+  .liNav {
+    padding: 5px;
+  }
+
   .ensembleParagraphe {
     padding: 0px;
     margin: 0px;
