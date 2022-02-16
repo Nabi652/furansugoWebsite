@@ -386,6 +386,14 @@ footer li {
   }
 }
 
+/* media query lecon 6*/
+
+@media only screen and (min-width: 360px) and (max-width: 1000px) {
+  .titreH3Lecon6 {
+    margin-top: 10px;
+  }
+}
+
 /* lecon 9*/
 .listelecon9 {
   margin-left: 50px;
