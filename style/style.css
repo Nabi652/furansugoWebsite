@@ -97,27 +97,44 @@ button:hover {
   color: white;
 }
 
+/* footer */
+
 footer {
-  width: 100%;
-  height: 100px;
   background-color: #b69f9f77;
-  margin-top: 50px;
+  padding: 20px;
+  margin-top: 20px;
 }
+
 .footer-ul {
   display: flex;
-  height: 100%;
   justify-content: space-evenly;
+  height: 100%;
 }
 
 footer li {
   color: black;
-  margin-top: 30px;
   font-size: 20px;
 }
 
-footer i {
-  font-size: 30px;
-  padding: 5px;
+@media only screen and (min-width: 360px) and (max-width: 1000px) {
+  /* media query */
+
+  .ulNav {
+    display: flex;
+    flex-direction: column;
+    width: 100%;
+    text-align: center;
+    padding: 0px;
+  }
+
+  .liNav {
+    padding: 5px;
+  }
+
+  .divExplications {
+    display: flex;
+    flex-direction: column;
+  }
 }
 
 /*presentation html page*/
