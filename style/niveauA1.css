@@ -63,11 +63,6 @@ h1 a {
   color: black;
 }
 
-.ezan {
-  color: red;
-  border: 10px 10px red;
-}
-
 /* icone retour */
 .fa-arrow-left {
   padding-right: 5px;
@@ -75,7 +70,7 @@ h1 a {
 /* ------------- leçons ------------------*/
 
 .ensemble-lecons a {
-  color: black;
+  color: red;
 }
 
 .lecon {
@@ -83,7 +78,7 @@ h1 a {
   border: 1px solid black;
   margin-bottom: 30px;
   width: 90%;
-  padding: 50px;
+  padding: 30px;
 }
 
 /* ---------------- footer ------------*/
@@ -114,6 +109,16 @@ footer li {
     width: 100%;
     text-align: center;
     padding: 0px;
+  }
+
+  .ensembleParagraphe {
+    padding: 0px;
+    margin: 0px;
+    /* padding-left: 10px; */
+  }
+
+  .boxMenu {
+    /* padding-left: 10px; */
   }
 }
 
