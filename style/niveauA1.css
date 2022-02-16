@@ -32,7 +32,6 @@ body {
   display: flex;
   margin: auto;
   padding: 15px;
-  /* background: #68747742; */
   margin-bottom: 50px;
 }
 
@@ -43,7 +42,6 @@ body {
 }
 
 .ulNav a:hover {
-  /* color: #e2c2b3; */
   font-weight: bold;
   transition: 1s;
   text-shadow: 0.1em 0.1em 0.2em grey;
@@ -118,11 +116,6 @@ footer li {
   .ensembleParagraphe {
     padding: 0px;
     margin: 0px;
-    /* padding-left: 10px; */
-  }
-
-  .boxMenu {
-    /* padding-left: 10px; */
   }
 }
 
