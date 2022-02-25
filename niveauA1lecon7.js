@@ -891,443 +891,443 @@ rendre8.addEventListener("click", () => {
   audioRendre8.play();
 });
 /*laisser*/
-let passer0 = document.getElementById("passer0");
-let audioPasser0 = document.getElementById("audioPasser0");
+let laisser0 = document.getElementById("laisser0");
+let audioLaisser0 = document.getElementById("audioLaisser0");
 
-passerr0.addEventListener("click", () => {
-  audioPasser0.play();
+laisser0.addEventListener("click", () => {
+  audioLaisser0.play();
 });
 
-let passer1 = document.getElementById("passer1");
-let audioPasser1 = document.getElementById("audioPasser1");
+let laisser1 = document.getElementById("laisser1");
+let audioLaisser1 = document.getElementById("audioLaisser1");
 
-passer1.addEventListener("click", () => {
-  audioPasser1.play();
+laisser1.addEventListener("click", () => {
+  audioLaisser1.play();
 });
 
-let passer2 = document.getElementById("passer2");
-let audioPasser2 = document.getElementById("audioPasser2");
+let laisser2 = document.getElementById("laisser2");
+let audioLaisser2 = document.getElementById("audioLaisser2");
 
-passer2.addEventListener("click", () => {
-  audioPasser2.play();
+laisser2.addEventListener("click", () => {
+  audioLaisser2.play();
 });
 
-let passer3 = document.getElementById("passer3");
-let audioPasser3 = document.getElementById("audioPasser3");
+let laisser3 = document.getElementById("laisser3");
+let audioLaisser3 = document.getElementById("audioLaisser3");
 
-passer3.addEventListener("click", () => {
-  audioPasser3.play();
+laisser3.addEventListener("click", () => {
+  audioLaisser3.play();
 });
 
-let passer4 = document.getElementById("passer4");
-let audioPasser4 = document.getElementById("audioPasser4");
+let laisser4 = document.getElementById("laisser4");
+let audioLaisser4 = document.getElementById("audioLaisser4");
 
-passer4.addEventListener("click", () => {
-  audioPasser4.play();
+laisser4.addEventListener("click", () => {
+  audioLaisser4.play();
 });
 
-let passer5 = document.getElementById("passer5");
-let audioPasser5 = document.getElementById("audioPasser5");
+let laisser5 = document.getElementById("laisser5");
+let audioLaisser5 = document.getElementById("audioLaisser5");
 
-passer5.addEventListener("click", () => {
-  audioPasser5.play();
+laisser5.addEventListener("click", () => {
+  audioLaisser5.play();
 });
 
-let passer6 = document.getElementById("passer6");
-let audioPasser6 = document.getElementById("audioPasser6");
+let laisser6 = document.getElementById("laisser6");
+let audioLaisser6 = document.getElementById("audioLaisser6");
 
-passer6.addEventListener("click", () => {
-  audioPasser6.play();
+laisser6.addEventListener("click", () => {
+  audioLaisser6.play();
 });
 
-let passer7 = document.getElementById("passer7");
-let audioPasser7 = document.getElementById("audioPasser7");
+let laisser7 = document.getElementById("laisser7");
+let audioLaisser7 = document.getElementById("audioLaisser7");
 
-passer7.addEventListener("click", () => {
-  audioPasser7.play();
+laisser7.addEventListener("click", () => {
+  audioLaisser7.play();
 });
 
-let passer8 = document.getElementById("passer8");
-let audioPasser8 = document.getElementById("audioPasser8");
+let laisser8 = document.getElementById("laisser8");
+let audioLaisser8 = document.getElementById("audioLaisser8");
 
-passer8.addEventListener("click", () => {
-  audioPasser8.play();
+laisser8.addEventListener("click", () => {
+  audioLaisser8.play();
 });
 /*vivre*/
-let passer0 = document.getElementById("passer0");
-let audioPasser0 = document.getElementById("audioPasser0");
+let vivre0 = document.getElementById("vivre0");
+let audioVivre0 = document.getElementById("audioVivre0");
 
-passerr0.addEventListener("click", () => {
-  audioPasser0.play();
+vivre0.addEventListener("click", () => {
+  audioVivre0.play();
 });
 
-let passer1 = document.getElementById("passer1");
-let audioPasser1 = document.getElementById("audioPasser1");
+let vivre1 = document.getElementById("vivre1");
+let audioVivre1 = document.getElementById("audioVivre1");
 
-passer1.addEventListener("click", () => {
-  audioPasser1.play();
+vivre1.addEventListener("click", () => {
+  audioVivre1.play();
 });
 
-let passer2 = document.getElementById("passer2");
-let audioPasser2 = document.getElementById("audioPasser2");
+let vivre2 = document.getElementById("vivre2");
+let audioVivre2 = document.getElementById("audioVivre2");
 
-passer2.addEventListener("click", () => {
-  audioPasser2.play();
+vivre2.addEventListener("click", () => {
+  audioVivre2.play();
 });
 
-let passer3 = document.getElementById("passer3");
-let audioPasser3 = document.getElementById("audioPasser3");
+let vivre3 = document.getElementById("vivre3");
+let audioVivre3 = document.getElementById("audioVivre3");
 
-passer3.addEventListener("click", () => {
-  audioPasser3.play();
+vivre3.addEventListener("click", () => {
+  audioVivre3.play();
 });
 
-let passer4 = document.getElementById("passer4");
-let audioPasser4 = document.getElementById("audioPasser4");
+let vivre4 = document.getElementById("vivre4");
+let audioVivre4 = document.getElementById("audioVivre4");
 
-passer4.addEventListener("click", () => {
-  audioPasser4.play();
+vivre4.addEventListener("click", () => {
+  audioVivre4.play();
 });
 
-let passer5 = document.getElementById("passer5");
-let audioPasser5 = document.getElementById("audioPasser5");
+let vivre5 = document.getElementById("vivre5");
+let audioVivre5 = document.getElementById("audioVivre5");
 
-passer5.addEventListener("click", () => {
-  audioPasser5.play();
+vivre5.addEventListener("click", () => {
+  audioVivre5.play();
 });
 
-let passer6 = document.getElementById("passer6");
+let vivre6 = document.getElementById("vivre6");
 let audioPasser6 = document.getElementById("audioPasser6");
 
-passer6.addEventListener("click", () => {
+vivre6.addEventListener("click", () => {
   audioPasser6.play();
 });
 
-let passer7 = document.getElementById("passer7");
+let vivre7 = document.getElementById("vivre7");
 let audioPasser7 = document.getElementById("audioPasser7");
 
-passer7.addEventListener("click", () => {
+vivre7.addEventListener("click", () => {
   audioPasser7.play();
 });
 
-let passer8 = document.getElementById("passer8");
-let audioPasser8 = document.getElementById("audioPasser8");
+let vivre8 = document.getElementById("vivre8");
+let audioVivre8 = document.getElementById("audioVivre8");
 
-passer8.addEventListener("click", () => {
-  audioPasser8.play();
+vivre8.addEventListener("click", () => {
+  audioVivre8.play();
 });
 /*demander*/
-let passer0 = document.getElementById("passer0");
-let audioPasser0 = document.getElementById("audioPasser0");
+let demander0 = document.getElementById("demander0");
+let audioDemander0 = document.getElementById("audioDemander0");
 
-passerr0.addEventListener("click", () => {
-  audioPasser0.play();
+demander0.addEventListener("click", () => {
+  audioDemander0.play();
 });
 
-let passer1 = document.getElementById("passer1");
-let audioPasser1 = document.getElementById("audioPasser1");
+let demander1 = document.getElementById("demander1");
+let audioDemander1 = document.getElementById("audioDemander1");
 
-passer1.addEventListener("click", () => {
-  audioPasser1.play();
+demander1.addEventListener("click", () => {
+  audioDemander1.play();
 });
 
-let passer2 = document.getElementById("passer2");
-let audioPasser2 = document.getElementById("audioPasser2");
+let demander2 = document.getElementById("demander2");
+let audioDemander2 = document.getElementById("audioDemander2");
 
-passer2.addEventListener("click", () => {
-  audioPasser2.play();
+demander2.addEventListener("click", () => {
+  audioDemander2.play();
 });
 
-let passer3 = document.getElementById("passer3");
-let audioPasser3 = document.getElementById("audioPasser3");
+let demander3 = document.getElementById("demander3");
+let audioDemander3 = document.getElementById("audioDemander3");
 
-passer3.addEventListener("click", () => {
-  audioPasser3.play();
+demander3.addEventListener("click", () => {
+  audioDemander3.play();
 });
 
-let passer4 = document.getElementById("passer4");
-let audioPasser4 = document.getElementById("audioPasser4");
+let demander4 = document.getElementById("demander4");
+let audioDemander4 = document.getElementById("audioDemander4");
 
-passer4.addEventListener("click", () => {
-  audioPasser4.play();
+demander4.addEventListener("click", () => {
+  audioDemander4.play();
 });
 
-let passer5 = document.getElementById("passer5");
-let audioPasser5 = document.getElementById("audioPasser5");
+let demander5 = document.getElementById("demander5");
+let audioDemander5 = document.getElementById("audioDemander5");
 
-passer5.addEventListener("click", () => {
-  audioPasser5.play();
+demander5.addEventListener("click", () => {
+  audioDemander5.play();
 });
 
-let passer6 = document.getElementById("passer6");
-let audioPasser6 = document.getElementById("audioPasser6");
+let demander6 = document.getElementById("demander6");
+let audioDemander6 = document.getElementById("audioDemander6");
 
-passer6.addEventListener("click", () => {
-  audioPasser6.play();
+demander6.addEventListener("click", () => {
+  audioDemander6.play();
 });
 
-let passer7 = document.getElementById("passer7");
-let audioPasser7 = document.getElementById("audioPasser7");
+let demander7 = document.getElementById("demander7");
+let audioDemander7 = document.getElementById("audioDemander7");
 
-passer7.addEventListener("click", () => {
-  audioPasser7.play();
+demander7.addEventListener("click", () => {
+  audioDemander7.play();
 });
 
-let passer8 = document.getElementById("passer8");
-let audioPasser8 = document.getElementById("audioPasser8");
+let demander8 = document.getElementById("demander8");
+let audioDemander8 = document.getElementById("audioDemander8");
 
-passer8.addEventListener("click", () => {
-  audioPasser8.play();
+demander8.addEventListener("click", () => {
+  audioDemander8.play();
 });
 /*attendre*/
-let passer0 = document.getElementById("passer0");
-let audioPasser0 = document.getElementById("audioPasser0");
+let attendre0 = document.getElementById("attendre0");
+let audioAttendre0 = document.getElementById("audioAttendre0");
 
-passer0.addEventListener("click", () => {
-  audioPasser0.play();
+attendre0.addEventListener("click", () => {
+  audioAttendre0.play();
 });
 
-let passer1 = document.getElementById("passer1");
-let audioPasser1 = document.getElementById("audioPasser1");
+let attendre1 = document.getElementById("attendre1");
+let audioAttendre1 = document.getElementById("audioAttendre1");
 
-passer1.addEventListener("click", () => {
-  audioPasser1.play();
+attendre1.addEventListener("click", () => {
+  audioAttendre1.play();
 });
 
-let passer2 = document.getElementById("passer2");
-let audioPasser2 = document.getElementById("audioPasser2");
+let attendre2 = document.getElementById("attendre2");
+let audioAttendre2 = document.getElementById("audioAttendre2");
 
-passer2.addEventListener("click", () => {
-  audioPasser2.play();
+attendre2.addEventListener("click", () => {
+  audioAttendre2.play();
 });
 
-let passer3 = document.getElementById("passer3");
-let audioPasser3 = document.getElementById("audioPasser3");
+let attendre3 = document.getElementById("attendre3");
+let audioAttendre3 = document.getElementById("audioAttendre3");
 
-passer3.addEventListener("click", () => {
-  audioPasser3.play();
+attendre3.addEventListener("click", () => {
+  audioAttendre3.play();
 });
 
-let passer4 = document.getElementById("passer4");
-let audioPasser4 = document.getElementById("audioPasser4");
+let attendre4 = document.getElementById("attendre4");
+let audioAttendre4 = document.getElementById("audioAttendre4");
 
-passer4.addEventListener("click", () => {
-  audioPasser4.play();
+attendre4.addEventListener("click", () => {
+  audioAttendre4.play();
 });
 
-let passer5 = document.getElementById("passer5");
-let audioPasser5 = document.getElementById("audioPasser5");
+let attendre5 = document.getElementById("attendre5");
+let audioAttendre5 = document.getElementById("audioAttendre5");
 
-passer5.addEventListener("click", () => {
+attendre5.addEventListener("click", () => {
   audioPasser5.play();
 });
 
-let passer6 = document.getElementById("passer6");
-let audioPasser6 = document.getElementById("audioPasser6");
+let attendre6 = document.getElementById("attendre6");
+let audioAttendre6 = document.getElementById("audioAttendre6");
 
-passer6.addEventListener("click", () => {
-  audioPasser6.play();
+attendre6.addEventListener("click", () => {
+  audioAttendre6.play();
 });
 
-let passer7 = document.getElementById("passer7");
-let audioPasser7 = document.getElementById("audioPasser7");
+let attendre7 = document.getElementById("attendre7");
+let audioAttendre7 = document.getElementById("audioAttendre7");
 
-passer7.addEventListener("click", () => {
+attendre7.addEventListener("click", () => {
   audioPasser7.play();
 });
 
-let passer8 = document.getElementById("passer8");
-let audioPasser8 = document.getElementById("audioPasser8");
+let attendre8 = document.getElementById("attendre8");
+let audioAttendre8 = document.getElementById("audioAttendre8");
 
-passer8.addEventListener("click", () => {
-  audioPasser8.play();
+attendre8.addEventListener("click", () => {
+  audioAttendre8.play();
 });
 /*comprendre*/
-let passer0 = document.getElementById("passer0");
-let audioPasser0 = document.getElementById("audioPasser0");
+let comprendre0 = document.getElementById("comprendre0");
+let audioComprendre0 = document.getElementById("audioComprendre0");
 
-passerr0.addEventListener("click", () => {
-  audioPasser0.play();
+comprendre0.addEventListener("click", () => {
+  audioComprendre0.play();
 });
 
-let passer1 = document.getElementById("passer1");
-let audioPasser1 = document.getElementById("audioPasser1");
+let comprendre1 = document.getElementById("comprendre1");
+let audioComprendre1 = document.getElementById("audioComprendre1");
 
-passer1.addEventListener("click", () => {
-  audioPasser1.play();
+comprendre1.addEventListener("click", () => {
+  audioComprendre1.play();
 });
 
-let passer2 = document.getElementById("passer2");
-let audioPasser2 = document.getElementById("audioPasser2");
+let comprendre2 = document.getElementById("comprendre2");
+let audioComprendre2 = document.getElementById("audioComprendre2");
 
-passer2.addEventListener("click", () => {
-  audioPasser2.play();
+comprendre2.addEventListener("click", () => {
+  audioComprendre2.play();
 });
 
-let passer3 = document.getElementById("passer3");
-let audioPasser3 = document.getElementById("audioPasser3");
+let comprendre3 = document.getElementById("comprendre3");
+let audioComprendre3 = document.getElementById("audioComprendre3");
 
-passer3.addEventListener("click", () => {
-  audioPasser3.play();
+comprendre3.addEventListener("click", () => {
+  audioComprendre3.play();
 });
 
-let passer4 = document.getElementById("passer4");
-let audioPasser4 = document.getElementById("audioPasser4");
+let comprendre4 = document.getElementById("comprendre4");
+let audioComprendre4 = document.getElementById("audioComprendre4");
 
-passer4.addEventListener("click", () => {
-  audioPasser4.play();
+comprendre4.addEventListener("click", () => {
+  audioComprendre4.play();
 });
 
-let passer5 = document.getElementById("passer5");
-let audioPasser5 = document.getElementById("audioPasser5");
+let comprendre5 = document.getElementById("comprendre5");
+let audioComprendre5 = document.getElementById("audioComprendre5");
 
-passer5.addEventListener("click", () => {
-  audioPasser5.play();
+comprendre5.addEventListener("click", () => {
+  audioComprendre5.play();
 });
 
-let passer6 = document.getElementById("passer6");
-let audioPasser6 = document.getElementById("audioPasser6");
+let comprendre6 = document.getElementById("comprendre6");
+let audioComprendre6 = document.getElementById("audioComprendre6");
 
-passer6.addEventListener("click", () => {
-  audioPasser6.play();
+comprendre6.addEventListener("click", () => {
+  audioComprendre6.play();
 });
 
-let passer7 = document.getElementById("passer7");
-let audioPasser7 = document.getElementById("audioPasser7");
+let comprendre7 = document.getElementById("comprendre7");
+let audioComprendre7 = document.getElementById("audioComprendre7");
 
-passer7.addEventListener("click", () => {
-  audioPasser7.play();
+comprendre7.addEventListener("click", () => {
+  audioComprendre7.play();
 });
 
-let passer8 = document.getElementById("passer8");
-let audioPasser8 = document.getElementById("audioPasser8");
+let comprendre8 = document.getElementById("comprendre8");
+let audioComprendre8 = document.getElementById("audioComprendre8");
 
-passer8.addEventListener("click", () => {
-  audioPasser8.play();
+comprendre8.addEventListener("click", () => {
+  audioComprendre8.play();
 });
 /*ecrire*/
-let passer0 = document.getElementById("passer0");
-let audioPasser0 = document.getElementById("audioPasser0");
+let ecrire0 = document.getElementById("ecrire0");
+let audioEcrire0 = document.getElementById("audioEcrire0");
 
-passerr0.addEventListener("click", () => {
-  audioPasser0.play();
+ecrire0.addEventListener("click", () => {
+  audioEcrire0.play();
 });
 
-let passer1 = document.getElementById("passer1");
-let audioPasser1 = document.getElementById("audioPasser1");
+let ecrire1 = document.getElementById("ecrire1");
+let audioEcrire1 = document.getElementById("audioEcrire1");
 
-passer1.addEventListener("click", () => {
-  audioPasser1.play();
+ecrire1.addEventListener("click", () => {
+  audioEcrire1.play();
 });
 
-let passer2 = document.getElementById("passer2");
-let audioPasser2 = document.getElementById("audioPasser2");
+let ecrire2 = document.getElementById("ecrire2");
+let audioEcrire2 = document.getElementById("audioEcrire2");
 
-passer2.addEventListener("click", () => {
-  audioPasser2.play();
+ecrire2.addEventListener("click", () => {
+  audioEcrire2.play();
 });
 
-let passer3 = document.getElementById("passer3");
-let audioPasser3 = document.getElementById("audioPasser3");
+let ecrire3 = document.getElementById("ecrire3");
+let audioEcrire3 = document.getElementById("audioEcrire3");
 
-passer3.addEventListener("click", () => {
+ecrire3.addEventListener("click", () => {
   audioPasser3.play();
 });
 
-let passer4 = document.getElementById("passer4");
-let audioPasser4 = document.getElementById("audioPasser4");
+let ecrire4 = document.getElementById("ecrire4");
+let audioEcrire4 = document.getElementById("audioEcrire4");
 
-passer4.addEventListener("click", () => {
-  audioPasser4.play();
+ecrire4.addEventListener("click", () => {
+  audioEcrire4.play();
 });
 
-let passer5 = document.getElementById("passer5");
-let audioPasser5 = document.getElementById("audioPasser5");
+let ecrire5 = document.getElementById("ecrire5");
+let audioEcrire5 = document.getElementById("audioEcrire5");
 
-passer5.addEventListener("click", () => {
-  audioPasser5.play();
+ecrire5.addEventListener("click", () => {
+  audioEcrire5.play();
 });
 
-let passer6 = document.getElementById("passer6");
-let audioPasser6 = document.getElementById("audioPasser6");
+let ecrire6 = document.getElementById("ecrire6");
+let audioEcrire6 = document.getElementById("audioEcrire6");
 
-passer6.addEventListener("click", () => {
-  audioPasser6.play();
+ecrire6.addEventListener("click", () => {
+  audioEcrire6.play();
 });
 
-let passer7 = document.getElementById("passer7");
-let audioPasser7 = document.getElementById("audioPasser7");
+let ecrire7 = document.getElementById("ecrire7");
+let audioEcrire7 = document.getElementById("audioEcrire7");
 
-passer7.addEventListener("click", () => {
-  audioPasser7.play();
+ecrire7.addEventListener("click", () => {
+  audioEcrire7.play();
 });
 
-let passer8 = document.getElementById("passer8");
-let audioPasser8 = document.getElementById("audioPasser8");
+let ecrire8 = document.getElementById("ecrire8");
+let audioEcrire8 = document.getElementById("audioEcrire8");
 
-passer8.addEventListener("click", () => {
-  audioPasser8.play();
+ecrire8.addEventListener("click", () => {
+  audioEcrire8.play();
 });
 /*jouer*/
-let passer0 = document.getElementById("passer0");
-let audioPasser0 = document.getElementById("audioPasser0");
+let jouer0 = document.getElementById("jouer0");
+let audioJouer0 = document.getElementById("audioJouer0");
 
-passerr0.addEventListener("click", () => {
-  audioPasser0.play();
+jouer0.addEventListener("click", () => {
+  audioJouer0.play();
 });
 
-let passer1 = document.getElementById("passer1");
-let audioPasser1 = document.getElementById("audioPasser1");
+let jouer1 = document.getElementById("jouer1");
+let audioJouer1 = document.getElementById("audioJouer1");
 
-passer1.addEventListener("click", () => {
-  audioPasser1.play();
+jouer1.addEventListener("click", () => {
+  audioJouer1.play();
 });
 
-let passer2 = document.getElementById("passer2");
-let audioPasser2 = document.getElementById("audioPasser2");
+let jouer2 = document.getElementById("jouer2");
+let audioJouer2 = document.getElementById("audioJouer2");
 
-passer2.addEventListener("click", () => {
-  audioPasser2.play();
+jouer2.addEventListener("click", () => {
+  audioJouer2.play();
 });
 
-let passer3 = document.getElementById("passer3");
-let audioPasser3 = document.getElementById("audioPasser3");
+let jouer3 = document.getElementById("jouer3");
+let audioJouer3 = document.getElementById("audioJouer3");
 
-passer3.addEventListener("click", () => {
-  audioPasser3.play();
+jouer3.addEventListener("click", () => {
+  audioJouer3.play();
 });
 
-let passer4 = document.getElementById("passer4");
-let audioPasser4 = document.getElementById("audioPasser4");
+let jouer4 = document.getElementById("jouer4");
+let audioJouer4 = document.getElementById("audioJouer4");
 
-passer4.addEventListener("click", () => {
-  audioPasser4.play();
+jouer4.addEventListener("click", () => {
+  audioJouer4.play();
 });
 
-let passer5 = document.getElementById("passer5");
-let audioPasser5 = document.getElementById("audioPasser5");
+let jouer5 = document.getElementById("jouer5");
+let audioJouer5 = document.getElementById("audioJouer5");
 
-passer5.addEventListener("click", () => {
-  audioPasser5.play();
+jouer5.addEventListener("click", () => {
+  audioJouer5.play();
 });
 
-let passer6 = document.getElementById("passer6");
-let audioPasser6 = document.getElementById("audioPasser6");
+let jouer6 = document.getElementById("jouer6");
+let audioJouer6 = document.getElementById("audioJouer6");
 
-passer6.addEventListener("click", () => {
-  audioPasser6.play();
+jouer6.addEventListener("click", () => {
+  audioJouer6.play();
 });
 
-let passer7 = document.getElementById("passer7");
-let audioPasser7 = document.getElementById("audioPasser7");
+let jouer7 = document.getElementById("jouer7");
+let audioJouer7 = document.getElementById("audioJouer7");
 
-passer7.addEventListener("click", () => {
-  audioPasser7.play();
+jouer7.addEventListener("click", () => {
+  audioJouer7.play();
 });
 
-let passer8 = document.getElementById("passer8");
-let audioPasser8 = document.getElementById("audioPasser8");
+let jouer8 = document.getElementById("jouer8");
+let audioJouer8 = document.getElementById("audioJouer8");
 
-passer8.addEventListener("click", () => {
-  audioPasser8.play();
+jouer8.addEventListener("click", () => {
+  audioJouer8.play();
 });
