@@ -317,9 +317,260 @@ regarder8.addEventListener("click", () => {
   audioRegarder8.play();
 });
 /*prendre*/
+let prendre0 = document.getElementById("prendre0");
+let audioPrendre0 = document.getElementById("audioPrendre0");
+
+prendre0.addEventListener("click", () => {
+  audioPrendre0.play();
+});
+
+let prendre1 = document.getElementById("prendre1");
+let audioPrendre1 = document.getElementById("audioPrendre1");
+
+prendre1.addEventListener("click", () => {
+  audioPrendre1.play();
+});
+
+let prendre2 = document.getElementById("prendre2");
+let audioPrendre2 = document.getElementById("audioPrendre2");
+
+prendre2.addEventListener("click", () => {
+  audioPrendre2.play();
+});
+
+let prendre3 = document.getElementById("prendre3");
+let audioPrendre3 = document.getElementById("audioPrendre3");
+
+prendre3.addEventListener("click", () => {
+  audioPrendre3.play();
+});
+
+let prendre4 = document.getElementById("prendre4");
+let audioPrendre4 = document.getElementById("audioPrendre4");
+
+prendre4.addEventListener("click", () => {
+  audioPrendre4.play();
+});
+
+let prendre5 = document.getElementById("prendre5");
+let audioPrendre5 = document.getElementById("audioPrendre5");
+
+prendre5.addEventListener("click", () => {
+  audioPrendre5.play();
+});
+
+let prendre6 = document.getElementById("prendre6");
+let audioPrendre6 = document.getElementById("audioPrendre6");
+
+prendre6.addEventListener("click", () => {
+  audioPrendre6.play();
+});
+
+let prendre7 = document.getElementById("prendre7");
+let audioPrendre7 = document.getElementById("audioPrendre7");
+
+prendre7.addEventListener("click", () => {
+  audioPrendre7.play();
+});
+
+let prendre8 = document.getElementById("prendre8");
+let audioPrendre8 = document.getElementById("audioPrendre8");
+
+prendre8.addEventListener("click", () => {
+  audioPrendre8.play();
+});
 /*pouvoir*/
+
+let pouvoir0 = document.getElementById("pouvoir0");
+let audioPouvoir0 = document.getElementById("audioPouvoir0");
+
+pouvoir0.addEventListener("click", () => {
+  audioPouvoir0.play();
+});
+
+let pouvoir1 = document.getElementById("pouvoir1");
+let audioPouvoir1 = document.getElementById("audioPouvoir1");
+
+pouvoir1.addEventListener("click", () => {
+  audioPouvoir1.play();
+});
+
+let pouvoir2 = document.getElementById("pouvoir2");
+let audioPouvoir2 = document.getElementById("audioPouvoir2");
+
+pouvoir2.addEventListener("click", () => {
+  audioPouvoir2.play();
+});
+
+let pouvoir3 = document.getElementById("pouvoir3");
+let audioPouvoir3 = document.getElementById("audioPouvoir3");
+
+pouvoir3.addEventListener("click", () => {
+  audioPouvoir3.play();
+});
+
+let pouvoir4 = document.getElementById("pouvoir4");
+let audioPouvoir4 = document.getElementById("audioPouvoir4");
+
+pouvoir4.addEventListener("click", () => {
+  audioPouvoir4.play();
+});
+
+let pouvoir5 = document.getElementById("pouvoir5");
+let audioPouvoir5 = document.getElementById("audioPouvoir5");
+
+pouvoir5.addEventListener("click", () => {
+  audioPouvoir5.play();
+});
+
+let pouvoir6 = document.getElementById("pouvoir6");
+let audioPouvoir6 = document.getElementById("audioPouvoir6");
+
+pouvoir6.addEventListener("click", () => {
+  audioPouvoir6.play();
+});
+
+let pouvoir7 = document.getElementById("pouvoir7");
+let audioPouvoir7 = document.getElementById("audioPouvoir7");
+
+pouvoir7.addEventListener("click", () => {
+  audioPouvoir7.play();
+});
+
+let pouvoir8 = document.getElementById("pouvoir8");
+let audioPouvoir8 = document.getElementById("audioPouvoir8");
+
+pouvoir8.addEventListener("click", () => {
+  audioPouvoir8.play();
+});
 /*mettre*/
+
+let mettre0 = document.getElementById("mettre0");
+let audioMettre0 = document.getElementById("audioMettre0");
+
+mettre0.addEventListener("click", () => {
+  audioMettre0.play();
+});
+
+let mettre1 = document.getElementById("mettre1");
+let audioMettre1 = document.getElementById("audioMettre1");
+
+mettre1.addEventListener("click", () => {
+  audioMettre1.play();
+});
+
+let mettre2 = document.getElementById("mettre2");
+let audioMettre2 = document.getElementById("audioMettre2");
+
+mettre2.addEventListener("click", () => {
+  audioMettre2.play();
+});
+
+let mettre3 = document.getElementById("mettre3");
+let audioMettre3 = document.getElementById("audioMettre3");
+
+mettre3.addEventListener("click", () => {
+  audioMettre3.play();
+});
+
+let mettre4 = document.getElementById("mettre4");
+let audioMettre4 = document.getElementById("audioMettre4");
+
+mettre4.addEventListener("click", () => {
+  audioMettre4.play();
+});
+
+let mettre5 = document.getElementById("mettre5");
+let audioMettre5 = document.getElementById("audioMettre5");
+
+mettre5.addEventListener("click", () => {
+  audioMettre5.play();
+});
+
+let mettre6 = document.getElementById("mettre6");
+let audioMettre6 = document.getElementById("audioMettre6");
+
+mettre6.addEventListener("click", () => {
+  audioMettre6.play();
+});
+
+let mettre7 = document.getElementById("mettre7");
+let audioMettre7 = document.getElementById("audioMettre7");
+
+mettre7.addEventListener("click", () => {
+  audioMettre7.play();
+});
+
+let mettre8 = document.getElementById("mettre8");
+let audioMettre8 = document.getElementById("audioMettre8");
+
+mettre8.addEventListener("click", () => {
+  audioMettre8.play();
+});
 /*trouver*/
+
+let trouver0 = document.getElementById("trouver0");
+let audioTrouver0 = document.getElementById("audioTrouver0");
+
+trouver0.addEventListener("click", () => {
+  audioTrouver0.play();
+});
+
+let trouver1 = document.getElementById("trouver1");
+let audioTrouver1 = document.getElementById("audioTrouver1");
+
+trouver1.addEventListener("click", () => {
+  audioTrouver1.play();
+});
+
+let trouver2 = document.getElementById("trouver2");
+let audioTrouver2 = document.getElementById("audioTrouver2");
+
+trouver2.addEventListener("click", () => {
+  audioTrouver2.play();
+});
+
+let trouver3 = document.getElementById("trouver3");
+let audioTrouver3 = document.getElementById("audioTrouver3");
+
+trouver3.addEventListener("click", () => {
+  audioTrouver3.play();
+});
+
+let trouver4 = document.getElementById("trouver4");
+let audioTrouver4 = document.getElementById("audioTrouver4");
+
+trouver4.addEventListener("click", () => {
+  audioTrouver4.play();
+});
+
+let trouver5 = document.getElementById("trouver5");
+let audioTrouver5 = document.getElementById("audioTrouver5");
+
+trouver5.addEventListener("click", () => {
+  audioTrouver5.play();
+});
+
+let trouver6 = document.getElementById("trouver6");
+let audioTrouver6 = document.getElementById("audioTrouver6");
+
+trouver6.addEventListener("click", () => {
+  audioTrouver6.play();
+});
+
+let trouver7 = document.getElementById("trouver7");
+let audioTrouver7 = document.getElementById("audioTrouver7");
+
+trouver7.addEventListener("click", () => {
+  audioTrouver7.play();
+});
+
+let trouver8 = document.getElementById("trouver8");
+let audioTrouver8 = document.getElementById("audioTrouver8");
+
+trouver8.addEventListener("click", () => {
+  audioTrouver8.play();
+});
 /*parler*/
 /*venir*/
 /*aller*/
