@@ -225,13 +225,17 @@ footer li {
 
   /* texte autres regles speciales */
 
+  .autresReglesSpeciales p {
+    margin: 0px;
+    padding: 5px;
+  }
+
   .autresReglesSpeciales {
-    width: 95%;
     margin: auto;
-    text-align: center;
-    padding: 0px;
+    width: 95%;
   }
 }
+
 @media only screen and (min-width: 360px) and (max-width: 500px) {
   .footer-ul {
     display: flex;
