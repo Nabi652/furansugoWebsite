@@ -59,6 +59,10 @@ h1 {
   left: 20px;
 }
 
+.fa-arrow-left {
+  padding-right: 5px;
+}
+
 h1 a {
   color: black;
 }

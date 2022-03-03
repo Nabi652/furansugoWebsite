@@ -132,6 +132,14 @@ i {
   cursor: pointer;
 }
 
+/* icone retour */
+
+.ulNav a {
+  cursor: pointer;
+  color: black;
+  text-align: center;
+}
+
 /* taile des lettres en français */
 
 .sizeLetter {
@@ -418,4 +426,31 @@ h4 {
 h4 i {
   font-size: large;
   padding-right: 7px;
+}
+
+/* lecon 7 titre verbes couleur */
+
+#faire0,
+#savoir0,
+#dire0,
+#voir0,
+#regarder0,
+#prendre0,
+#pouvoir0,
+#mettre0,
+#trouver0,
+#parler0,
+#venir0,
+#aller0,
+#passer0,
+#rendre0,
+#laisser0,
+#vivre0,
+#demander0,
+#attendre0,
+#comprendre0,
+#ecrire0,
+#jouer0 {
+  color: black;
+  text-align: center;
 }
