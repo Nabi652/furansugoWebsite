@@ -7,25 +7,11 @@ presentExemple1.addEventListener("click", () => {
   audioPresentExemple1.play();
 });
 
-let buttonStop1 = document.getElementById("buttonStop1");
-
-buttonStop1.addEventListener("click", () => {
-  audioPresentExemple1.pause();
-  audioPresentExemple1.currentTime = 0;
-});
-
 let presentExemple2 = document.getElementById("presentExemple2");
 let audioPresentExemple2 = document.getElementById("audioPresentExemple2");
 
 presentExemple2.addEventListener("click", () => {
   audioPresentExemple2.play();
-});
-
-let buttonStop2 = document.getElementById("buttonStop2");
-
-buttonStop2.addEventListener("click", () => {
-  audioPresentExemple2.pause();
-  audioPresentExemple2.currentTime = 0;
 });
 
 let presentExemple3 = document.getElementById("presentExemple3");
@@ -35,13 +21,6 @@ presentExemple3.addEventListener("click", () => {
   audioPresentExemple3.play();
 });
 
-let buttonStop3 = document.getElementById("buttonStop3");
-
-buttonStop3.addEventListener("click", () => {
-  audioPresentExemple3.pause();
-  audioPresentExemple3.currentTime = 0;
-});
-
 let presentExemple4 = document.getElementById("presentExemple4");
 let audioPresentExemple4 = document.getElementById("audioPresentExemple4");
 
@@ -49,25 +28,11 @@ presentExemple4.addEventListener("click", () => {
   audioPresentExemple4.play();
 });
 
-let buttonStop4 = document.getElementById("buttonStop4");
-
-buttonStop4.addEventListener("click", () => {
-  audioPresentExemple4.pause();
-  audioPresentExemple4.currentTime = 0;
-});
-
 let presentExemple5 = document.getElementById("presentExemple5");
 let audioPresentExemple5 = document.getElementById("audioPresentExemple5");
 
 presentExemple5.addEventListener("click", () => {
   audioPresentExemple5.play();
-});
-
-let buttonStop5 = document.getElementById("buttonStop5");
-
-buttonStop5.addEventListener("click", () => {
-  audioPresentExemple5.pause();
-  audioPresentExemple5.currentTime = 0;
 });
 
 /* exemples verbes du premier groupe */
@@ -81,13 +46,6 @@ premierGroupeExemple1.addEventListener("click", () => {
   audioPremierGroupeExemple1.play();
 });
 
-let buttonStop6 = document.getElementById("buttonStop6");
-
-buttonStop6.addEventListener("click", () => {
-  audioPremierGroupeExemple1.pause();
-  audioPremierGroupeExemple1.currentTime = 0;
-});
-
 let premierGroupeExemple2 = document.getElementById("premierGroupeExemple2");
 let audioPremierGroupeExemple2 = document.getElementById(
   "audioPremierGroupeExemple2"
@@ -95,13 +53,6 @@ let audioPremierGroupeExemple2 = document.getElementById(
 
 premierGroupeExemple2.addEventListener("click", () => {
   audioPremierGroupeExemple2.play();
-});
-
-let buttonStop7 = document.getElementById("buttonStop7");
-
-buttonStop7.addEventListener("click", () => {
-  audioPremierGroupeExemple2.pause();
-  audioPremierGroupeExemple2.currentTime = 0;
 });
 
 let premierGroupeExemple3 = document.getElementById("premierGroupeExemple3");
@@ -113,13 +64,6 @@ premierGroupeExemple3.addEventListener("click", () => {
   audioPremierGroupeExemple3.play();
 });
 
-let buttonStop8 = document.getElementById("buttonStop8");
-
-buttonStop8.addEventListener("click", () => {
-  audioPremierGroupeExemple3.pause();
-  audioPremierGroupeExemple3.currentTime = 0;
-});
-
 let premierGroupeExemple4 = document.getElementById("premierGroupeExemple4");
 let audioPremierGroupeExemple4 = document.getElementById(
   "audioPremierGroupeExemple4"
@@ -129,13 +73,6 @@ premierGroupeExemple4.addEventListener("click", () => {
   audioPremierGroupeExemple4.play();
 });
 
-let buttonStop9 = document.getElementById("buttonStop9");
-
-buttonStop9.addEventListener("click", () => {
-  audioPremierGroupeExemple4.pause();
-  audioPremierGroupeExemple4.currentTime = 0;
-});
-
 let premierGroupeExemple5 = document.getElementById("premierGroupeExemple5");
 let audioPremierGroupeExemple5 = document.getElementById(
   "audioPremierGroupeExemple5"
@@ -143,13 +80,6 @@ let audioPremierGroupeExemple5 = document.getElementById(
 
 premierGroupeExemple5.addEventListener("click", () => {
   audioPremierGroupeExemple5.play();
-});
-
-let buttonStop10 = document.getElementById("buttonStop10");
-
-buttonStop10.addEventListener("click", () => {
-  audioPremierGroupeExemple5.pause();
-  audioPremierGroupeExemple5.currentTime = 0;
 });
 
 /* verbe manger */
@@ -228,13 +158,6 @@ deuxiemeGroupeExemple1.addEventListener("click", () => {
   audioDeuxiemeGroupeExemple1.play();
 });
 
-let buttonStop11 = document.getElementById("buttonStop11");
-
-buttonStop11.addEventListener("click", () => {
-  audioDeuxiemeGroupeExemple1.pause();
-  audioDeuxiemeGroupeExemple1.currentTime = 0;
-});
-
 let deuxiemeGroupeExemple2 = document.getElementById("deuxiemeGroupeExemple2");
 let audioDeuxiemeGroupeExemple2 = document.getElementById(
   "audioDeuxiemeGroupeExemple2"
@@ -242,13 +165,6 @@ let audioDeuxiemeGroupeExemple2 = document.getElementById(
 
 deuxiemeGroupeExemple2.addEventListener("click", () => {
   audioDeuxiemeGroupeExemple2.play();
-});
-
-let buttonStop12 = document.getElementById("buttonStop12");
-
-buttonStop12.addEventListener("click", () => {
-  audioDeuxiemeGroupeExemple2.pause();
-  audioDeuxiemeGroupeExemple2.currentTime = 0;
 });
 
 let deuxiemeGroupeExemple3 = document.getElementById("deuxiemeGroupeExemple3");
@@ -260,13 +176,6 @@ deuxiemeGroupeExemple3.addEventListener("click", () => {
   audioDeuxiemeGroupeExemple3.play();
 });
 
-let buttonStop13 = document.getElementById("buttonStop13");
-
-buttonStop13.addEventListener("click", () => {
-  audioDeuxiemeGroupeExemple3.pause();
-  audioDeuxiemeGroupeExemple3.currentTime = 0;
-});
-
 let deuxiemeGroupeExemple4 = document.getElementById("deuxiemeGroupeExemple4");
 let audioDeuxiemeGroupeExemple4 = document.getElementById(
   "audioDeuxiemeGroupeExemple4"
@@ -276,13 +185,6 @@ deuxiemeGroupeExemple4.addEventListener("click", () => {
   audioDeuxiemeGroupeExemple4.play();
 });
 
-let buttonStop14 = document.getElementById("buttonStop14");
-
-buttonStop14.addEventListener("click", () => {
-  audioDeuxiemeGroupeExemple4.pause();
-  audioDeuxiemeGroupeExemple4.currentTime = 0;
-});
-
 let deuxiemeGroupeExemple5 = document.getElementById("deuxiemeGroupeExemple5");
 let audioDeuxiemeGroupeExemple5 = document.getElementById(
   "audioDeuxiemeGroupeExemple5"
@@ -290,13 +192,6 @@ let audioDeuxiemeGroupeExemple5 = document.getElementById(
 
 deuxiemeGroupeExemple5.addEventListener("click", () => {
   audioDeuxiemeGroupeExemple5.play();
-});
-
-let buttonStop15 = document.getElementById("buttonStop15");
-
-buttonStop15.addEventListener("click", () => {
-  audioDeuxiemeGroupeExemple5.pause();
-  audioDeuxiemeGroupeExemple5.currentTime = 0;
 });
 
 /* exemples troisieme groupe */
@@ -312,13 +207,6 @@ troisiemeGroupeExemple1.addEventListener("click", () => {
   audioTroisiemeGroupeExemple1.play();
 });
 
-let buttonStop16 = document.getElementById("buttonStop16");
-
-buttonStop16.addEventListener("click", () => {
-  audioTroisiemeGroupeExemple1.pause();
-  audioTroisiemeGroupeExemple1.currentTime = 0;
-});
-
 let troisiemeGroupeExemple2 = document.getElementById(
   "troisiemeGroupeExemple2"
 );
@@ -328,13 +216,6 @@ let audioTroisiemeGroupeExemple2 = document.getElementById(
 
 troisiemeGroupeExemple2.addEventListener("click", () => {
   audioTroisiemeGroupeExemple2.play();
-});
-
-let buttonStop17 = document.getElementById("buttonStop17");
-
-buttonStop17.addEventListener("click", () => {
-  audioTroisiemeGroupeExemple2.pause();
-  audioTroisiemeGroupeExemple2.currentTime = 0;
 });
 
 let troisiemeGroupeExemple3 = document.getElementById(
@@ -348,13 +229,6 @@ troisiemeGroupeExemple3.addEventListener("click", () => {
   audioTroisiemeGroupeExemple3.play();
 });
 
-let buttonStop18 = document.getElementById("buttonStop18");
-
-buttonStop18.addEventListener("click", () => {
-  audioTroisiemeGroupeExemple3.pause();
-  audioTroisiemeGroupeExemple3.currentTime = 0;
-});
-
 let troisiemeGroupeExemple4 = document.getElementById(
   "troisiemeGroupeExemple4"
 );
@@ -364,13 +238,6 @@ let audioTroisiemeGroupeExemple4 = document.getElementById(
 
 troisiemeGroupeExemple4.addEventListener("click", () => {
   audioTroisiemeGroupeExemple4.play();
-});
-
-let buttonStop19 = document.getElementById("buttonStop19");
-
-buttonStop19.addEventListener("click", () => {
-  audioTroisiemeGroupeExemple4.pause();
-  audioTroisiemeGroupeExemple4.currentTime = 0;
 });
 
 let troisiemeGroupeExemple5 = document.getElementById(
@@ -384,13 +251,6 @@ troisiemeGroupeExemple5.addEventListener("click", () => {
   audioTroisiemeGroupeExemple5.play();
 });
 
-let buttonStop20 = document.getElementById("buttonStop20");
-
-buttonStop20.addEventListener("click", () => {
-  audioTroisiemeGroupeExemple5.pause();
-  audioTroisiemeGroupeExemple5.currentTime = 0;
-});
-
 let troisiemeGroupeExemple6 = document.getElementById(
   "troisiemeGroupeExemple6"
 );
@@ -400,13 +260,6 @@ let audioTroisiemeGroupeExemple6 = document.getElementById(
 
 troisiemeGroupeExemple6.addEventListener("click", () => {
   audioTroisiemeGroupeExemple6.play();
-});
-
-let buttonStop21 = document.getElementById("buttonStop21");
-
-buttonStop21.addEventListener("click", () => {
-  audioTroisiemeGroupeExemple6.pause();
-  audioTroisiemeGroupeExemple6.currentTime = 0;
 });
 
 /* aller */
