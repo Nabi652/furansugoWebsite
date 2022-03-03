@@ -236,6 +236,10 @@ footer li {
   }
 }
 
+.texte p span {
+  padding-top: 5px;
+}
+
 @media only screen and (min-width: 360px) and (max-width: 500px) {
   .footer-ul {
     display: flex;

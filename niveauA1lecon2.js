@@ -255,12 +255,12 @@ sePresenterExemple1.addEventListener("click", () => {
   audioSePresenterExemple1.play();
 });
 
-let buttonStop1 = document.getElementById("buttonStop1");
+// let buttonStop1 = document.getElementById("buttonStop1");
 
-buttonStop1.addEventListener("click", () => {
-  audioSePresenterExemple1.pause();
-  audioSePresenterExemple1.currentTime = 0;
-});
+// buttonStop1.addEventListener("click", () => {
+//   audioSePresenterExemple1.pause();
+//   audioSePresenterExemple1.currentTime = 0;
+// });
 
 /* exemple 2*/
 
@@ -273,12 +273,12 @@ sePresenterExemple2.addEventListener("click", () => {
   audioSePresenterExemple2.play();
 });
 
-let buttonStop2 = document.getElementById("buttonStop2");
+// let buttonStop2 = document.getElementById("buttonStop2");
 
-buttonStop2.addEventListener("click", () => {
-  audioSePresenterExemple2.pause();
-  audioSePresenterExemple2.currentTime = 0;
-});
+// buttonStop2.addEventListener("click", () => {
+//   audioSePresenterExemple2.pause();
+//   audioSePresenterExemple2.currentTime = 0;
+// });
 
 /* exemple 3*/
 
@@ -291,12 +291,12 @@ sePresenterExemple3.addEventListener("click", () => {
   audioSePresenterExemple3.play();
 });
 
-let buttonStop3 = document.getElementById("buttonStop3");
+// let buttonStop3 = document.getElementById("buttonStop3");
 
-buttonStop3.addEventListener("click", () => {
-  audioSePresenterExemple3.pause();
-  audioSePresenterExemple3.currentTime = 0;
-});
+// buttonStop3.addEventListener("click", () => {
+//   audioSePresenterExemple3.pause();
+//   audioSePresenterExemple3.currentTime = 0;
+// });
 
 /* exemple 4*/
 
