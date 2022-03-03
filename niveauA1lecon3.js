@@ -263,30 +263,12 @@ familleExemple1.addEventListener("click", () => {
   audioFamilleExemple1.play();
 });
 
-/* bouton stop */
-
-let buttonStop1 = document.getElementById("buttonStop1");
-
-buttonStop1.addEventListener("click", () => {
-  audioFamilleExemple1.pause();
-  audioFamilleExemple1.currentTime = 0;
-});
-
 /* exemple 10*/
 let familleExemple10 = document.getElementById("familleExemple10");
 let audioFamilleExemple10 = document.getElementById("audioFamilleExemple10");
 
 familleExemple10.addEventListener("click", () => {
   audioFamilleExemple10.play();
-});
-
-/* bouton stop */
-
-let buttonStop10 = document.getElementById("buttonStop10");
-
-buttonStop10.addEventListener("click", () => {
-  audioFamilleExemple10.pause();
-  audioFamilleExemple10.currentTime = 0;
 });
 
 /* exemple 11*/
@@ -297,30 +279,12 @@ familleExemple11.addEventListener("click", () => {
   audioFamilleExemple11.play();
 });
 
-/* bouton stop */
-
-let buttonStop11 = document.getElementById("buttonStop11");
-
-buttonStop11.addEventListener("click", () => {
-  audioFamilleExemple11.pause();
-  audioFamilleExemple11.currentTime = 0;
-});
-
 /* exemple 12*/
 let familleExemple12 = document.getElementById("familleExemple12");
 let audioFamilleExemple12 = document.getElementById("audioFamilleExemple12");
 
 familleExemple12.addEventListener("click", () => {
   audioFamilleExemple12.play();
-});
-
-/* bouton stop */
-
-let buttonStop12 = document.getElementById("buttonStop12");
-
-buttonStop12.addEventListener("click", () => {
-  audioFamilleExemple12.pause();
-  audioFamilleExemple12.currentTime = 0;
 });
 
 /* audios le tableau metiers */
@@ -850,30 +814,12 @@ metiersExemple1.addEventListener("click", () => {
   audioMetiersExemple1.play();
 });
 
-/* bouton stop */
-
-let buttonStop13 = document.getElementById("buttonStop13");
-
-buttonStop13.addEventListener("click", () => {
-  audioMetiersExemple1.pause();
-  audioMetiersExemple1.currentTime = 0;
-});
-
 /* exemple 2*/
 let metiersExemple2 = document.getElementById("metiersExemple2");
 let audioMetiersExemple2 = document.getElementById("audioMetiersExemple2");
 
 metiersExemple2.addEventListener("click", () => {
   audioMetiersExemple2.play();
-});
-
-/* bouton stop */
-
-let buttonStop14 = document.getElementById("buttonStop14");
-
-buttonStop14.addEventListener("click", () => {
-  audioMetiersExemple2.currentTime = 0;
-  audioMetiersExemple2.pause();
 });
 
 /* exemple 3*/
@@ -884,30 +830,12 @@ metiersExemple3.addEventListener("click", () => {
   audioMetiersExemple3.play();
 });
 
-/* bouton stop */
-
-let buttonStop15 = document.getElementById("buttonStop15");
-
-buttonStop15.addEventListener("click", () => {
-  audioMetiersExemple3.pause();
-  audioMetiersExemple3.currentTime = 0;
-});
-
 /* exemple 4*/
 let metiersExemple4 = document.getElementById("metiersExemple4");
 let audioMetiersExemple4 = document.getElementById("audioMetiersExemple4");
 
 metiersExemple4.addEventListener("click", () => {
   audioMetiersExemple4.play();
-});
-
-/* bouton stop */
-
-let buttonStop16 = document.getElementById("buttonStop16");
-
-buttonStop16.addEventListener("click", () => {
-  audioMetiersExemple4.pause();
-  audioMetiersExemple4.currentTime = 0;
 });
 
 /* exemple 5*/
@@ -918,15 +846,6 @@ metiersExemple5.addEventListener("click", () => {
   audioMetiersExemple5.play();
 });
 
-/* bouton stop */
-
-let buttonStop17 = document.getElementById("buttonStop17");
-
-buttonStop17.addEventListener("click", () => {
-  audioMetiersExemple5.pause();
-  audioMetiersExemple5.currentTime = 0;
-});
-
 /* exemple 6*/
 let metiersExemple6 = document.getElementById("metiersExemple6");
 let audioMetiersExemple6 = document.getElementById("audioMetiersExemple6");
@@ -935,30 +854,12 @@ metiersExemple6.addEventListener("click", () => {
   audioMetiersExemple6.play();
 });
 
-/* bouton stop */
-
-let buttonStop18 = document.getElementById("buttonStop18");
-
-buttonStop18.addEventListener("click", () => {
-  audioMetiersExemple6.pause();
-  audioMetiersExemple6.currentTime = 0;
-});
-
 /* exemple 7*/
 let metiersExemple7 = document.getElementById("metiersExemple7");
 let audioMetiersExemple7 = document.getElementById("audioMetiersExemple7");
 
 metiersExemple7.addEventListener("click", () => {
   audioMetiersExemple7.play();
-});
-
-/* bouton stop */
-
-let buttonStop19 = document.getElementById("buttonStop19");
-
-buttonStop19.addEventListener("click", () => {
-  audioMetiersExemple7.pause();
-  audioMetiersExemple7.currentTime = 0;
 });
 
 /* audio pour le tableau moyen de transport */
@@ -1170,15 +1071,6 @@ moyensTransportExemple1.addEventListener("click", () => {
   audioMoyensTransportExemple1.play();
 });
 
-/* bouton stop */
-
-let buttonStop20 = document.getElementById("buttonStop20");
-
-buttonStop20.addEventListener("click", () => {
-  audioMoyensTransportExemple1.pause();
-  audioMoyensTransportExemple1.currentTime = 0;
-});
-
 /* exemple 2*/
 let moyensTransportExemple2 = document.getElementById(
   "moyensTransportExemple2"
@@ -1188,15 +1080,6 @@ let audioMoyensTransportExemple2 = document.getElementById(
 );
 moyensTransportExemple2.addEventListener("click", () => {
   audioMoyensTransportExemple2.play();
-});
-
-/* bouton stop */
-
-let buttonStop21 = document.getElementById("buttonStop21");
-
-buttonStop21.addEventListener("click", () => {
-  audioMoyensTransportExemple2.pause();
-  audioMoyensTransportExemple2.currentTime = 0;
 });
 
 /* exemple 3*/
@@ -1210,15 +1093,6 @@ moyensTransportExemple3.addEventListener("click", () => {
   audioMoyensTransportExemple3.play();
 });
 
-/* bouton stop */
-
-let buttonStop22 = document.getElementById("buttonStop22");
-
-buttonStop22.addEventListener("click", () => {
-  audioMoyensTransportExemple3.pause();
-  audioMoyensTransportExemple3.currentTime = 0;
-});
-
 /* exemple 4*/
 let moyensTransportExemple4 = document.getElementById(
   "moyensTransportExemple4"
@@ -1228,15 +1102,6 @@ let audioMoyensTransportExemple4 = document.getElementById(
 );
 moyensTransportExemple4.addEventListener("click", () => {
   audioMoyensTransportExemple4.play();
-});
-
-/* bouton stop */
-
-let buttonStop23 = document.getElementById("buttonStop23");
-
-buttonStop23.addEventListener("click", () => {
-  audioMoyensTransportExemple4.pause();
-  audioMoyensTransportExemple4.currentTime = 0;
 });
 
 /* tableau les couleurs */
@@ -1383,29 +1248,11 @@ couleursExemple1.addEventListener("click", () => {
   audioCouleursExemple1.play();
 });
 
-/* bouton stop */
-
-let buttonStop24 = document.getElementById("buttonStop24");
-
-buttonStop24.addEventListener("click", () => {
-  audioCouleursExemple1.pause();
-  audioCouleursExemple1.currentTime = 0;
-});
-
 let couleursExemple2 = document.getElementById("couleursExemple2");
 let audioCouleursExemple2 = document.getElementById("audioCouleursExemple2");
 
 couleursExemple2.addEventListener("click", () => {
   audioCouleursExemple2.play();
-});
-
-/* bouton stop */
-
-let buttonStop25 = document.getElementById("buttonStop25");
-
-buttonStop25.addEventListener("click", () => {
-  audioCouleursExemple2.pause();
-  audioCouleursExemple2.currentTime = 0;
 });
 
 let couleursExemple3 = document.getElementById("couleursExemple3");
@@ -1415,15 +1262,6 @@ couleursExemple3.addEventListener("click", () => {
   audioCouleursExemple3.play();
 });
 
-/* bouton stop */
-
-let buttonStop26 = document.getElementById("buttonStop26");
-
-buttonStop26.addEventListener("click", () => {
-  audioCouleursExemple3.pause();
-  audioCouleursExemple3.currentTime = 0;
-});
-
 let couleursExemple4 = document.getElementById("couleursExemple4");
 let audioCouleursExemple4 = document.getElementById("audioCouleursExemple4");
 
@@ -1431,29 +1269,11 @@ couleursExemple4.addEventListener("click", () => {
   audioCouleursExemple4.play();
 });
 
-/* bouton stop */
-
-let buttonStop27 = document.getElementById("buttonStop27");
-
-buttonStop27.addEventListener("click", () => {
-  audioCouleursExemple4.pause();
-  audioCouleursExemple4.currentTime = 0;
-});
-
 let couleursExemple5 = document.getElementById("couleursExemple5");
 let audioCouleursExemple5 = document.getElementById("audioCouleursExemple5");
 
 couleursExemple5.addEventListener("click", () => {
   audioCouleursExemple5.play();
-});
-
-/* bouton stop */
-
-let buttonStop28 = document.getElementById("buttonStop28");
-
-buttonStop28.addEventListener("click", () => {
-  audioCouleursExemple5.pause();
-  audioCouleursExemple5.currentTime = 0;
 });
 
 /* tableau : la ville */
@@ -1704,28 +1524,10 @@ villeExemple1.addEventListener("click", () => {
   audioVilleExemple1.play();
 });
 
-/* bouton stop */
-
-let buttonStop29 = document.getElementById("buttonStop29");
-
-buttonStop29.addEventListener("click", () => {
-  audioVilleExemple1.pause();
-  audioVilleExemple1.currentTime = 0;
-});
-
 let villeExemple2 = document.getElementById("villeExemple2");
 let audioVilleExemple2 = document.getElementById("audioVilleExemple2");
 villeExemple2.addEventListener("click", () => {
   audioVilleExemple2.play();
-});
-
-/* bouton stop */
-
-let buttonStop30 = document.getElementById("buttonStop30");
-
-buttonStop30.addEventListener("click", () => {
-  audioVilleExemple2.pause();
-  audioVilleExemple2.currentTime = 0;
 });
 
 let villeExemple3 = document.getElementById("villeExemple3");
@@ -1734,28 +1536,10 @@ villeExemple3.addEventListener("click", () => {
   audioVilleExemple3.play();
 });
 
-/* bouton stop */
-
-let buttonStop31 = document.getElementById("buttonStop31");
-
-buttonStop31.addEventListener("click", () => {
-  audioVilleExemple3.pause();
-  audioVilleExemple3.currentTime = 0;
-});
-
 let villeExemple4 = document.getElementById("villeExemple4");
 let audioVilleExemple4 = document.getElementById("audioVilleExemple4");
 villeExemple4.addEventListener("click", () => {
   audioVilleExemple4.play();
-});
-
-/* bouton stop */
-
-let buttonStop32 = document.getElementById("buttonStop32");
-
-buttonStop32.addEventListener("click", () => {
-  audioVilleExemple4.pause();
-  audioVilleExemple4.currentTime = 0;
 });
 
 let villeExemple5 = document.getElementById("villeExemple5");
@@ -1764,43 +1548,16 @@ villeExemple5.addEventListener("click", () => {
   audioVilleExemple5.play();
 });
 
-/* bouton stop */
-
-let buttonStop33 = document.getElementById("buttonStop33");
-
-buttonStop33.addEventListener("click", () => {
-  audioVilleExemple5.pause();
-  audioVilleExemple5.currentTime = 0;
-});
-
 let villeExemple6 = document.getElementById("villeExemple6");
 let audioVilleExemple6 = document.getElementById("audioVilleExemple6");
 villeExemple6.addEventListener("click", () => {
   audioVilleExemple6.play();
 });
 
-/* bouton stop */
-
-let buttonStop34 = document.getElementById("buttonStop34");
-
-buttonStop34.addEventListener("click", () => {
-  audioVilleExemple6.pause();
-  audioVilleExemple6.currentTime = 0;
-});
-
 let villeExemple7 = document.getElementById("villeExemple7");
 let audioVilleExemple7 = document.getElementById("audioVilleExemple7");
 villeExemple7.addEventListener("click", () => {
   audioVilleExemple7.play();
-});
-
-/* bouton stop */
-
-let buttonStop35 = document.getElementById("buttonStop35");
-
-buttonStop35.addEventListener("click", () => {
-  audioVilleExemple7.pause();
-  audioVilleExemple7.currentTime = 0;
 });
 
 /* la nourriture tableau */
@@ -2284,26 +2041,12 @@ nourritureExemple1.addEventListener("click", () => {
   audioNourritureExemple1.play();
 });
 
-let buttonStop36 = document.getElementById("buttonStop36");
-
-buttonStop36.addEventListener("click", () => {
-  audioNourritureExemple1.pause();
-  audioNourritureExemple1.currentTime = 0;
-});
-
 let nourritureExemple2 = document.getElementById("nourritureExemple2");
 let audioNourritureExemple2 = document.getElementById(
   "audioNourritureExemple2"
 );
 nourritureExemple2.addEventListener("click", () => {
   audioNourritureExemple2.play();
-});
-
-let buttonStop37 = document.getElementById("buttonStop37");
-
-buttonStop37.addEventListener("click", () => {
-  audioNourritureExemple2.pause();
-  audioNourritureExemple2.currentTime = 0;
 });
 
 let nourritureExemple3 = document.getElementById("nourritureExemple3");
@@ -2314,13 +2057,6 @@ nourritureExemple3.addEventListener("click", () => {
   audioNourritureExemple3.play();
 });
 
-let buttonStop38 = document.getElementById("buttonStop38");
-
-buttonStop38.addEventListener("click", () => {
-  audioNourritureExemple3.pause();
-  audioNourritureExemple3.currentTime = 0;
-});
-
 let nourritureExemple4 = document.getElementById("nourritureExemple4");
 let audioNourritureExemple4 = document.getElementById(
   "audioNourritureExemple4"
@@ -2329,24 +2065,10 @@ nourritureExemple4.addEventListener("click", () => {
   audioNourritureExemple4.play();
 });
 
-let buttonStop39 = document.getElementById("buttonStop39");
-
-buttonStop39.addEventListener("click", () => {
-  audioNourritureExemple4.currentTime = 0;
-  audioNourritureExemple4.pause();
-});
-
 let nourritureExemple5 = document.getElementById("nourritureExemple5");
 let audioNourritureExemple5 = document.getElementById(
   "audioNourritureExemple5"
 );
 nourritureExemple5.addEventListener("click", () => {
   audioNourritureExemple5.play();
-});
-
-let buttonStop40 = document.getElementById("buttonStop40");
-
-buttonStop40.addEventListener("click", () => {
-  audioNourritureExemple5.pause();
-  audioNourritureExemple5.currentTime = 0;
 });

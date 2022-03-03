@@ -292,11 +292,34 @@ footer li {
     margin: 0px;
     padding: 0px;
   }
+
+  .ensembleReglesL4 {
+    border: 1px solid red;
+    text-align: center;
+    margin: 0px;
+    padding: 0px;
+  }
+  .ensembleReglesL4 p {
+    margin: 0px;
+    padding: 5px;
+  }
+  .styleL4 {
+    padding-top: 5px;
+    padding-bottom: 5px;
+  }
+}
+
+.ensembleParagraphe span {
+  padding-top: 7px;
 }
 
 /* chaque phrase en français des exemples est en mode bloc pour bien aligner les elements */
 .block {
   color: rgb(71, 52, 52);
+  display: block;
+}
+
+.blockEx {
   display: block;
 }
 
