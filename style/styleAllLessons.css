@@ -242,6 +242,14 @@ footer li {
     margin: auto;
     width: 95%;
   }
+
+  .dialogueL8 {
+    text-align: center;
+    width: 95%;
+    margin: auto;
+    margin-top: 10px;
+    margin-bottom: 10px;
+  }
 }
 
 .texte p span {
@@ -256,34 +264,11 @@ footer li {
   }
 }
 
-/* LECON 2 --------------------- les salutations ----------------*/
-/* ---------------- footer ------------*/
-/* 
-.box1 {
-  border: 2px solid green;
-  display: flex;
-  flex-direction: column;
-}
-.box2 {
-  border: 2px solid pink;
-}
-
-.box3 {
-  border: 3px solid rebeccapurple;
-}
-
-.box4 {
-  border: 5px solid palegoldenrod;
-}
-
-.exemples {
-  border: 5px solid blue;
-} */
-
 /* MEDIA QUERY LECON 2 */
 
 @media only screen and (min-width: 360px) and (max-width: 1000px) {
   /* menu nav */
+
   .texte {
     margin: auto;
     width: 90%;
@@ -294,7 +279,6 @@ footer li {
   }
 
   .ensembleReglesL4 {
-    border: 1px solid red;
     text-align: center;
     margin: 0px;
     padding: 0px;
@@ -306,6 +290,11 @@ footer li {
   .styleL4 {
     padding-top: 5px;
     padding-bottom: 5px;
+  }
+
+  .styleL6 {
+    padding-bottom: 15px;
+    padding-top: 15px;
   }
 }
 
