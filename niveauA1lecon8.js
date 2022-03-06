@@ -725,13 +725,6 @@ hotelExemple22.addEventListener("click", () => {
   audioHotelExemple22.play();
 });
 
-let hotelExemple23 = document.getElementById("hotelExemple23");
-let audioHotelExemple23 = document.getElementById("audioHotelExemple23");
-
-hotelExemple23.addEventListener("click", () => {
-  audioHotelExemple23.play();
-});
-
 let hotelExemple24 = document.getElementById("hotelExemple24");
 let audioHotelExemple24 = document.getElementById("audioHotelExemple24");
 
@@ -765,6 +758,20 @@ let audioHotelExemple28 = document.getElementById("audioHotelExemple28");
 
 hotelExemple28.addEventListener("click", () => {
   audioHotelExemple28.play();
+});
+
+let hotelExemple29 = document.getElementById("hotelExemple29");
+let audioHotelExemple29 = document.getElementById("audioHotelExemple29");
+
+hotelExemple29.addEventListener("click", () => {
+  audioHotelExemple29.play();
+});
+
+let hotelExemple30 = document.getElementById("hotelExemple30");
+let audioHotelExemple30 = document.getElementById("audioHotelExemple30");
+
+hotelExemple30.addEventListener("click", () => {
+  audioHotelExemple30.play();
 });
 /*réserver une table au restaurant */
 
@@ -823,247 +830,257 @@ let audioRestaurant8 = document.getElementById("audioRestaurant8");
 restaurant8.addEventListener("click", () => {
   audioRestaurant8.play();
 });
-/*exemples*/
 
-let restaurantExemple29 = document.getElementById("restaurantExemple29");
-let audioLesCoursesExemple29 = document.getElementById(
-  "audioLesCoursesExemple29"
+/* exemples restaurant */
+
+let restaurantExemple1 = document.getElementById("restaurantExemple1");
+let audioRestaurantExemple1 = document.getElementById(
+  "audioRestaurantExemple1"
 );
 
-restaurantExemple29.addEventListener("click", () => {
-  audioLesCoursesExemple29.play();
+restaurantExemple1.addEventListener("click", () => {
+  audioRestaurantExemple1.play();
 });
 
-let restaurantExemple30 = document.getElementById("restaurantExemple30");
-let audioLesCoursesExemple30 = document.getElementById(
-  "audioLesCoursesExemple30"
+let restaurantExemple2 = document.getElementById("restaurantExemple2");
+let audioRestaurantExemple2 = document.getElementById(
+  "audioRestaurantExemple2"
 );
 
-restaurantExemple30.addEventListener("click", () => {
-  audioLesCoursesExemple30.play();
+restaurantExemple2.addEventListener("click", () => {
+  audioRestaurantExemple2.play();
 });
 
-let restaurantExemple31 = document.getElementById("restaurantExemple31");
-let audioLesCoursesExemple31 = document.getElementById(
-  "audioLesCoursesExemple31"
+let restaurantExemple3 = document.getElementById("restaurantExemple3");
+let audioRestaurantExemple3 = document.getElementById(
+  "audioRestaurantExemple3"
 );
 
-restaurantExemple31.addEventListener("click", () => {
-  audioLesCoursesExemple31.play();
+restaurantExemple3.addEventListener("click", () => {
+  audioRestaurantExemple3.play();
 });
 
-let restaurantExemple32 = document.getElementById("restaurantExemple32");
-let audioLesCoursesExemple32 = document.getElementById(
-  "audioLesCoursesExemple32"
+let restaurantExemple4 = document.getElementById("restaurantExemple4");
+let audioRestaurantExemple4 = document.getElementById(
+  "audioRestaurantExemple4"
 );
 
-restaurantExemple32.addEventListener("click", () => {
-  audioLesCoursesExemple32.play();
+restaurantExemple4.addEventListener("click", () => {
+  audioRestaurantExemple4.play();
 });
 
-let restaurantExemple33 = document.getElementById("restaurantExemple33");
-let audioLesCoursesExemple33 = document.getElementById(
-  "audioLesCoursesExemple33"
+let restaurantExemple5 = document.getElementById("restaurantExemple5");
+let audioRestaurantExemple5 = document.getElementById(
+  "audioRestaurantExemple5"
 );
 
-restaurantExemple33.addEventListener("click", () => {
-  audioLesCoursesExemple33.play();
+restaurantExemple5.addEventListener("click", () => {
+  audioRestaurantExemple5.play();
 });
 
-let restaurantExemple34 = document.getElementById("restaurantExemple34");
-let audioLesCoursesExemple34 = document.getElementById(
-  "audioLesCoursesExemple34"
+let restaurantExemple6 = document.getElementById("restaurantExemple6");
+let audioRestaurantExemple6 = document.getElementById(
+  "audioRestaurantExemple6"
 );
 
-restaurantExemple34.addEventListener("click", () => {
-  audioLesCoursesExemple34.play();
+restaurantExemple6.addEventListener("click", () => {
+  audioRestaurantExemple6.play();
 });
 
-let restaurantExemple35 = document.getElementById("restaurantExemple35");
-let audioLesCoursesExemple35 = document.getElementById(
-  "audioLesCoursesExemple35"
+let restaurantExemple7 = document.getElementById("restaurantExemple7");
+let audioRestaurantExemple7 = document.getElementById(
+  "audioRestaurantExemple1"
 );
 
-restaurantExemple35.addEventListener("click", () => {
-  audioLesCoursesExemple35.play();
+restaurantExemple7.addEventListener("click", () => {
+  audioRestaurantExemple7.play();
 });
 
-let restaurantExemple36 = document.getElementById("restaurantExemple36");
-let audioLesCoursesExemple36 = document.getElementById(
-  "audioLesCoursesExemple36"
+let restaurantExemple8 = document.getElementById("restaurantExemple8");
+let audioRestaurantExemple8 = document.getElementById(
+  "audioRestaurantExemple8"
 );
 
-restaurantExemple36.addEventListener("click", () => {
-  audioLesCoursesExemple36.play();
+restaurantExemple8.addEventListener("click", () => {
+  audioRestaurantExemple8.play();
 });
 
-let restaurantExemple37 = document.getElementById("restaurantExemple37");
-let audioLesCoursesExemple37 = document.getElementById(
-  "audioLesCoursesExemple37"
+let restaurantExemple9 = document.getElementById("restaurantExemple9");
+let audioRestaurantExemple9 = document.getElementById(
+  "audioRestaurantExemple9"
 );
 
-restaurantExemple37.addEventListener("click", () => {
-  audioLesCoursesExemple37.play();
+restaurantExemple9.addEventListener("click", () => {
+  audioRestaurantExemple9.play();
 });
 
-let restaurantExemple38 = document.getElementById("restaurantExemple38");
-let audioLesCoursesExemple38 = document.getElementById(
-  "audioLesCoursesExemple38"
+let restaurantExemple10 = document.getElementById("restaurantExemple10");
+let audioRestaurantExemple10 = document.getElementById(
+  "audioRestaurantExemple10"
 );
 
-restaurantExemple38.addEventListener("click", () => {
-  audioLesCoursesExemple38.play();
+restaurantExemple10.addEventListener("click", () => {
+  audioRestaurantExemple10.play();
 });
 
-let restaurantExemple39 = document.getElementById("restaurantExemple39");
-let audioLesCoursesExemple39 = document.getElementById(
-  "audioLesCoursesExemple39"
+let restaurantExemple11 = document.getElementById("restaurantExemple11");
+let audioRestaurantExemple11 = document.getElementById(
+  "audioRestaurantExemple11"
 );
 
-restaurantExemple39.addEventListener("click", () => {
-  audioLesCoursesExemple39.play();
+restaurantExemple11.addEventListener("click", () => {
+  audioRestaurantExemple11.play();
 });
 
-let restaurantExemple40 = document.getElementById("restaurantExemple40");
-let audioLesCoursesExemple40 = document.getElementById(
-  "audioLesCoursesExemple40"
+let restaurantExemple12 = document.getElementById("restaurantExemple12");
+let audioRestaurantExemple12 = document.getElementById(
+  "audioRestaurantExemple12"
 );
 
-restaurantExemple40.addEventListener("click", () => {
-  audioLesCoursesExemple40.play();
+restaurantExemple12.addEventListener("click", () => {
+  audioRestaurantExemple12.play();
 });
 
-let restaurantExemple41 = document.getElementById("restaurantExemple41");
-let audioLesCoursesExemple41 = document.getElementById(
-  "audioLesCoursesExemple41"
+let restaurantExemple13 = document.getElementById("restaurantExemple13");
+let audioRestaurantExemple13 = document.getElementById(
+  "audioRestaurantExemple13"
 );
 
-restaurantExemple41.addEventListener("click", () => {
-  audioLesCoursesExemple41.play();
+restaurantExemple13.addEventListener("click", () => {
+  audioRestaurantExemple13.play();
 });
 
-let restaurantExemple42 = document.getElementById("restaurantExemple42");
-let audioLesCoursesExemple42 = document.getElementById(
-  "audioLesCoursesExemple42"
+let restaurantExemple14 = document.getElementById("restaurantExemple14");
+let audioRestaurantExemple14 = document.getElementById(
+  "audioRestaurantExemple14"
 );
 
-restaurantExemple42.addEventListener("click", () => {
-  audioLesCoursesExemple42.play();
+restaurantExemple14.addEventListener("click", () => {
+  audioRestaurantExemple14.play();
 });
 
-let restaurantExemple43 = document.getElementById("restaurantExemple43");
-let audioLesCoursesExemple43 = document.getElementById(
-  "audioLesCoursesExemple43"
+let restaurantExemple15 = document.getElementById("restaurantExemple15");
+let audioRestaurantExemple15 = document.getElementById(
+  "audioRestaurantExemple15"
 );
 
-restaurantExemple43.addEventListener("click", () => {
-  audioLesCoursesExemple43.play();
+restaurantExemple15.addEventListener("click", () => {
+  audioRestaurantExemple15.play();
 });
 
-let restaurantExemple44 = document.getElementById("restaurantExemple44");
-let audioLesCoursesExemple44 = document.getElementById(
-  "audioLesCoursesExemple44"
+let restaurantExemple16 = document.getElementById("restaurantExemple16");
+let audioRestaurantExemple16 = document.getElementById(
+  "audioRestaurantExemple16"
 );
 
-restaurantExemple44.addEventListener("click", () => {
-  audioLesCoursesExemple44.play();
+restaurantExemple16.addEventListener("click", () => {
+  audioRestaurantExemple16.play();
 });
 
-let restaurantExemple45 = document.getElementById("restaurantExemple45");
-let audioLesCoursesExemple45 = document.getElementById(
-  "audioLesCoursesExemple45"
+let restaurantExemple17 = document.getElementById("restaurantExemple17");
+let audioRestaurantExemple17 = document.getElementById(
+  "audioRestaurantExemple17"
 );
 
-restaurantExemple45.addEventListener("click", () => {
-  audioLesCoursesExemple45.play();
+restaurantExemple17.addEventListener("click", () => {
+  audioRestaurantExemple17.play();
 });
 
-let restaurantExemple46 = document.getElementById("restaurantExemple46");
-let audioLesCoursesExemple46 = document.getElementById(
-  "audioLesCoursesExemple46"
+let restaurantExemple18 = document.getElementById("restaurantExemple18");
+let audioRestaurantExemple18 = document.getElementById(
+  "audioRestaurantExemple18"
 );
 
-restaurantExemple46.addEventListener("click", () => {
-  audioLesCoursesExemple46.play();
+restaurantExemple18.addEventListener("click", () => {
+  audioRestaurantExemple18.play();
 });
 
-let restaurantExemple47 = document.getElementById("restaurantExemple47");
-let audioLesCoursesExemple47 = document.getElementById(
-  "audioLesCoursesExemple47"
+let restaurantExemple19 = document.getElementById("restaurantExemple19");
+let audioRestaurantExemple19 = document.getElementById(
+  "audioRestaurantExemple19"
 );
 
-restaurantExemple47.addEventListener("click", () => {
-  audioLesCoursesExemple47.play();
+restaurantExemple19.addEventListener("click", () => {
+  audioRestaurantExemple19.play();
 });
 
-let restaurantExemple48 = document.getElementById("restaurantExemple48");
-let audioLesCoursesExemple48 = document.getElementById(
-  "audioLesCoursesExemple48"
+let restaurantExemple20 = document.getElementById("restaurantExemple20");
+let audioRestaurantExemple20 = document.getElementById(
+  "audioRestaurantExemple20"
 );
 
-restaurantExemple48.addEventListener("click", () => {
-  audioLesCoursesExemple48.play();
+restaurantExemple20.addEventListener("click", () => {
+  audioRestaurantExemple20.play();
 });
 
-let restaurantExemple49 = document.getElementById("restaurantExemple49");
-let audioLesCoursesExemple49 = document.getElementById(
-  "audioLesCoursesExemple49"
+let restaurantExemple21 = document.getElementById("restaurantExemple21");
+let audioRestaurantExemple21 = document.getElementById(
+  "audioRestaurantExemple21"
 );
 
-restaurantExemple49.addEventListener("click", () => {
-  audioLesCoursesExemple49.play();
+restaurantExemple21.addEventListener("click", () => {
+  audioRestaurantExemple21.play();
 });
 
-let restaurantExemple50 = document.getElementById("restaurantExemple50");
-let audioLesCoursesExemple50 = document.getElementById(
-  "audioLesCoursesExemple50"
+let restaurantExemple22 = document.getElementById("restaurantExemple22");
+let audioRestaurantExemple22 = document.getElementById(
+  "audioRestaurantExemple22"
 );
 
-restaurantExemple50.addEventListener("click", () => {
-  audioLesCoursesExemple50.play();
+restaurantExemple22.addEventListener("click", () => {
+  audioRestaurantExemple22.play();
 });
 
-let restaurantExemple51 = document.getElementById("restaurantExemple51");
-let audioLesCoursesExemple51 = document.getElementById(
-  "audioLesCoursesExemple51"
+let restaurantExemple23 = document.getElementById("restaurantExemple23");
+let audioRestaurantExemple23 = document.getElementById(
+  "audioRestaurantExemple23"
 );
 
-restaurantExemple51.addEventListener("click", () => {
-  audioLesCoursesExemple51.play();
+restaurantExemple23.addEventListener("click", () => {
+  audioRestaurantExemple23.play();
 });
 
-let restaurantExemple52 = document.getElementById("restaurantExemple52");
-let audioLesCoursesExemple52 = document.getElementById(
-  "audioLesCoursesExemple52"
+let restaurantExemple24 = document.getElementById("restaurantExemple24");
+let audioRestaurantExemple24 = document.getElementById(
+  "audioRestaurantExemple24"
 );
 
-restaurantExemple52.addEventListener("click", () => {
-  audioLesCoursesExemple52.play();
+restaurantExemple24.addEventListener("click", () => {
+  audioRestaurantExemple24.play();
 });
 
-let restaurantExemple53 = document.getElementById("restaurantExemple53");
-let audioLesCoursesExemple53 = document.getElementById(
-  "audioLesCoursesExemple53"
+let restaurantExemple25 = document.getElementById("restaurantExemple25");
+let audioRestaurantExemple25 = document.getElementById(
+  "audioRestaurantExemple25"
 );
 
-restaurantExemple53.addEventListener("click", () => {
-  audioLesCoursesExemple53.play();
+restaurantExemple25.addEventListener("click", () => {
+  audioRestaurantExemple25.play();
 });
 
-let restaurantExemple54 = document.getElementById("restaurantExemple54");
-let audioLesCoursesExemple54 = document.getElementById(
-  "audioLesCoursesExemple54"
+let restaurantExemple26 = document.getElementById("restaurantExemple26");
+let audioRestaurantExemple26 = document.getElementById(
+  "audioRestaurantExemple26"
 );
 
-restaurantExemple54.addEventListener("click", () => {
-  audioLesCoursesExemple54.play();
+restaurantExemple26.addEventListener("click", () => {
+  audioRestaurantExemple26.play();
 });
 
-let restaurantExemple55 = document.getElementById("restaurantExemple55");
-let audioLesCoursesExemple55 = document.getElementById(
-  "audioLesCoursesExemple55"
+let restaurantExemple27 = document.getElementById("restaurantExemple27");
+let audioRestaurantExemple27 = document.getElementById(
+  "audioRestaurantExemple27"
 );
 
-restaurantExemple55.addEventListener("click", () => {
-  audioLesCoursesExemple55.play();
+restaurantExemple27.addEventListener("click", () => {
+  audioRestaurantExemple27.play();
+});
+
+let restaurantExemple28 = document.getElementById("restaurantExemple28");
+let audioRestaurantExemple28 = document.getElementById(
+  "audioRestaurantExemple28"
+);
+
+restaurantExemple28.addEventListener("click", () => {
+  audioRestaurantExemple28.play();
 });
