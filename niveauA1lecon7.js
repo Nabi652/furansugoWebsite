@@ -637,63 +637,63 @@ parler8.addEventListener("click", () => {
 });
 /*venir*/
 let venir0 = document.getElementById("venir0");
-let audioVenir0 = document.getElementById(" audioVenir0");
+let audioVenir0 = document.getElementById("audioVenir0");
 
 venir0.addEventListener("click", () => {
   audioVenir0.play();
 });
 
 let venir1 = document.getElementById("venir1");
-let audioVenir1 = document.getElementById(" audioVenir1");
+let audioVenir1 = document.getElementById("audioVenir1");
 
 venir1.addEventListener("click", () => {
   audioVenir1.play();
 });
 
 let venir2 = document.getElementById("venir2");
-let audioVenir2 = document.getElementById(" audioVenir2");
+let audioVenir2 = document.getElementById("audioVenir2");
 
 venir2.addEventListener("click", () => {
   audioVenir2.play();
 });
 
 let venir3 = document.getElementById("venir3");
-let audioVenir3 = document.getElementById(" audioVenir3");
+let audioVenir3 = document.getElementById("audioVenir3");
 
 venir3.addEventListener("click", () => {
   audioVenir3.play();
 });
 
 let venir4 = document.getElementById("venir4");
-let audioVenir4 = document.getElementById(" audioVenir4");
+let audioVenir4 = document.getElementById("audioVenir4");
 
 venir4.addEventListener("click", () => {
   audioVenir4.play();
 });
 
 let venir5 = document.getElementById("venir5");
-let audioVenir5 = document.getElementById(" audioVenir5");
+let audioVenir5 = document.getElementById("audioVenir5");
 
 venir5.addEventListener("click", () => {
   audioVenir5.play();
 });
 
 let venir6 = document.getElementById("venir6");
-let audioVenir6 = document.getElementById(" audioVenir6");
+let audioVenir6 = document.getElementById("audioVenir6");
 
 venir6.addEventListener("click", () => {
   audioVenir6.play();
 });
 
 let venir7 = document.getElementById("venir7");
-let audioVenir7 = document.getElementById(" audioVenir7");
+let audioVenir7 = document.getElementById("audioVenir7");
 
 venir7.addEventListener("click", () => {
   audioVenir7.play();
 });
 
 let venir8 = document.getElementById("venir8");
-let audioVenir8 = document.getElementById(" audioVenir8");
+let audioVenir8 = document.getElementById("audioVenir8");
 
 venir8.addEventListener("click", () => {
   audioVenir8.play();
@@ -874,7 +874,7 @@ let rendre6 = document.getElementById("rendre6");
 let audioRendre6 = document.getElementById("audioRendre6");
 
 rendre6.addEventListener("click", () => {
-  v6.play();
+  audioRendre6.play();
 });
 
 let rendre7 = document.getElementById("rendre7");
@@ -997,17 +997,17 @@ vivre5.addEventListener("click", () => {
 });
 
 let vivre6 = document.getElementById("vivre6");
-let audioPasser6 = document.getElementById("audioPasser6");
+let audioVivre6 = document.getElementById("audioVivre6");
 
 vivre6.addEventListener("click", () => {
-  audioPasser6.play();
+  audioVivre6.play();
 });
 
 let vivre7 = document.getElementById("vivre7");
-let audioPasser7 = document.getElementById("audioPasser7");
+let audioVivre7 = document.getElementById("audioVivre7");
 
 vivre7.addEventListener("click", () => {
-  audioPasser7.play();
+  audioVivre7.play();
 });
 
 let vivre8 = document.getElementById("vivre8");
@@ -1119,7 +1119,7 @@ let attendre5 = document.getElementById("attendre5");
 let audioAttendre5 = document.getElementById("audioAttendre5");
 
 attendre5.addEventListener("click", () => {
-  audioPasser5.play();
+  audioAttendre5.play();
 });
 
 let attendre6 = document.getElementById("attendre6");
@@ -1133,7 +1133,7 @@ let attendre7 = document.getElementById("attendre7");
 let audioAttendre7 = document.getElementById("audioAttendre7");
 
 attendre7.addEventListener("click", () => {
-  audioPasser7.play();
+  audioAttendre7.play();
 });
 
 let attendre8 = document.getElementById("attendre8");
@@ -1231,7 +1231,7 @@ let ecrire3 = document.getElementById("ecrire3");
 let audioEcrire3 = document.getElementById("audioEcrire3");
 
 ecrire3.addEventListener("click", () => {
-  audioPasser3.play();
+  audioEcrire3.play();
 });
 
 let ecrire4 = document.getElementById("ecrire4");

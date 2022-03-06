@@ -81,7 +81,7 @@ aimerExemple3.addEventListener("click", () => {
 let aimerExemple4 = document.getElementById("aimerExemple4");
 let audioAimerExemple4 = document.getElementById("audioAimerExemple4");
 
-aimerExemple3.addEventListener("click", () => {
+aimerExemple4.addEventListener("click", () => {
   audioAimerExemple4.play();
 });
 
