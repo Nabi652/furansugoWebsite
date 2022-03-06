@@ -1,5 +1,12 @@
 /* etre */
 
+let etre0 = document.getElementById("etre0");
+let audioEtre0 = document.getElementById("audioEtre0");
+
+etre0.addEventListener("click", () => {
+  audioEtre0.play();
+});
+
 let etre1 = document.getElementById("etre1");
 let audioEtre1 = document.getElementById("audioEtre1");
 
@@ -94,6 +101,13 @@ etreExemple5.addEventListener("click", () => {
 });
 
 /* avoir */
+
+let avoir0 = document.getElementById("avoir0");
+let audioAvoir0 = document.getElementById("audioAvoir0");
+
+avoir0.addEventListener("click", () => {
+  audioAvoir0.play();
+});
 
 let avoir1 = document.getElementById("avoir1");
 let audioAvoir1 = document.getElementById("audioAvoir1");
