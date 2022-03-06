@@ -123,10 +123,3 @@ let audioLecon9Exemple18 = document.getElementById("audioLecon9Exemple18");
 lecon9Exemple18.addEventListener("click", () => {
   audioLecon9Exemple18.play();
 });
-
-let lecon9Exemple19 = document.getElementById("lecon9Exemple19");
-let audioLecon9Exemple19 = document.getElementById("audioLecon9Exemple19");
-
-lecon9Exemple19.addEventListener("click", () => {
-  audioLecon9Exemple19.play();
-});
