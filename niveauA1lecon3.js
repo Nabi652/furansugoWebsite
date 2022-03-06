@@ -1584,7 +1584,7 @@ laNourriture2.addEventListener("click", () => {
   audioBrocoli.play();
 });
 
-let laNourriture3 = document.getElementById("laNourriture1");
+let laNourriture3 = document.getElementById("laNourriture3");
 let audioConcombre = document.getElementById("audioConcombre");
 
 laNourriture3.addEventListener("click", () => {
@@ -1651,7 +1651,7 @@ let laNourriture12 = document.getElementById("laNourriture12");
 let audioChou = document.getElementById("audioChou");
 
 laNourriture12.addEventListener("click", () => {
-  audioaudioChou.play();
+  audioChou.play();
 });
 
 let laNourriture13 = document.getElementById("laNourriture13");
@@ -1720,7 +1720,7 @@ laNourriture21.addEventListener("click", () => {
 let laNourriture22 = document.getElementById("laNourriture22");
 let audioCerise = document.getElementById("audioCerise");
 
-laNourriture7.addEventListener("click", () => {
+laNourriture22.addEventListener("click", () => {
   audioCerise.play();
 });
 
@@ -1938,7 +1938,7 @@ let laNourriture53 = document.getElementById("laNourriture53");
 let audioLait = document.getElementById("audioLait");
 
 laNourriture53.addEventListener("click", () => {
-  aaudioLait.play();
+  audioLait.play();
 });
 
 let laNourriture54 = document.getElementById("laNourriture54");
@@ -1979,7 +1979,7 @@ laNourriture58.addEventListener("click", () => {
 let laNourriture59 = document.getElementById("laNourriture59");
 let audioJusdOrange = document.getElementById("audioJusdOrange");
 
-laNourriture39.addEventListener("click", () => {
+laNourriture59.addEventListener("click", () => {
   audioJusdOrange.play();
 });
 
