@@ -6,7 +6,7 @@ lesCourses1.addEventListener("click", () => {
   audioLesCourses1.play();
 });
 
-let lesCourses2 = document.getElementById("lesCourse2");
+let lesCourses2 = document.getElementById("lesCourses2");
 let audioLesCourses2 = document.getElementById("audioLesCourses2");
 
 lesCourses2.addEventListener("click", () => {
@@ -750,7 +750,7 @@ let hotelExemple27 = document.getElementById("hotelExemple27");
 let audioHotelExemple27 = document.getElementById("audioHotelExemple27");
 
 hotelExemple27.addEventListener("click", () => {
-  audioHotelExemple1.play();
+  audioHotelExemple27.play();
 });
 
 let hotelExemple28 = document.getElementById("hotelExemple28");
@@ -889,7 +889,7 @@ restaurantExemple6.addEventListener("click", () => {
 
 let restaurantExemple7 = document.getElementById("restaurantExemple7");
 let audioRestaurantExemple7 = document.getElementById(
-  "audioRestaurantExemple1"
+  "audioRestaurantExemple7"
 );
 
 restaurantExemple7.addEventListener("click", () => {
