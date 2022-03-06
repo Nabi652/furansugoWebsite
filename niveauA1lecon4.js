@@ -330,7 +330,7 @@ aller9.addEventListener("click", () => {
 /* s'asseoir */
 
 let asseoir1 = document.getElementById("asseoir1");
-let audioAsseoir1 = document.getElementById("audioAsseoir1 ");
+let audioAsseoir1 = document.getElementById("audioAsseoir1");
 
 asseoir1.addEventListener("click", () => {
   audioAsseoir1.play();
