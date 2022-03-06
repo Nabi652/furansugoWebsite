@@ -52,13 +52,25 @@ i {
 }
 
 h1 {
-  cursor: pointer;
+  color: #867373;
+  font-weight: bolder;
+  left: 500px;
   position: absolute;
-  left: 20px;
+  font-size: 60px;
 }
-
 h1 a {
   color: black;
+}
+
+@media only screen and (min-width: 360px) and (max-width: 1200px) {
+  /* media query */
+  h1 {
+    color: #867373;
+    font-weight: bolder;
+    left: 25px;
+    position: absolute;
+    font-size: 40px;
+  }
 }
 
 /* icone retour */

@@ -3,6 +3,14 @@
   src: url("/font/KaiseiTokumin-Regular.ttf");
 }
 
+h1 {
+  color: #867373;
+  font-weight: bolder;
+  left: 500px;
+  position: absolute;
+  font-size: 60px;
+}
+
 * {
   box-sizing: border-box;
   list-style: none;
@@ -54,15 +62,18 @@ body {
   font-size: large;
 }
 
-h1 {
-  cursor: pointer;
-  position: absolute;
-  left: 20px;
-  color: darkblue;
-}
-
 h1 a {
   color: black;
+}
+@media only screen and (min-width: 360px) and (max-width: 1200px) {
+  /* media query */
+  h1 {
+    color: #867373;
+    font-weight: bolder;
+    left: 25px;
+    position: absolute;
+    font-size: 40px;
+  }
 }
 
 /* icone retour */

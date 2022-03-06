@@ -2,7 +2,13 @@
   font-family: "KaiseiTokumin";
   src: url("/font/KaiseiTokumin-Regular.ttf");
 }
-
+h1 {
+  color: #867373;
+  font-weight: bolder;
+  left: 500px;
+  position: absolute;
+  font-size: 60px;
+}
 * {
   box-sizing: border-box;
   list-style: none;
@@ -53,11 +59,11 @@ i {
   font-size: large;
 }
 
-h1 {
+/* h1 {
   cursor: pointer;
   position: absolute;
   left: 20px;
-}
+} */
 
 .fa-arrow-left {
   padding-right: 5px;
@@ -135,6 +141,17 @@ footer {
 footer li {
   color: black;
   font-size: 20px;
+}
+
+@media only screen and (min-width: 360px) and (max-width: 1200px) {
+  /* media query */
+  h1 {
+    color: #867373;
+    font-weight: bolder;
+    left: 25px;
+    position: absolute;
+    font-size: 40px;
+  }
 }
 
 @media only screen and (min-width: 360px) and (max-width: 1000px) {
