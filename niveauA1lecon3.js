@@ -652,6 +652,14 @@ metiers41.addEventListener("click", () => {
   audioMetiers41.play();
 });
 
+/* militaire */
+let metiers411 = document.getElementById("metiers411");
+let audioMetiers411 = document.getElementById("audioMetiers411");
+
+metiers411.addEventListener("click", () => {
+  audioMetiers411.play();
+});
+
 /*  ophtalmo */
 
 let metiers42 = document.getElementById("metiers42");
