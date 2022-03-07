@@ -166,6 +166,18 @@ footer li {
   }
 }
 
+@media only screen and (min-width: 360px) and (max-width: 1224px) {
+  .divExplications {
+    font-display: flex;
+    flex-direction: column;
+  }
+
+  .explication1,
+  .explication2 {
+    width: 100%;
+  }
+}
+
 @media only screen and (min-width: 360px) and (max-width: 1000px) {
   /* media query */
 
@@ -179,15 +191,6 @@ footer li {
 
   .liNav {
     padding: 5px;
-  }
-
-  .divExplications {
-    display: flex;
-    flex-direction: column;
-  }
-  .explication1,
-  .explication2 {
-    width: 100%;
   }
 }
 
