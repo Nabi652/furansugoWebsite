@@ -77,6 +77,8 @@ h1 a {
 .explication1,
 .explication2 {
   cursor: default;
+  width: 50%;
+  padding: 15px;
 }
 
 .textP {
