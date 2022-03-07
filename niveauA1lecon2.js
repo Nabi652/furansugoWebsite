@@ -1,3 +1,98 @@
+/* s'appeler */
+
+let sappeler0 = document.getElementById("sappeler0");
+let audioSappeler0 = document.getElementById("audioSappeler0");
+
+sappeler0.addEventListener("click", () => {
+  audioSappeler0.play();
+});
+
+let sappeler1 = document.getElementById("sappeler1");
+let audioSappeler1 = document.getElementById("audioSappeler1");
+
+sappeler1.addEventListener("click", () => {
+  audioSappeler1.play();
+});
+
+let sappeler2 = document.getElementById("sappeler2");
+let audioSappeler2 = document.getElementById("audioSappeler2");
+
+sappeler2.addEventListener("click", () => {
+  audioSappeler2.play();
+});
+
+let sappeler3 = document.getElementById("sappeler3");
+let audioSappeler3 = document.getElementById("audioSappeler3");
+
+sappeler3.addEventListener("click", () => {
+  audioSappeler3.play();
+});
+
+let sappeler4 = document.getElementById("sappeler4");
+let audioSappeler4 = document.getElementById("audioSappeler4");
+
+sappeler4.addEventListener("click", () => {
+  audioSappeler4.play();
+});
+
+let sappeler5 = document.getElementById("sappeler5");
+let audioSappeler5 = document.getElementById("audioSappeler5");
+
+sappeler5.addEventListener("click", () => {
+  audioSappeler5.play();
+});
+
+let sappeler6 = document.getElementById("sappeler6");
+let audioSappeler6 = document.getElementById("audioSappeler6");
+
+sappeler6.addEventListener("click", () => {
+  audioSappeler6.play();
+});
+
+let sappeler7 = document.getElementById("sappeler7");
+let audioSappeler7 = document.getElementById("audioSappeler7");
+
+sappeler7.addEventListener("click", () => {
+  audioSappeler7.play();
+});
+
+let sappeler8 = document.getElementById("sappeler8");
+let audioSappeler8 = document.getElementById("audioSappeler8");
+
+sappeler8.addEventListener("click", () => {
+  audioSappeler8.play();
+});
+
+/* exemples */
+
+let sePresenterExemple0 = document.getElementById("sePresenterExemple0");
+let audioSePresenterExemple0 = document.getElementById(
+  "audioSePresenterExemple0"
+);
+
+sePresenterExemple0.addEventListener("click", () => {
+  audioSePresenterExemple0.play();
+});
+
+let sePresenterExemple01 = document.getElementById("sePresenterExemple01");
+let audioSePresenterExemple01 = document.getElementById(
+  "audioSePresenterExemple01"
+);
+
+sePresenterExemple01.addEventListener("click", () => {
+  audioSePresenterExemple01.play();
+});
+
+let sePresenterExemple02 = document.getElementById("sePresenterExemple02");
+let audioSePresenterExemple02 = document.getElementById(
+  "audioSePresenterExemple02"
+);
+
+sePresenterExemple02.addEventListener("click", () => {
+  audioSePresenterExemple02.play();
+});
+
+sePresenterExemple02;
 /* SE PRESENTER*/
 /* audio pour "je m'appelle.." */
 
