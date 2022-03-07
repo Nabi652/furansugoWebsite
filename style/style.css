@@ -34,9 +34,11 @@ body {
 
 .ulNav {
   width: 80%;
-  justify-content: space-around;
-  display: flex;
   margin: auto;
+  /* justify-content: space-around; */
+  justify-content: space-evenly;
+  display: flex;
+  /* margin: auto; */
   padding: 15px;
   /* background: #68747742; */
   margin-bottom: 50px;
@@ -58,12 +60,6 @@ body {
 i {
   font-size: large;
 }
-
-/* h1 {
-  cursor: pointer;
-  position: absolute;
-  left: 20px;
-} */
 
 .fa-arrow-left {
   padding-right: 5px;
@@ -106,25 +102,6 @@ button:hover {
   transition: 1s;
   color: white;
 }
-
-/* footer */
-
-/* footer {
-  background-color: #b69f9f77;
-  padding: 20px;
-  margin-top: 20px;
-}
-
-.footer-ul {
-  display: flex;
-  justify-content: space-evenly;
-  height: 100%;
-} */
-
-/* footer li {
-  color: black;
-  font-size: 20px;
-} */
 
 footer {
   background-color: #b69f9f77;
