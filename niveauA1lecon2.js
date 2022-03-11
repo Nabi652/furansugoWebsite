@@ -965,3 +965,383 @@ let audioSalutationsExemple7 = document.getElementById(
 salutationsExemple7.addEventListener("click", () => {
   audioSalutationsExemple7.play();
 });
+
+/* sentiments */
+let etre0 = document.getElementById("etre0");
+let audioEtre0 = document.getElementById("audioEtre0");
+
+etre0.addEventListener("click", () => {
+  audioEtre0.play();
+});
+
+let etre1 = document.getElementById("etre1");
+let audioEtre1 = document.getElementById("audioEtre1");
+
+etre1.addEventListener("click", () => {
+  audioEtre1.play();
+});
+
+let etre2 = document.getElementById("etre2");
+let audioEtre2 = document.getElementById("audioEtre2");
+
+etre2.addEventListener("click", () => {
+  audioEtre2.play();
+});
+
+let etre3 = document.getElementById("etre3");
+let audioEtre3 = document.getElementById("audioEtre3");
+
+etre3.addEventListener("click", () => {
+  audioEtre3.play();
+});
+
+let etre4 = document.getElementById("etre4");
+let audioEtre4 = document.getElementById("audioEtre4");
+
+etre4.addEventListener("click", () => {
+  audioEtre4.play();
+});
+
+let etre5 = document.getElementById("etre5");
+let audioEtre5 = document.getElementById("audioEtre5");
+
+etre5.addEventListener("click", () => {
+  audioEtre5.play();
+});
+
+let etre6 = document.getElementById("etre6");
+let audioEtre6 = document.getElementById("audioEtre6");
+
+etre6.addEventListener("click", () => {
+  audioEtre6.play();
+});
+
+let etre7 = document.getElementById("etre7");
+let audioEtre7 = document.getElementById("audioEtre7");
+
+etre7.addEventListener("click", () => {
+  audioEtre7.play();
+});
+
+let etre8 = document.getElementById("etre8");
+let audioEtre8 = document.getElementById("audioEtre8");
+
+etre8.addEventListener("click", () => {
+  audioEtre8.play();
+});
+
+/* exemples etre */
+let sentimentsExemple0 = document.getElementById("sentimentsExemple0");
+let audioSentimentsExemple0 = document.getElementById("audioEtre0");
+
+sentimentsExemple0.addEventListener("click", () => {
+  audioSentimentsExemple0.play();
+});
+
+let sentimentsExemple1 = document.getElementById("sentimentsExemple1");
+let audioSentimentsExemple1 = document.getElementById("audioEtre1");
+
+sentimentsExemple1.addEventListener("click", () => {
+  audioSentimentsExemple1.play();
+});
+
+let sentimentsExemple2 = document.getElementById("sentimentsExemple2");
+let audioSentimentsExemple2 = document.getElementById("audioEtre2");
+
+sentimentsExemple2.addEventListener("click", () => {
+  audioSentimentsExemple2.play();
+});
+
+let sentimentsExemple3 = document.getElementById("sentimentsExemple3");
+let audioSentimentsExemple3 = document.getElementById("audioEtre3");
+
+sentimentsExemple3.addEventListener("click", () => {
+  audioSentimentsExemple3.play();
+});
+
+let sentimentsExemple4 = document.getElementById("sentimentsExemple4");
+let audioSentimentsExemple4 = document.getElementById("audioEtre4");
+
+sentimentsExemple4.addEventListener("click", () => {
+  audioSentimentsExemple4.play();
+});
+
+/* expressions etre */
+
+let sentiments1 = document.getElementById("sentiments1");
+let audioSentiments1 = document.getElementById("audioSentiments1");
+
+sentiments1.addEventListener("click", () => {
+  audioSentiments1.play();
+});
+
+let sentiments2 = document.getElementById("sentiments2");
+let audioSentiments2 = document.getElementById("audioSentiments2");
+
+sentiments2.addEventListener("click", () => {
+  audioSentiments2.play();
+});
+let sentiments3 = document.getElementById("sentiments3");
+let audioSentiments3 = document.getElementById("audioSentiments3");
+
+sentiments3.addEventListener("click", () => {
+  audioSentiments3.play();
+});
+
+let sentiments4 = document.getElementById("sentiments4");
+let audioSentiments4 = document.getElementById("audioSentiments4");
+
+sentiments4.addEventListener("click", () => {
+  audioSentiments4.play();
+});
+
+let sentiments5 = document.getElementById("sentiments5");
+let audioSentiments5 = document.getElementById("audioSentiments5");
+
+sentiments5.addEventListener("click", () => {
+  audioSentiments5.play();
+});
+
+let sentiments6 = document.getElementById("sentiments6");
+let audioSentiments6 = document.getElementById("audioSentiments6");
+
+sentiments6.addEventListener("click", () => {
+  audioSentiments6.play();
+});
+
+let sentiments7 = document.getElementById("sentiments7");
+let audioSentiments7 = document.getElementById("audioSentiments7");
+
+sentiments7.addEventListener("click", () => {
+  audioSentiments7.play();
+});
+
+let sentiments8 = document.getElementById("sentiments8");
+let audioSentiments8 = document.getElementById("audioSentiments8");
+
+sentiments8.addEventListener("click", () => {
+  audioSentiments8.play();
+});
+
+let sentiments9 = document.getElementById("sentiments9");
+let audioSentiments9 = document.getElementById("audioSentiments9");
+
+sentiments9.addEventListener("click", () => {
+  audioSentiments9.play();
+});
+
+let sentiments10 = document.getElementById("sentiments10");
+let audioSentiments10 = document.getElementById("audioSentiments10");
+
+sentiments10.addEventListener("click", () => {
+  audioSentiments10.play();
+});
+
+let sentiments11 = document.getElementById("sentiments11");
+let audioSentiments11 = document.getElementById("audioSentiments11");
+
+sentiments11.addEventListener("click", () => {
+  audioSentiments11.play();
+});
+
+let sentiments12 = document.getElementById("sentiments12");
+let audioSentiments12 = document.getElementById("audioSentiments12");
+
+sentiments12.addEventListener("click", () => {
+  audioSentiments12.play();
+});
+
+let sentiments13 = document.getElementById("sentiments13");
+let audioSentiments13 = document.getElementById("audioSentiments13");
+
+sentiments13.addEventListener("click", () => {
+  audioSentiments1.play();
+});
+
+let sentiments14 = document.getElementById("sentiments14");
+let audioSentiments14 = document.getElementById("audioSentiments14");
+
+sentiments14.addEventListener("click", () => {
+  audioSentiments14.play();
+});
+/* avoir */
+
+let avoir0 = document.getElementById("avoir0");
+let audioAvoir0 = document.getElementById("audioAvoir0");
+
+avoir0.addEventListener("click", () => {
+  audioAvoir0.play();
+});
+
+let avoir1 = document.getElementById("avoir1");
+let audioAvoir1 = document.getElementById("audioAvoir1");
+
+avoir1.addEventListener("click", () => {
+  audioAvoir1.play();
+});
+
+let avoir2 = document.getElementById("avoir2");
+let audioAvoir2 = document.getElementById("audioAvoir2");
+
+avoir2.addEventListener("click", () => {
+  audioAvoir2.play();
+});
+
+let avoir3 = document.getElementById("avoir3");
+let audioAvoir3 = document.getElementById("audioAvoir3");
+
+avoir3.addEventListener("click", () => {
+  audioAvoir3.play();
+});
+
+let avoir4 = document.getElementById("avoir4");
+let audioAvoir4 = document.getElementById("audioAvoir4");
+
+avoir4.addEventListener("click", () => {
+  audioAvoir4.play();
+});
+
+let avoir5 = document.getElementById("avoir5");
+let audioAvoir5 = document.getElementById("audioAvoir5");
+
+avoir5.addEventListener("click", () => {
+  audioAvoir5.play();
+});
+
+let avoir6 = document.getElementById("avoir6");
+let audioAvoir6 = document.getElementById("audioAvoir6");
+
+avoir6.addEventListener("click", () => {
+  audioAvoir6.play();
+});
+
+let avoir7 = document.getElementById("avoir7");
+let audioAvoir7 = document.getElementById("audioAvoir7");
+
+avoir7.addEventListener("click", () => {
+  audioAvoir7.play();
+});
+
+let avoir8 = document.getElementById("avoir8");
+let audioAvoir8 = document.getElementById("audioAvoir8");
+
+avoir8.addEventListener("click", () => {
+  audioAvoir8.play();
+});
+
+/*exemples  COMPLET*/
+
+let sentimentsExemple5 = document.getElementById("sentimentsExemple5");
+let audioSentimentsExemple5 = document.getElementById(
+  "audioSentimentsExemple5"
+);
+
+sentimentsExemple5.addEventListener("click", () => {
+  audioSentimentsExemple5.play();
+});
+
+let sentimentsExemple6 = document.getElementById("sentimentsExemple6");
+let audioSentimentsExemple6 = document.getElementById(
+  "audioSentimentsExemple6"
+);
+
+sentimentsExemple6.addEventListener("click", () => {
+  audioSentimentsExemple6.play();
+});
+
+let sentimentsExemple8 = document.getElementById("sentimentsExemple8");
+let audioSentimentsExemple8 = document.getElementById(
+  "audioSentimentsExemple8"
+);
+
+sentimentsExemple8.addEventListener("click", () => {
+  audioSentimentsExemple8.play();
+});
+
+let sentimentsExemple9 = document.getElementById("sentimentsExemple9");
+let audioSentimentsExemple9 = document.getElementById(
+  "audioSentimentsExemple9"
+);
+
+sentimentsExemple9.addEventListener("click", () => {
+  audioSentimentsExemple9.play();
+});
+
+/* expressions avec avoir */
+
+let sentiments15 = document.getElementById("sentiments15");
+let audioSentiments15 = document.getElementById("audioSentiments15");
+
+sentiments15.addEventListener("click", () => {
+  audioSentiments15.play();
+});
+
+let sentiments16 = document.getElementById("sentiments16");
+let audioSentiments16 = document.getElementById("audioSentiments16");
+
+sentiments16.addEventListener("click", () => {
+  audioSentiments16.play();
+});
+
+let sentiments17 = document.getElementById("sentiments17");
+let audioSentiments17 = document.getElementById("audioSentiments17");
+
+sentiments17.addEventListener("click", () => {
+  audioSentiments17.play();
+});
+
+let sentiments18 = document.getElementById("sentiments18");
+let audioSentiments18 = document.getElementById("audioSentiments18");
+
+sentiments18.addEventListener("click", () => {
+  audioSentiments18.play();
+});
+
+let sentiments19 = document.getElementById("sentiments19");
+let audioSentiments19 = document.getElementById("audioSentiments19");
+
+sentiments19.addEventListener("click", () => {
+  audioSentiments19.play();
+});
+
+let sentiments20 = document.getElementById("sentiments20");
+let audioSentiments20 = document.getElementById("audioSentiments20");
+
+sentiments20.addEventListener("click", () => {
+  audioSentiments20.play();
+});
+
+let sentiments21 = document.getElementById("sentiments21");
+let audioSentiments21 = document.getElementById("audioSentiments21");
+
+sentiments21.addEventListener("click", () => {
+  audioSentiments21.play();
+});
+
+let sentiments22 = document.getElementById("sentiments22");
+let audioSentiments22 = document.getElementById("audioSentiments22");
+
+sentiments22.addEventListener("click", () => {
+  audioSentiments22.play();
+});
+
+let sentiments23 = document.getElementById("sentiments23");
+let audioSentiments23 = document.getElementById("audioSentiments23");
+
+sentiments23.addEventListener("click", () => {
+  audioSentiments23.play();
+});
+
+let sentiments24 = document.getElementById("sentiments24");
+let audioSentiments24 = document.getElementById("audioSentiments24");
+
+sentiments24.addEventListener("click", () => {
+  audioSentiments24.play();
+});
+
+let sentiments25 = document.getElementById("sentiments25");
+let audioSentiments25 = document.getElementById("audioSentiments25");
+
+sentiments25.addEventListener("click", () => {
+  audioSentiments25.play();
+});
