@@ -1032,35 +1032,45 @@ etre8.addEventListener("click", () => {
 
 /* exemples etre */
 let sentimentsExemple0 = document.getElementById("sentimentsExemple0");
-let audioSentimentsExemple0 = document.getElementById("audioEtre0");
+let audioSentimentsExemple0 = document.getElementById(
+  "audioSentimentsExemple0"
+);
 
 sentimentsExemple0.addEventListener("click", () => {
   audioSentimentsExemple0.play();
 });
 
 let sentimentsExemple1 = document.getElementById("sentimentsExemple1");
-let audioSentimentsExemple1 = document.getElementById("audioEtre1");
+let audioSentimentsExemple1 = document.getElementById(
+  "audioSentimentsExemple1"
+);
 
 sentimentsExemple1.addEventListener("click", () => {
   audioSentimentsExemple1.play();
 });
 
 let sentimentsExemple2 = document.getElementById("sentimentsExemple2");
-let audioSentimentsExemple2 = document.getElementById("audioEtre2");
+let audioSentimentsExemple2 = document.getElementById(
+  "audioSentimentsExemple2"
+);
 
 sentimentsExemple2.addEventListener("click", () => {
   audioSentimentsExemple2.play();
 });
 
 let sentimentsExemple3 = document.getElementById("sentimentsExemple3");
-let audioSentimentsExemple3 = document.getElementById("audioEtre3");
+let audioSentimentsExemple3 = document.getElementById(
+  "audioSentimentsExemple3"
+);
 
 sentimentsExemple3.addEventListener("click", () => {
   audioSentimentsExemple3.play();
 });
 
 let sentimentsExemple4 = document.getElementById("sentimentsExemple4");
-let audioSentimentsExemple4 = document.getElementById("audioEtre4");
+let audioSentimentsExemple4 = document.getElementById(
+  "audioSentimentsExemple4"
+);
 
 sentimentsExemple4.addEventListener("click", () => {
   audioSentimentsExemple4.play();
@@ -1155,7 +1165,7 @@ let sentiments13 = document.getElementById("sentiments13");
 let audioSentiments13 = document.getElementById("audioSentiments13");
 
 sentiments13.addEventListener("click", () => {
-  audioSentiments1.play();
+  audioSentiments13.play();
 });
 
 let sentiments14 = document.getElementById("sentiments14");
