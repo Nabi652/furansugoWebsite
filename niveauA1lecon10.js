@@ -678,3 +678,35 @@ let audioChiffre99 = document.getElementById("audioChiffre99");
 chiffre99.addEventListener("click", () => {
   audioChiffre99.play();
 });
+
+/* exemples */
+
+let nombresExemple1 = document.getElementById("nombresExemple1");
+letaudioNombresExemple1 = document.getElementById("audioNombresExemple1");
+
+nombresExemple1.addEventListener("click", () => {
+  audioNombresExemple1.play();
+});
+
+let nombresExemple2 = document.getElementById("nombresExemple2");
+letaudioNombresExemple2 = document.getElementById("audioNombresExemple2");
+
+nombresExemple2.addEventListener("click", () => {
+  audioNombresExemple2.play();
+});
+
+let nombresExemple3 = document.getElementById("nombresExemple3");
+letaudioNombresExemple3 = document.getElementById("audioNombresExemple3");
+
+nombresExemple3.addEventListener("click", () => {
+  audioNombresExemple3.play();
+});
+
+let nombresExemple4 = document.getElementById("nombresExemple4");
+letaudioNombresExemple4 = document.getElementById("audioNombresExemple4");
+
+nombresExemple4.addEventListener("click", () => {
+  audioNombresExemple4.play();
+});
+
+/* 200 à 900*/
