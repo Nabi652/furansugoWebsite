@@ -21,6 +21,13 @@ chiffre2.addEventListener("click", () => {
   audioChiffre2.play();
 });
 
+let chiffre3 = document.getElementById("chiffre3");
+let audioChiffre3 = document.getElementById("audioChiffre3");
+
+chiffre3.addEventListener("click", () => {
+  audioChiffre3.play();
+});
+
 let chiffre4 = document.getElementById("chiffre4");
 let audioChiffre4 = document.getElementById("audioChiffre4");
 
@@ -178,9 +185,10 @@ chiffre25.addEventListener("click", () => {
 let chiffre26 = document.getElementById("chiffre26");
 let audioChiffre26 = document.getElementById("audioChiffre26");
 
-chiffre26.EventListener("click", () => {
+chiffre26.addEventListener("click", () => {
   audioChiffre26.play();
 });
+
 let chiffre27 = document.getElementById("chiffre27");
 let audioChiffre27 = document.getElementById("audioChiffre27");
 
@@ -776,19 +784,6 @@ let audioNombresExemple6 = document.getElementById("audioNombresExemple6");
 nombresExemple6.addEventListener("click", () => {
   audioNombresExemple6.play();
 });
-let nombresExemple7 = document.getElementById("nombresExemple7");
-let audioNombresExemple7 = document.getElementById("audioNombresExemple7");
-
-nombresExemple7.addEventListener("click", () => {
-  audioNombresExemple7.play();
-});
-
-let nombresExemple8 = document.getElementById("nombresExemple8");
-let audioNombresExemple8 = document.getElementById("audioNombresExemple8");
-
-nombresExemple4.addEventListener("click", () => {
-  audioNombresExemple4.play();
-});
 
 /* de 1000 à 9000 */
 let chiffre1000 = document.getElementById("chiffre1000");
@@ -977,6 +972,22 @@ let audioChiffre900000 = document.getElementById("audioChiffre900000");
 
 chiffre900000.addEventListener("click", () => {
   audioChiffre900000.play();
+});
+
+/* million et milliard */
+
+let chiffreMillion = document.getElementById("chiffreMillion");
+let audioChiffreMillion = document.getElementById("audioChiffreMillion");
+
+chiffreMillion.addEventListener("click", () => {
+  audioChiffreMillion.play();
+});
+
+let chiffreMilliard = document.getElementById("chiffreMilliard");
+let audioChiffreMilliard = document.getElementById("audioChiffreMilliard");
+
+chiffreMilliard.addEventListener("click", () => {
+  audioChiffreMilliard.play();
 });
 
 /* la date */
@@ -1361,40 +1372,40 @@ let heureExemple1 = document.getElementById("heureExemple1");
 let audioHeureExemple1 = document.getElementById("audioHeureExemple1");
 
 heureExemple1.addEventListener("click", () => {
-  heureExemple1.play();
+  audioHeureExemple1.play();
 });
 
 let heureExemple2 = document.getElementById("heureExemple2");
 let audioHeureExemple2 = document.getElementById("audioHeureExemple2");
 
 heureExemple2.addEventListener("click", () => {
-  heureExemple2.play();
+  audioHeureExemple2.play();
 });
 
 let heureExemple3 = document.getElementById("heureExemple3");
 let audioHeureExemple3 = document.getElementById("audioHeureExemple3");
 
 heureExemple3.addEventListener("click", () => {
-  heureExemple3.play();
+  audioHeureExemple3.play();
 });
 
 let heureExemple4 = document.getElementById("heureExemple4");
 let audioHeureExemple4 = document.getElementById("audioHeureExemple4");
 
 heureExemple4.addEventListener("click", () => {
-  heureExemple4.play();
+  audioHeureExemple4.play();
 });
 
 let heureExemple5 = document.getElementById("heureExemple5");
 let audioHeureExemple5 = document.getElementById("audioHeureExemple5");
 
 heureExemple5.addEventListener("click", () => {
-  heureExemple5.play();
+  audioHeureExemple5.play();
 });
 
 let heureExemple6 = document.getElementById("heureExemple6");
 let audioHeureExemple6 = document.getElementById("audioHeureExemple6");
 
 heureExemple6.addEventListener("click", () => {
-  heureExemple6.play();
+  audioHeureExemple6.play();
 });
