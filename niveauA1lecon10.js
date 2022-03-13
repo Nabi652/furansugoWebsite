@@ -682,31 +682,719 @@ chiffre99.addEventListener("click", () => {
 /* exemples */
 
 let nombresExemple1 = document.getElementById("nombresExemple1");
-letaudioNombresExemple1 = document.getElementById("audioNombresExemple1");
+let audioNombresExemple1 = document.getElementById("audioNombresExemple1");
 
 nombresExemple1.addEventListener("click", () => {
   audioNombresExemple1.play();
 });
 
 let nombresExemple2 = document.getElementById("nombresExemple2");
-letaudioNombresExemple2 = document.getElementById("audioNombresExemple2");
+let audioNombresExemple2 = document.getElementById("audioNombresExemple2");
 
 nombresExemple2.addEventListener("click", () => {
   audioNombresExemple2.play();
 });
 
 let nombresExemple3 = document.getElementById("nombresExemple3");
-letaudioNombresExemple3 = document.getElementById("audioNombresExemple3");
+let audioNombresExemple3 = document.getElementById("audioNombresExemple3");
 
 nombresExemple3.addEventListener("click", () => {
   audioNombresExemple3.play();
 });
 
 let nombresExemple4 = document.getElementById("nombresExemple4");
-letaudioNombresExemple4 = document.getElementById("audioNombresExemple4");
+let audioNombresExemple4 = document.getElementById("audioNombresExemple4");
 
 nombresExemple4.addEventListener("click", () => {
   audioNombresExemple4.play();
 });
 
 /* 200 à 900*/
+
+let chiffre200 = document.getElementById("chiffre200");
+let audioChiffre200 = document.getElementById("audioChiffre200");
+
+chiffre200.addEventListener("click", () => {
+  audioChiffre200.play();
+});
+
+let chiffre300 = document.getElementById("chiffre300");
+let audioChiffre300 = document.getElementById("audioChiffre300");
+
+chiffre300.addEventListener("click", () => {
+  audioChiffre300.play();
+});
+let chiffre400 = document.getElementById("chiffre400");
+let audioChiffre400 = document.getElementById("audioChiffre400");
+
+chiffre400.addEventListener("click", () => {
+  audioChiffre400.play();
+});
+let chiffre500 = document.getElementById("chiffre500");
+let audioChiffre500 = document.getElementById("audioChiffre500");
+
+chiffre500.addEventListener("click", () => {
+  audioChiffre500.play();
+});
+
+let chiffre600 = document.getElementById("chiffre600");
+let audioChiffre600 = document.getElementById("audioChiffre600");
+
+chiffre600.addEventListener("click", () => {
+  audioChiffre600.play();
+});
+let chiffre700 = document.getElementById("chiffre700");
+let audioChiffre700 = document.getElementById("audioChiffre700");
+
+chiffre700.addEventListener("click", () => {
+  audioChiffre700.play();
+});
+let chiffre800 = document.getElementById("chiffre800");
+let audioChiffre800 = document.getElementById("audioChiffre800");
+
+chiffre800.addEventListener("click", () => {
+  audioChiffre800.play();
+});
+let chiffre900 = document.getElementById("chiffre900");
+let audioChiffre900 = document.getElementById("audioChiffre900");
+
+chiffre900.addEventListener("click", () => {
+  audioChiffre900.play();
+});
+/* exemples */
+
+let nombresExemple5 = document.getElementById("nombresExemple5");
+let audioNombresExemple5 = document.getElementById("audioNombresExemple5");
+
+nombresExemple5.addEventListener("click", () => {
+  audioNombresExemple5.play();
+});
+
+let nombresExemple6 = document.getElementById("nombresExemple6");
+let audioNombresExemple6 = document.getElementById("audioNombresExemple6");
+
+nombresExemple6.addEventListener("click", () => {
+  audioNombresExemple6.play();
+});
+let nombresExemple7 = document.getElementById("nombresExemple7");
+let audioNombresExemple7 = document.getElementById("audioNombresExemple7");
+
+nombresExemple7.addEventListener("click", () => {
+  audioNombresExemple7.play();
+});
+
+let nombresExemple8 = document.getElementById("nombresExemple8");
+let audioNombresExemple8 = document.getElementById("audioNombresExemple8");
+
+nombresExemple4.addEventListener("click", () => {
+  audioNombresExemple4.play();
+});
+
+/* de 1000 à 9000 */
+let chiffre1000 = document.getElementById("chiffre1000");
+let audioChiffre1000 = document.getElementById("audioChiffre1000");
+
+chiffre1000.addEventListener("click", () => {
+  audioChiffre1000.play();
+});
+
+let chiffre2000 = document.getElementById("chiffre2000");
+let audioChiffre2000 = document.getElementById("audioChiffre2000");
+
+chiffre2000.addEventListener("click", () => {
+  audioChiffre2000.play();
+});
+
+let chiffre3000 = document.getElementById("chiffre3000");
+let audioChiffre3000 = document.getElementById("audioChiffre3000");
+
+chiffre3000.addEventListener("click", () => {
+  audioChiffre3000.play();
+});
+
+let chiffre4000 = document.getElementById("chiffre4000");
+let audioChiffre4000 = document.getElementById("audioChiffre4000");
+
+chiffre4000.addEventListener("click", () => {
+  audioChiffre4000.play();
+});
+
+let chiffre5000 = document.getElementById("chiffre5000");
+let audioChiffre5000 = document.getElementById("audioChiffre5000");
+
+chiffre5000.addEventListener("click", () => {
+  audioChiffre5000.play();
+});
+
+let chiffre6000 = document.getElementById("chiffre6000");
+let audioChiffre6000 = document.getElementById("audioChiffre6000");
+
+chiffre6000.addEventListener("click", () => {
+  audioChiffre6000.play();
+});
+
+let chiffre7000 = document.getElementById("chiffre7000");
+let audioChiffre7000 = document.getElementById("audioChiffre7000");
+
+chiffre7000.addEventListener("click", () => {
+  audioChiffre7000.play();
+});
+
+let chiffre8000 = document.getElementById("chiffre8000");
+let audioChiffre8000 = document.getElementById("audioChiffre8000");
+
+chiffre8000.addEventListener("click", () => {
+  audioChiffre8000.play();
+});
+let chiffre9000 = document.getElementById("chiffre9000");
+let audioChiffre9000 = document.getElementById("audioChiffre9000");
+
+chiffre9000.addEventListener("click", () => {
+  audioChiffre9000.play();
+});
+/* de 10 000 à 90 000 */
+
+let chiffre10000 = document.getElementById("chiffre10000");
+let audioChiffre10000 = document.getElementById("audioChiffre10000");
+
+chiffre10000.addEventListener("click", () => {
+  audioChiffre10000.play();
+});
+
+let chiffre20000 = document.getElementById("chiffre20000");
+let audioChiffre20000 = document.getElementById("audioChiffre20000");
+
+chiffre20000.addEventListener("click", () => {
+  audioChiffre20000.play();
+});
+
+let chiffre30000 = document.getElementById("chiffre30000");
+let audioChiffre30000 = document.getElementById("audioChiffre30000");
+
+chiffre30000.addEventListener("click", () => {
+  audioChiffre30000.play();
+});
+
+let chiffre40000 = document.getElementById("chiffre40000");
+let audioChiffre40000 = document.getElementById("audioChiffre40000");
+
+chiffre40000.addEventListener("click", () => {
+  audioChiffre40000.play();
+});
+
+let chiffre50000 = document.getElementById("chiffre50000");
+let audioChiffre50000 = document.getElementById("audioChiffre50000");
+
+chiffre50000.addEventListener("click", () => {
+  audioChiffre50000.play();
+});
+
+let chiffre60000 = document.getElementById("chiffre60000");
+let audioChiffre60000 = document.getElementById("audioChiffre60000");
+
+chiffre60000.addEventListener("click", () => {
+  audioChiffre60000.play();
+});
+let chiffre70000 = document.getElementById("chiffre70000");
+let audioChiffre70000 = document.getElementById("audioChiffre70000");
+
+chiffre70000.addEventListener("click", () => {
+  audioChiffre70000.play();
+});
+
+let chiffre80000 = document.getElementById("chiffre80000");
+let audioChiffre80000 = document.getElementById("audioChiffre80000");
+
+chiffre80000.addEventListener("click", () => {
+  audioChiffre80000.play();
+});
+let chiffre90000 = document.getElementById("chiffre90000");
+let audioChiffre90000 = document.getElementById("audioChiffre90000");
+
+chiffre90000.addEventListener("click", () => {
+  audioChiffre90000.play();
+});
+
+/* de 100 000 à 900 000*/
+
+let chiffre100000 = document.getElementById("chiffre100000");
+let audioChiffre100000 = document.getElementById("audioChiffre100000");
+
+chiffre100000.addEventListener("click", () => {
+  audioChiffre100000.play();
+});
+
+let chiffre200000 = document.getElementById("chiffre200000");
+let audioChiffre200000 = document.getElementById("audioChiffre200000");
+
+chiffre200000.addEventListener("click", () => {
+  audioChiffre200000.play();
+});
+
+let chiffre300000 = document.getElementById("chiffre300000");
+let audioChiffre300000 = document.getElementById("audioChiffre300000");
+
+chiffre300000.addEventListener("click", () => {
+  audioChiffre300000.play();
+});
+
+let chiffre400000 = document.getElementById("chiffre400000");
+let audioChiffre400000 = document.getElementById("audioChiffre400000");
+
+chiffre400000.addEventListener("click", () => {
+  audioChiffre400000.play();
+});
+
+let chiffre500000 = document.getElementById("chiffre500000");
+let audioChiffre500000 = document.getElementById("audioChiffre500000");
+
+chiffre500000.addEventListener("click", () => {
+  audioChiffre500000.play();
+});
+
+let chiffre600000 = document.getElementById("chiffre600000");
+let audioChiffre600000 = document.getElementById("audioChiffre600000");
+
+chiffre600000.addEventListener("click", () => {
+  audioChiffre600000.play();
+});
+
+let chiffre700000 = document.getElementById("chiffre700000");
+let audioChiffre700000 = document.getElementById("audioChiffre700000");
+
+chiffre700000.addEventListener("click", () => {
+  audioChiffre700000.play();
+});
+
+let chiffre800000 = document.getElementById("chiffre800000");
+let audioChiffre800000 = document.getElementById("audioChiffre800000");
+
+chiffre800000.addEventListener("click", () => {
+  audioChiffre800000.play();
+});
+let chiffre900000 = document.getElementById("chiffre900000");
+let audioChiffre900000 = document.getElementById("audioChiffre900000");
+
+chiffre900000.addEventListener("click", () => {
+  audioChiffre900000.play();
+});
+
+/* la date */
+let lundi = document.getElementById("lundi");
+let audioLundi = document.getElementById("audioLundi");
+
+lundi.addEventListener("click", () => {
+  audioLundi.play();
+});
+
+let mardi = document.getElementById("mardi");
+let audioMardi = document.getElementById("audioMardi");
+
+mardi.addEventListener("click", () => {
+  audioMardi.play();
+});
+
+let mercredi = document.getElementById("mercredi");
+let audioMercredi = document.getElementById("audioMercredi");
+
+mercredi.addEventListener("click", () => {
+  audioMercredi.play();
+});
+
+let jeudi = document.getElementById("jeudi");
+let audioJeudi = document.getElementById("audioJeudi");
+
+jeudi.addEventListener("click", () => {
+  audioJeudi.play();
+});
+
+let vendredi = document.getElementById("vendredi");
+let audioVendredi = document.getElementById("audioVendredi");
+
+vendredi.addEventListener("click", () => {
+  audioVendredi.play();
+});
+
+let samedi = document.getElementById("samedi");
+let audioSamedi = document.getElementById("audioSamedi");
+
+samedi.addEventListener("click", () => {
+  audioSamedi.play();
+});
+
+let dimanche = document.getElementById("dimanche");
+let audioDimanche = document.getElementById("audioDimanche");
+
+dimanche.addEventListener("click", () => {
+  audioDimanche.play();
+});
+
+/* exemples */
+
+let dateExemple1 = document.getElementById("dateExemple1");
+let audioDateExemple1 = document.getElementById("audioDateExemple1");
+
+dateExemple1.addEventListener("click", () => {
+  audioDateExemple1.play();
+});
+
+let dateExemple2 = document.getElementById("dateExemple2");
+let audioDateExemple2 = document.getElementById("audioDateExemple2");
+
+dateExemple2.addEventListener("click", () => {
+  audioDateExemple2.play();
+});
+
+let dateExemple3 = document.getElementById("dateExemple3");
+let audioDateExemple3 = document.getElementById("audioDateExemple3");
+
+dateExemple3.addEventListener("click", () => {
+  audioDateExemple3.play();
+});
+
+let dateExemple4 = document.getElementById("dateExemple4");
+let audioDateExemple4 = document.getElementById("audioDateExemple4");
+
+dateExemple4.addEventListener("click", () => {
+  audioDateExemple4.play();
+});
+
+let dateExemple5 = document.getElementById("dateExemple5");
+let audioDateExemple5 = document.getElementById("audioDateExemple5");
+
+dateExemple5.addEventListener("click", () => {
+  audioDateExemple5.play();
+});
+
+let dateExemple6 = document.getElementById("dateExemple6");
+let audioDateExemple6 = document.getElementById("audioDateExemple6");
+
+dateExemple6.addEventListener("click", () => {
+  audioDateExemple6.play();
+});
+
+let dateExemple7 = document.getElementById("dateExemple7");
+let audioDateExemple7 = document.getElementById("audioDateExemple7");
+
+dateExemple7.addEventListener("click", () => {
+  audioDateExemple7.play();
+});
+
+/* mois */
+
+let janvier = document.getElementById("janvier");
+let audioJanvier = document.getElementById("audioJanvier");
+
+janvier.addEventListener("click", () => {
+  audioJanvier.play();
+});
+
+let fevrier = document.getElementById("fevrier");
+let audioFevrier = document.getElementById("audioFevrier");
+
+fevrier.addEventListener("click", () => {
+  audioFevrier.play();
+});
+
+let mars = document.getElementById("mars");
+let audioMars = document.getElementById("audioMars");
+
+mars.addEventListener("click", () => {
+  audioMars.play();
+});
+
+let avril = document.getElementById("avril");
+let audioAvril = document.getElementById("audioAvril");
+
+avril.addEventListener("click", () => {
+  audioAvril.play();
+});
+
+let mai = document.getElementById("mai");
+let audioMai = document.getElementById("audioMai");
+
+mai.addEventListener("click", () => {
+  audioMai.play();
+});
+
+let juin = document.getElementById("juin");
+let audioJuin = document.getElementById("audioJuin");
+
+juin.addEventListener("click", () => {
+  audioJuin.play();
+});
+
+let juillet = document.getElementById("juillet");
+let audioJuillet = document.getElementById("audioJuillet");
+
+juillet.addEventListener("click", () => {
+  audioJuillet.play();
+});
+
+let aout = document.getElementById("aout");
+let audioAout = document.getElementById("audioAout");
+
+aout.addEventListener("click", () => {
+  audioAout.play();
+});
+
+let septembre = document.getElementById("septembre");
+let audioSeptembre = document.getElementById("audioSeptembre");
+
+septembre.addEventListener("click", () => {
+  audioSeptembre.play();
+});
+
+let octobre = document.getElementById("octobre");
+let audioOctobre = document.getElementById("audioOctobre");
+
+octobre.addEventListener("click", () => {
+  audioOctobre.play();
+});
+let novembre = document.getElementById("novembre");
+let audioNovembre = document.getElementById("audioNovembre");
+
+novembre.addEventListener("click", () => {
+  audioNovembre.play();
+});
+
+let decembre = document.getElementById("decembre");
+let audioDecembre = document.getElementById("audioDecembre");
+
+decembre.addEventListener("click", () => {
+  audioDecembre.play();
+});
+
+/* heure*/
+let heure = document.getElementById("heure");
+let audioHeure = document.getElementById("audioHeure");
+
+heure.addEventListener("click", () => {
+  audioHeure.play();
+});
+
+let minute = document.getElementById("minute");
+let audioMinute = document.getElementById("audioMinute");
+
+minute.addEventListener("click", () => {
+  audioMinute.play();
+});
+
+let seconde = document.getElementById("seconde");
+let audioSeconde = document.getElementById("audioSeconde");
+
+seconde.addEventListener("click", () => {
+  audioSeconde.play();
+});
+
+/* les heures de 1 à 24 */
+let tableauHeure1 = document.getElementById("tableauHeure1");
+let audioTableauHeure1 = document.getElementById("audioTableauHeure1");
+
+tableauHeure1.addEventListener("click", () => {
+  audioTableauHeure1.play();
+});
+
+let tableauHeure2 = document.getElementById("tableauHeure2");
+let audioTableauHeure2 = document.getElementById("audioTableauHeure2");
+
+tableauHeure2.addEventListener("click", () => {
+  audioTableauHeure2.play();
+});
+
+let tableauHeure3 = document.getElementById("tableauHeure3");
+let audioTableauHeure3 = document.getElementById("audioTableauHeure3");
+
+tableauHeure3.addEventListener("click", () => {
+  audioTableauHeure3.play();
+});
+
+let tableauHeure4 = document.getElementById("tableauHeure4");
+let audioTableauHeure4 = document.getElementById("audioTableauHeure4");
+
+tableauHeure4.addEventListener("click", () => {
+  audioTableauHeure4.play();
+});
+
+let tableauHeure5 = document.getElementById("tableauHeure5");
+let audioTableauHeure5 = document.getElementById("audioTableauHeure5");
+
+tableauHeure5.addEventListener("click", () => {
+  audioTableauHeure5.play();
+});
+
+let tableauHeure6 = document.getElementById("tableauHeure6");
+let audioTableauHeure6 = document.getElementById("audioTableauHeure6");
+
+tableauHeure6.addEventListener("click", () => {
+  audioTableauHeure6.play();
+});
+
+let tableauHeure7 = document.getElementById("tableauHeure7");
+let audioTableauHeure7 = document.getElementById("audioTableauHeure7");
+
+tableauHeure7.addEventListener("click", () => {
+  audioTableauHeure7.play();
+});
+
+let tableauHeure8 = document.getElementById("tableauHeure8");
+let audioTableauHeure8 = document.getElementById("audioTableauHeure8");
+
+tableauHeure8.addEventListener("click", () => {
+  audioTableauHeure8.play();
+});
+
+let tableauHeure9 = document.getElementById("tableauHeure9");
+let audioTableauHeure9 = document.getElementById("audioTableauHeure9");
+
+tableauHeure9.addEventListener("click", () => {
+  audioTableauHeure9.play();
+});
+
+let tableauHeure10 = document.getElementById("tableauHeure10");
+let audioTableauHeure10 = document.getElementById("audioTableauHeure10");
+
+tableauHeure10.addEventListener("click", () => {
+  audioTableauHeure10.play();
+});
+
+let tableauHeure11 = document.getElementById("tableauHeure11");
+let audioTableauHeure11 = document.getElementById("audioTableauHeure11");
+
+tableauHeure11.addEventListener("click", () => {
+  audioTableauHeure11.play();
+});
+
+let tableauHeure12 = document.getElementById("tableauHeure12");
+let audioTableauHeure12 = document.getElementById("audioTableauHeure12");
+
+tableauHeure12.addEventListener("click", () => {
+  audioTableauHeure12.play();
+});
+
+let tableauHeure13 = document.getElementById("tableauHeure13");
+let audioTableauHeure13 = document.getElementById("audioTableauHeure13");
+
+tableauHeure13.addEventListener("click", () => {
+  audioTableauHeure13.play();
+});
+
+let tableauHeure14 = document.getElementById("tableauHeure14");
+let audioTableauHeure14 = document.getElementById("audioTableauHeure14");
+
+tableauHeure14.addEventListener("click", () => {
+  audioTableauHeure14.play();
+});
+
+let tableauHeure15 = document.getElementById("tableauHeure15");
+let audioTableauHeure15 = document.getElementById("audioTableauHeure15");
+
+tableauHeure15.addEventListener("click", () => {
+  audioTableauHeure15.play();
+});
+
+let tableauHeure16 = document.getElementById("tableauHeure16");
+let audioTableauHeure16 = document.getElementById("audioTableauHeure16");
+
+tableauHeure16.addEventListener("click", () => {
+  audioTableauHeure16.play();
+});
+
+let tableauHeure17 = document.getElementById("tableauHeure17");
+let audioTableauHeure17 = document.getElementById("audioTableauHeure17");
+
+tableauHeure17.addEventListener("click", () => {
+  audioTableauHeure17.play();
+});
+
+let tableauHeure18 = document.getElementById("tableauHeure18");
+let audioTableauHeure18 = document.getElementById("audioTableauHeure18");
+
+tableauHeure18.addEventListener("click", () => {
+  audioTableauHeure18.play();
+});
+
+let tableauHeure19 = document.getElementById("tableauHeure19");
+let audioTableauHeure19 = document.getElementById("audioTableauHeure19");
+
+tableauHeure19.addEventListener("click", () => {
+  audioTableauHeure19.play();
+});
+
+let tableauHeure20 = document.getElementById("tableauHeure20");
+let audioTableauHeure20 = document.getElementById("audioTableauHeure20");
+
+tableauHeure20.addEventListener("click", () => {
+  audioTableauHeure20.play();
+});
+
+let tableauHeure21 = document.getElementById("tableauHeure21");
+let audioTableauHeure21 = document.getElementById("audioTableauHeure21");
+
+tableauHeure21.addEventListener("click", () => {
+  audioTableauHeure21.play();
+});
+
+let tableauHeure22 = document.getElementById("tableauHeure22");
+let audioTableauHeure22 = document.getElementById("audioTableauHeure22");
+
+tableauHeure22.addEventListener("click", () => {
+  audioTableauHeure22.play();
+});
+
+let tableauHeure23 = document.getElementById("tableauHeure23");
+let audioTableauHeure23 = document.getElementById("audioTableauHeure23");
+
+tableauHeure23.addEventListener("click", () => {
+  audioTableauHeure23.play();
+});
+
+let tableauHeure24 = document.getElementById("tableauHeure24");
+let audioTableauHeure24 = document.getElementById("audioTableauHeure24");
+
+tableauHeure24.addEventListener("click", () => {
+  audioTableauHeure24.play();
+});
+
+/* exemples */
+let heureExemple1 = document.getElementById("heureExemple1");
+let audioHeureExemple1 = document.getElementById("audioHeureExemple1");
+
+heureExemple1.addEventListener("click", () => {
+  heureExemple1.play();
+});
+
+let heureExemple2 = document.getElementById("heureExemple2");
+let audioHeureExemple2 = document.getElementById("audioHeureExemple2");
+
+heureExemple2.addEventListener("click", () => {
+  heureExemple2.play();
+});
+
+let heureExemple3 = document.getElementById("heureExemple3");
+let audioHeureExemple3 = document.getElementById("audioHeureExemple3");
+
+heureExemple3.addEventListener("click", () => {
+  heureExemple3.play();
+});
+
+let heureExemple4 = document.getElementById("heureExemple4");
+let audioHeureExemple4 = document.getElementById("audioHeureExemple4");
+
+heureExemple4.addEventListener("click", () => {
+  heureExemple4.play();
+});
+
+let heureExemple5 = document.getElementById("heureExemple5");
+let audioHeureExemple5 = document.getElementById("audioHeureExemple5");
+
+heureExemple5.addEventListener("click", () => {
+  heureExemple5.play();
+});
+
+let heureExemple6 = document.getElementById("heureExemple6");
+let audioHeureExemple6 = document.getElementById("audioHeureExemple6");
+
+heureExemple6.addEventListener("click", () => {
+  heureExemple6.play();
+});
