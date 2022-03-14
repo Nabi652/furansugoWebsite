@@ -196,7 +196,7 @@ footer li {
   /* tous les h1*/
 
   h1 {
-    width: 350px;
+    width: 300px;
   }
 
   #exemple1 {
@@ -476,4 +476,9 @@ h4 i {
 #jouer0 {
   color: black;
   text-align: center;
+}
+
+/* media query lecon 10  tableaux */
+
+@media only screen and (min-width: 360px) and (max-width: 800px) {
 }
