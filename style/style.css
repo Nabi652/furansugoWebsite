@@ -77,8 +77,15 @@ h1 a {
 .explication1,
 .explication2 {
   cursor: default;
-  width: 50%;
+  width: 90%;
   padding: 15px;
+  margin: auto;
+}
+
+.button1,
+.button2 {
+  width: 50%;
+  margin: auto;
 }
 
 .textP {
@@ -88,6 +95,7 @@ h1 a {
 .textA {
   text-align: center;
   color: #867373;
+
   font-size: larger;
   border: 1px solid #cdcece;
   padding: 5px;
@@ -97,7 +105,6 @@ h1 a {
 
 .textA:hover {
   border: 1px solid #687477;
-
   background: #687477;
   transition: 0.5s;
   color: white;
